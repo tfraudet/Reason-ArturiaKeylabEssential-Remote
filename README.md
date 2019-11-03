@@ -10,7 +10,7 @@ Remote is the Propellerheadʼs protocol for communication between hardware contr
 
 ## Installation
 
-To install the Remote scripts in your environement, the files in the `RemoteScript` directory should be copied to your Propellerhead installation directory:
+To install the Remote scripts in your environement, the files in the `Remote` directory should be copied to your Propellerhead installation directory:
 
 * On MacOS
 

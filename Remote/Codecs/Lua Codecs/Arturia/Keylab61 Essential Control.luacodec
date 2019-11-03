@@ -1,0 +1,17 @@
+version={1,0,2}
+
+function remote_supported_control_surfaces()
+	local surfaces = {
+		{ 
+			manufacturer="Arturia", model="Keylab61 Essential Control",
+			source="Keylab61 Essential Control.lua", picture="KEYLAB61ESSENTIAL.png", 
+			in_ports={{description="In Port"}},
+			out_ports={{description="Out Port", optional=true}},
+			has_keyboard=false, 
+			setup_info_text="DAW Control surface for the Keylab 61 Essential from Arturia",
+			setup_user_action_text="Your nanoKontrol2 will now be set to Native Mode for exclusive use by Reason."
+		},
+	}	
+	return surfaces
+end
+
