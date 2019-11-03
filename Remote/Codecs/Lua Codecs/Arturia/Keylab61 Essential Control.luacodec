@@ -1,4 +1,4 @@
-version={1,0,2}
+version={1,0,0}
 
 function remote_supported_control_surfaces()
 	local surfaces = {
@@ -8,8 +8,8 @@ function remote_supported_control_surfaces()
 			in_ports={{description="In Port"}},
 			out_ports={{description="Out Port", optional=true}},
 			has_keyboard=false, 
-			setup_info_text="DAW Control surface for the Keylab 61 Essential from Arturia",
-			setup_user_action_text="Your nanoKontrol2 will now be set to Native Mode for exclusive use by Reason."
+			setup_info_text="DAW Control surface for the Keylab 61 Essential from Arturia (v1.0.0-alpha)",
+			setup_user_action_text="Copyright Thierry Fraudet - version 1.0.0-alpha."
 		},
 	}	
 	return surfaces
