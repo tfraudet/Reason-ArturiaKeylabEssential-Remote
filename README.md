@@ -31,7 +31,6 @@ C:/ProgramData/Propellerhead Software/Remote
 * [Reason Remoter](http://www.reasonremoter.uk/)
 * [Hacking Remote Files in Reason](https://www.soundonsound.com/techniques/hacking-remote-files-reason)
 
-
 ## Other links to help development
 
 * [Markdown guide](https://guides.github.com/pdfs/markdown-cheatsheet-online.pdf)

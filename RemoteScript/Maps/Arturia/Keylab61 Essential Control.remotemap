@@ -1,0 +1,19 @@
+Propellerhead Remote Mapping File					
+File Format Version	1.0.0				
+Control Surface Manufacturer	Arturia				
+Control Surface Model	Keylab61 Essential Control			
+Map Version	1.0.0				
+
+//This is a remote map template for the Arturia KEYLAB61 Essential Keyboard and Reason 10
+
+
+Scope	Propellerheads	Reason Document			
+//	Control Surface Item	Key	Remotable Item	Scale	Mode
+Map	stop		Stop		
+Map	play		Play		
+Map	record		Record		
+Map	rew		Rewind
+Map	fwd		Fast Forward
+Map	loop		Loop On/Off
+
+
