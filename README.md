@@ -34,5 +34,6 @@ C:/ProgramData/Propellerhead Software/Remote
 ## Other links to help development
 
 * [Markdown guide](https://guides.github.com/pdfs/markdown-cheatsheet-online.pdf)
+* [LUA 5.0 documentation](http://www.lua.org/manual/5.0/.)
 * [LUA Script tutorial](https://wxlua.developpez.com/tutoriels/lua/general/cours-complet/)
 * [Arturia Keylab Essential](https://www.arturia.com/support/keylab-essential-start)
