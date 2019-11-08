@@ -7,13 +7,16 @@ Map Version	1.0.0
 //This is a remote map template for the Arturia KEYLAB61 Essential Keyboard and Reason 10
 
 
-Scope	Propellerheads	Reason Document			
+Scope	Propellerheads	Reason Document	
 //	Control Surface Item	Key	Remotable Item	Scale	Mode
 Map	stop		Stop		
 Map	play		Play		
 Map	record		Record		
-Map	rew		Rewind
-Map	fwd		Fast Forward
-Map	loop		Loop On/Off
-
+Map	rew		Rewind		
+Map	fwd		Fast Forward		
+Map	loop		Loop On/Off		
+Map	punch		Precount On/Off		
+Map	metro		Click On/Off		
+Map	undo		Undo		
+Map	save		Redo		
 
