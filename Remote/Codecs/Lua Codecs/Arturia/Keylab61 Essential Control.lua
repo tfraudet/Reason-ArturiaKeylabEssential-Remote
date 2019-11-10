@@ -79,19 +79,66 @@ end
 -- to set button off
 -- send 90 xx 00
 --
-function remote_probe()
-	-- sysexe de demande d'identification
-	local controlRequest="f0 7e 7f 06 01 f7" 
+function remote_probe(manufacturer,model,prober)
 	-- Arturia Manufacturer SysEx ID Numbers is: 00 20 6b
-	-- response if Arturia Keylab Essential 61 is F0 7E 7F 06 02 00 20 6B 02 00 05 54 3D 02 01 01 10  F7 
-	-- local controlResponse="F0 7E 7F 06 02 ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? F7"
-	local controlResponse="F0 7E 7F 06 02 00 20 6B 02 00 05 54 3D 02 01 01 10 F7"
-	
+
 	-- Need to be rework, for hardware with multiple ports must be done programaticaly (see Remote SDK documentation page 26 & 27) 
+	assert(model == "Keylab61 Essential Control")
+	local controlRequest="f0 7e 7f 06 01 f7"  -- sysex de demande d'identification
+	local controlResponse="F0 7E 7F 06 02 00 20 6B 02 00 05 54 3D 02 01 01 F7"
 	return {
 		request=controlRequest,
 		response=controlResponse
 	}
+
+	-- Auto-detection doesn't work properly, Arturia Keylab61 Essential answer the same sysex on the 2 ports 'MIDI Out' and 'DAW Out'
+	-- And remite_probe just pass port index, no way to know in a robust way if 'DAW Out' is the port answering
+
+-- 	remote.trace("manufacturer is " .. manufacturer .. " \r")
+-- 	remote.trace("model is " .. model .. " \r")
+-- 	remote.trace("prober out_ports is " .. prober.out_ports .. " \r")
+-- 	remote.trace("prober in_ports is " .. prober.in_ports .. " \r")
+-- 	for key,value in pairs(prober) do
+-- 		remote.trace(".... prober key " .. key .. "\r")
+-- 	end
+
+-- 	local function match_events(mask,events)
+-- 		for i,event in ipairs(events) do
+-- 			local res=remote.match_midi(mask,event)
+-- 			if res~=nil then
+-- 				return true
+-- 			end
+-- 		end
+-- 		return false
+-- 	end
+	
+-- 	local request_events={remote.make_midi("f0 7e 7f 06 01 f7")}
+-- 	local response="F0 7E 7F 06 02 00 20 6B 02 00 05 54 3D 02 01 01 F7"
+
+-- 	local results={}
+-- 	for outPortIndex = 1,prober.out_ports do
+-- 		prober.midi_send_function(outPortIndex,request_events)
+-- 		prober.wait_function(50)
+-- 		local responding_ports={}
+-- 		for inPortIndex = 1,prober.in_ports do
+-- 		   local events=prober.midi_receive_function(inPortIndex)
+-- 		   if match_events(response,events) then
+-- 			table.insert(responding_ports,inPortIndex)
+-- 			remote.trace("inPortIndex " .. inPortIndex.. " for outPortIndex " ..outPortIndex.. " as succefuly responded \r")
+-- 			remote.trace(".... events port is " .. events[1].port .. "\r")
+-- 		   end
+-- 		end
+-- 		if responding_ports[1]~=nil then
+-- 		   local ins={ responding_ports[1] }
+-- 		   if responding_ports[2]~=nil then
+-- 		      -- Second in port is optional
+-- 		      table.insert(ins,responding_ports[2])
+-- 		   end
+-- 		   local one_result={ in_ports=ins, out_ports={outPortIndex}}
+-- 		   table.insert(results,one_result)
+-- 		end
+--        end
+--        return results
 end
 
 function remote_on_auto_input(item_index) 
@@ -139,19 +186,6 @@ end
 
 
 function remote_set_state(changed_items) --handle incoming changes sent by Reason
-	-- for key,value in ipairs(changed_items) do
-	-- 	if value == g_pause_play_button_index then
-	-- 		g_pause_play_button_state = toggle_pause_play_button_state()
-	-- 	end
-	-- 	if value == g_stop_button_index then
-	-- 		g_pause_play_button_state = "stop"
-	-- 	end
-
-	-- 	if (value == g_pause_play_button_index) or (value ==g_stop_button_index) then
-	-- 		-- remote.trace(' pause/play button, current state is '.. g_pause_play_button_state .. ' ,value is '.. remote.get_item_value(value)..'\r')
-	-- 		-- error(' pause/play button, current state is '.. g_pause_play_button_state .. ' ,value is '.. remote.get_item_value(value)..'\r')
-	-- 	end
-	-- end
 end
 
 function remote_deliver_midi(max_bytes, port)
