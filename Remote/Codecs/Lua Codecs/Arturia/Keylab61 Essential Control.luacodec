@@ -8,8 +8,8 @@ function remote_supported_control_surfaces()
 			in_ports={{description="In Port"}},
 			out_ports={{description="Out Port", optional=true}},
 			has_keyboard=false, 
-			setup_info_text="DAW Control surface for the Keylab 61 Essential from Arturia (v1.0.0-alpha)",
-			setup_user_action_text="Copyright Thierry Fraudet - version 1.0.0-alpha."
+			setup_info_text="DAW Control surface for the Keylab 61 Essential from Arturia (v1.0)",
+			setup_user_action_text="Copyright Thierry Fraudet - version 1.0"
 		},
 	}	
 	return surfaces
