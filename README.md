@@ -44,7 +44,7 @@ C:/ProgramData/Propellerhead Software/Remote
 Mapping of the different buttons
 
 | Arturia DAW Command Center | Reason Command | Comment |
-| ------------ | ----------- | ----------------------- |
+| -------------------------- | -------------- | ----------------------- |
 | Stop | Stop | Stops playback. Pressing two time will return the playback cursor to the start of the track. |
 | Pause/play | Play | Starts and pauses your track at the current position of the playback cursor. In pause mode, the stop button LED is on and the pause/play button LED is slightly on |
 | Record | Record On/off | Arms the record function in Reason. Hitting the Record button while the track is stopped will begin playback while recording. If the track is already playing, hitting Record will begin recording from the current playback cursor position. |
