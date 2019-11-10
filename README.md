@@ -42,6 +42,7 @@ C:/ProgramData/Propellerhead Software/Remote
 <img src="./images/DAWCommandCenter.png" width="300">
 
 Mapping of the different buttons
+
 | Arturia DAW Command Center | Reason Command | Comment |
 | ------------ | ----------- | ----------------------- |
 | Stop | Stop | Stops playback. Pressing two time will return the playback cursor to the start of the track. |
