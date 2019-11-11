@@ -70,3 +70,7 @@ Mapping of the different buttons
 * [LUA Script tutorial](https://wxlua.developpez.com/tutoriels/lua/general/cours-complet/)
 * [Midi reference tables](https://www.midi.org/specifications-old/category/reference-tables)
 * [Arturia Keylab Essential](https://www.arturia.com/support/keylab-essential-start)
+
+## History
+
+* [Changelog](./CHANGELOG.md)
