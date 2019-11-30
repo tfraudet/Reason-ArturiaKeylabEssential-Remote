@@ -81,7 +81,7 @@ Mapping of the different buttons
 
 | Arturia Keyboard surface | Reason Command | Comment |
 | -------------------------- | -------------- | ----------------------- |
-| Master volume | Master level|  |
+| Master fader | Master level|  |
 | Master pan | Aux 1 Return Level |  |
 | Fader <1-8> | Channel <1-8> Level |  |
 | Encoder <1-8> | Channel <1-8> Pan |  |
@@ -94,7 +94,7 @@ Mapping of the different buttons
 
 | Arturia Keyboard surface | Reason Command | Comment |
 | -------------------------- | -------------- | ----------------------- |
-| Master volume | Master level|  |
+| Master fader | Master level|  |
 | Master pan | Aux Return Level |  |
 | Fader <1-6> | Channel <1-6> Level | The 1 line of the Arturia Keyboad LCD should display "Line Mixer 6:2" and the second one "Level&Pan" |
 | Encoder <1-6> | Channel <1-6> Pan | The 1 line of the Arturia Keyboad LCD should display "Line Mixer 6:2" and the second one "Level&Pan" |
@@ -108,7 +108,7 @@ The first line of the Arturia Keyboad LCD should display "ID8" and the second on
 
 | Arturia Keyboard surface | Reason Command | Comment |
 | -------------------------- | -------------- | ----------------------- |
-| Master volume | Volume |  |
+| Master fader | Volume |  |
 | Fader 1 | Parameter 1 |  |
 | Fader 2 | Parameter 2 |  |
 | Jog-wheel | Select Previous/Next Category | when "Cat/Char" is selected |
@@ -122,7 +122,7 @@ The first line of the Arturia Keyboad LCD should display "SubTractor" and the se
 
 | Arturia Keyboard surface | Reason Command | Comment |
 | -------------------------- | -------------- | ----------------------- |
-| Master volume | Volume |  |
+| Master fader | Volume |  |
 | Fader 1 | Filter Env Attack |  |
 | Fader 2 | Filter Env Decay |  |
 | Fader 3 | Filter Env Sustain |  |
@@ -147,7 +147,7 @@ The first line of the Arturia Keyboad LCD should display "Thor" and the second o
 
 | Arturia Keyboard surface | Reason Command | Comment |
 | -------------------------- | -------------- | ----------------------- |
-| Master volume | Volume |  |
+| Master fader | Volume |  |
 | Fader 1 | Filter Env Attack |  |
 | Fader 2 | Filter Env Decay |  |
 | Fader 3 | Filter Env Sustain |  |
@@ -172,7 +172,7 @@ The first line of the Arturia Keyboad LCD should display "Malstrom" and the seco
 
 | Arturia Keyboard surface | Reason Command | Comment |
 | -------------------------- | -------------- | ----------------------- |
-| Master volume | Volume |  |
+| Master fader | Volume |  |
 | Fader 1 | Filter Env Attack |  |
 | Fader 2 | Filter Env Decay |  |
 | Fader 3 | Filter Env Sustain |  |
@@ -197,7 +197,7 @@ The first line of the Arturia Keyboad LCD should display "NN19" and the second o
 
 | Arturia Keyboard surface | Reason Command | Comment |
 | -------------------------- | -------------- | ----------------------- |
-| Master volume | Volume |  |
+| Master fader | Volume |  |
 | Fader 1 | Filter Env Attack |  |
 | Fader 2 | Filter Env Decay |  |
 | Fader 3 | Filter Env Sustain |  |
@@ -222,7 +222,7 @@ The first line of the Arturia Keyboad LCD should display "NN-XT" and the second 
 
 | Arturia Keyboard surface | Reason Command | Comment |
 | -------------------------- | -------------- | ----------------------- |
-| Master volume | Volume |  |
+| Master fader | Volume |  |
 | Master pan | External Controler |  |
 | Encoder 1 | Filter Freq |  |
 | Encoder 2 | Filter Res |  |
@@ -238,7 +238,7 @@ The first line of the Arturia Keyboad LCD should display "Dr. Octo REX" and the 
 
 | Arturia Keyboard surface | Reason Command | Comment |
 | -------------------------- | -------------- | ----------------------- |
-| Master volume | Volume |  |
+| Master fader | Volume |  |
 | Master pan | Transpose |  |
 | Fader 1 | Filter Env Attack |  |
 | Fader 2 | Filter Env Decay |  |
@@ -264,7 +264,7 @@ The first line of the Arturia Keyboad LCD should display "Redrum" and "Ch1-8" or
 
 | Arturia Keyboard surface | Reason Command | Comment |
 | -------------------------- | -------------- | ----------------------- |
-| Master volume | Master level|  |
+| Master fader | Master level|  |
 | Fader <1-8> | Drum <1-8> Level | When "Ch1-8" variation is active |
 | Encoder <1-8> | Drum <1-8> Pan | When "Ch1-8" variation is active |
 | Fader <1-2> | Drum <9-10> Level | When "Ch9-10" vartiona is active |
@@ -278,7 +278,7 @@ The first line of the Arturia Keyboad LCD should display "Kong" and "Ch1-8" or "
 
 | Arturia Keyboard surface | Reason Command | Comment |
 | -------------------------- | -------------- | ----------------------- |
-| Master volume | Master level|  |
+| Master fader | Master level|  |
 | Fader <1-8> | Drum <1-8> Level | When "Ch1-8" variation is active |
 | Encoder <1-8> | Drum <1-8> Pan | When "Ch1-8" variation is active |
 | Fader <1-8> | Drum <9-16> Level | When "Ch9-16" vartiona is active |
@@ -292,7 +292,7 @@ The first line of the Arturia Keyboad LCD should display "Europa" and "Osc<1-3>"
 
 | Arturia Keyboard surface | Reason Command | Comment |
 | -------------------------- | -------------- | ----------------------- |
-| Master volume | Volume |  |
+| Master fader | Volume |  |
 | Fader 1 | Amp Attack |  |
 | Fader 2 | Amp Decay |  |
 | Fader 3 | Amp Sustain |  |
@@ -314,7 +314,7 @@ The first line of the Arturia Keyboad LCD should display "Grain". The second lin
 
 | Arturia Keyboard surface | Reason Command | Comment |
 | -------------------------- | -------------- | ----------------------- |
-| Master volume | Master Volume |  |
+| Master fader | Master Volume |  |
 | Master pan | Voices |  |
 | Fader 1 | Amp Attack |  |
 | Fader 2 | Amp Decay |  |
@@ -338,7 +338,7 @@ The first line of the Arturia Keyboad LCD should display "Grain". The second lin
 
 | Arturia Keyboard surface | Reason Command | Comment |
 | -------------------------- | -------------- | ----------------------- |
-| Master volume | Master Volume |  |
+| Master fader | Master Volume |  |
 | Fader 1 | Amp Attack |  |
 | Fader 2 | Amp Decay |  |
 | Fader 3 | Amp Sustain |  |
@@ -360,7 +360,7 @@ The first line of the Arturia Keyboad LCD should display "Radical Piano". The se
 
 | Arturia Keyboard surface | Reason Command | Comment |
 | -------------------------- | -------------- | ----------------------- |
-| Master volume | Master Volume |  |
+| Master fader | Master Volume |  |
 | Fader 1 | Env Attack|  |
 | Fader 2 | Env Decay Curve|  |
 | Fader 3 | Env Release |  |
