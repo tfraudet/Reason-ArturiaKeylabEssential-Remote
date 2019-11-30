@@ -286,12 +286,97 @@ The first line of the Arturia Keyboad LCD should display "Kong" and "Ch1-8" or "
 | Part1 / Next| Keyboard Shortcut Variations | To select Channels 9 to 16 variation |
 | Part2 / Prev| Keyboard Shortcut Variations | To select Channels 1 to 8 varation |
 
+### Mapping with the Europa Shapeshifting Synthesizer
+
+The first line of the Arturia Keyboad LCD should display "Europa" and "Osc<1-3>" depending which variation is active. The second line display the preset name.
+
+| Arturia Keyboard surface | Reason Command | Comment |
+| -------------------------- | -------------- | ----------------------- |
+| Master volume | Volume |  |
+| Fader 1 | Amp Attack |  |
+| Fader 2 | Amp Decay |  |
+| Fader 3 | Amp Sustain |  |
+| Fader 4 | AmpRelease |  |
+| Encoder 1 | Filter Drive |  |
+| Encoder 2 | Filter Reso |  |
+| Encoder 3 | Filter Freq |  |
+| Encoder 7 | Osc1 Filter Freq | When "Osc1" variation is active |
+| Encoder 8 | Osc1 Filter Reso | When "Osc1" variation is active |
+| Encoder 7 | Osc2 Filter Freq | When "Osc2" variation is active |
+| Encoder 8 | Osc2 Filter Reso | When "Osc2" variation is active |
+| Encoder 7 | Osc3 Filter Freq | When "Osc3" variation is active |
+| Encoder 8 | Osc3 Filter Reso | When "Osc3" variation is active |
+| Jog-wheel | Select Previous/Next Preset | when "Preset" is selected |
+
+### Mapping with the Grain Sample Manipulator
+
+The first line of the Arturia Keyboad LCD should display "Grain". The second line display the preset name.
+
+| Arturia Keyboard surface | Reason Command | Comment |
+| -------------------------- | -------------- | ----------------------- |
+| Master volume | Master Volume |  |
+| Master pan | Voices |  |
+| Fader 1 | Amp Attack |  |
+| Fader 2 | Amp Decay |  |
+| Fader 3 | Amp Sustain |  |
+| Fader 4 | Amp Release |  |
+| Fader 5 | Amp Gain |  |
+| Fader 6 | Amp Velocity |  |
+| Fader 7 | Amp Pan |  |
+| Encoder 1 | Sample Level |  |
+| Encoder 2 | Osc Level |  |
+| Encoder 3 | Filter Freq |  |
+| Encoder 4 | Filter Reso|  |
+| Encoder 5 | Filter Env2 |  |
+| Encoder 6 | Filter Vel | |
+| Encoder 7 | Filter Kbd|  |
+| Jog-wheel | Select Previous/Next Preset | when "Preset" is selected |
+
+### Mapping with the Monotone Bass Synthesizer
+
+The first line of the Arturia Keyboad LCD should display "Grain". The second line display the preset name.
+
+| Arturia Keyboard surface | Reason Command | Comment |
+| -------------------------- | -------------- | ----------------------- |
+| Master volume | Master Volume |  |
+| Fader 1 | Amp Attack |  |
+| Fader 2 | Amp Decay |  |
+| Fader 3 | Amp Sustain |  |
+| Fader 4 | Amp Release |  |
+| Fader 5 | Amp Velocity |  |
+| Encoder 1 | Osc Mix |  |
+| Encoder 2 | Filter Freq |  |
+| Encoder 3 | Filter Reso |  |
+| Encoder 4 | Filter Attack |  |
+| Encoder 5 | Filter Decay|  |
+| Encoder 6 | Filter Sustain | |
+| Encoder 7 | Filter Release |  |
+| Encoder 8 | Filter Vel |  |
+| Jog-wheel | Select Previous/Next Preset | when "Preset" is selected |
+
+### Mapping with the Radical Piano
+
+The first line of the Arturia Keyboad LCD should display "Radical Piano". The second line display the preset name.
+
+| Arturia Keyboard surface | Reason Command | Comment |
+| -------------------------- | -------------- | ----------------------- |
+| Master volume | Master Volume |  |
+| Fader 1 | Env Attack|  |
+| Fader 2 | Env Decay Curve|  |
+| Fader 3 | Env Release |  |
+| Encoder 1 | Character|  |
+| Encoder 2 | Microphone 1 Type|  |
+| Encoder 3 | Microphone and Instrument Blend |  |
+| Encoder 4 | Microphone 2 Type |  |
+| Jog-wheel | Select Previous/Next Preset | when "Preset" is selected |
+
 ## Ressources on Remote
 
 * [Korg Nano Kontrol](https://github.com/carlosedp/Reason-KorgNanoKontrol2-Remote) by <carlosedp@gmail.com>
 * [Propellerhead Control Remote Tutorial](https://www.reasonstudios.com/blog/control-remote)
 * [Reason Remoter](http://www.reasonremoter.uk/)
 * [Hacking Remote Files in Reason](https://www.soundonsound.com/techniques/hacking-remote-files-reason)
+* [Collection of Remote Templates for Propellerhead's Reason Rack Extensions](https://github.com/LividInstruments/Reason_RE_Remote_Templates)
 
 ## Other links
 
