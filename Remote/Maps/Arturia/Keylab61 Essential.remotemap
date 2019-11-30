@@ -368,3 +368,102 @@ Map	preset-jog-wheel		Select Patch Delta
 Map	lcd-1		"Kong - Ch1-8"			Channel 1 to 8
 Map	lcd-1		"Kong - Ch9-16"			Channel 9 to 16
 Map	lcd-2		Patch Name
+
+Scope	Propellerhead Software	se.propellerheads.Europa
+Define Group	Keyboard Shortcut Variations	Osc1	Osc2	Osc3
+//Define Group	Channels	Osc1	Osc2	Osc3
+
+//	Control Surface Item	Key	Remotable Item	Scale	Mode
+//Map	part1-next		Channels=Osc2			Osc1
+//Map	part1-next		Channels=Osc3			Osc2
+//Map	part2-prev		Channels=Osc1			Osc2
+//Map	part2-prev		Channels=Osc2			Osc3
+
+Map	master-volume		Master Volume
+
+Map	pan-1		Filter Drive
+Map	pan-2		Filter Reso
+Map	pan-3		Filter Freq
+
+Map	pan-7		Osc1 Filter Freq			Osc1
+Map	pan-8		Osc1 Filter Reso			Osc1
+Map	pan-7		Osc2 Filter Freq			Osc2
+Map	pan-8		Osc2 Filter Reso			Osc2
+Map	pan-7		Osc3 Filter Freq			Osc3
+Map	pan-8		Osc3 Filter Reso			Osc3
+
+Map	fader-1		Amp Attack
+Map	fader-2		Amp Decay
+Map	fader-3		Amp Sustain
+Map	fader-4		Amp Release
+
+Map	preset-jog-wheel		Select Patch Delta
+Map	lcd-1		"Europa - Osc1"			Osc1
+Map	lcd-1		"Europa - Osc2"			Osc2
+Map	lcd-1		"Europa - Osc3"			Osc3
+Map	lcd-2		Patch Name
+
+Scope	Propellerhead Software	se.propellerheads.Grain
+//	Control Surface Item	Key	Remotable Item	Scale	Mode
+Map	master-volume		Master Volume
+Map	master-pan		Voices
+
+Map	fader-1		Amp Attack
+Map	fader-2		Amp Decay
+Map	fader-3		Amp Sustain
+Map	fader-4		Amp Release
+Map	fader-5		Amp Gain
+Map	fader-6		Amp Velocity
+Map	fader-7		Pan
+
+Map	pan-1		Sample Level
+Map	pan-2		Osc Level
+Map	pan-3		Filter Freq
+Map	pan-4		Filter Reso
+Map	pan-5		Filter Env2
+Map	pan-6		Filter Vel
+Map	pan-7		Filter Kbd
+
+Map	preset-jog-wheel		Select Patch Delta
+Map	lcd-1		"Grain"
+Map	lcd-2		Patch Name
+
+Scope	Propellerhead Software	se.propellerheads.Monotone
+//	Control Surface Item	Key	Remotable Item	Scale	Mode
+Map	master-volume		Volume
+
+Map	fader-1		Amp Attack
+Map	fader-2		Amp Decay
+Map	fader-3		Amp Sustain
+Map	fader-4		Amp Release
+Map	fader-5		Amp Velocity
+
+Map	pan-1		Osc Mix
+Map	pan-2		Filter Freq
+Map	pan-3		Filter Reso
+Map	pan-4		Filter Attack
+Map	pan-5		Filter Decay
+Map	pan-6		Filter Sustain
+Map	pan-7		Filter Release
+Map	pan-8		Filter Vel
+
+Map	preset-jog-wheel		Select Patch Delta
+Map	lcd-1		"Monotone"
+Map	lcd-2		Patch Name
+
+Scope	Propellerhead Software	se.propellerheads.radicalpiano
+//	Control Surface Item	Key	Remotable Item	Scale	Mode
+Map	master-volume		Master Volume
+
+Map	pan-1		Character
+Map	pan-2		Microphone 1 Type
+Map	pan-3		Microphone and Instrument Blend
+Map	pan-4		Microphone 2 Type
+
+Map	fader-1		Env Attack
+Map	fader-2		Env Decay Curve
+Map	fader-3		Env Release
+
+Map	preset-jog-wheel		Select Patch Delta
+Map	lcd-1		"Radical Piano"
+Map	lcd-2		Patch Name
