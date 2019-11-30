@@ -1,0 +1,370 @@
+Propellerhead Remote Mapping File
+File Format Version	1.0.0
+Control Surface Manufacturer	Arturia
+Control Surface Model	Keylab61 Essential
+Map Version	1.0.0
+
+//This is a remote map template for the Arturia KEYLAB61 Essential Keyboard and Reason 10
+
+Scope	Propellerheads	Master Keyboard			
+//	Control Surface Item	Key	Remotable Item	Scale	Mode
+Map	keyboard		Keyboard
+Map	pitch bend		Pitch Bend
+Map	Channel Pressure		Channel Pressure
+Map	Breath		Breath
+Map	Expression		Expression
+Map	Mod Wheel		Mod Wheel
+Map	Damper Pedal		Damper Pedal
+
+Scope	Propellerheads	Combinator			
+//	Control Surface Item	Key	Remotable Item	Scale	Mode
+Map	pan-1		Rotary 1		
+Map	pan-2		Rotary 2		
+Map	pan-3		Rotary 3		
+Map	pan-4		Rotary 4		
+Map	preset-jog-wheel		Select Patch Delta
+Map	preset-prev		Select Previous Patch
+Map	preset-next		Select Next Patch
+Map	lcd-1		"Combinator"
+Map	lcd-2		Patch Name
+
+Scope	Propellerheads	Mixer 14:2
+Define Group	Keyboard Shortcut Variations	Ch1-8	Ch9-14
+//Define Group	Channels	Ch1-8	Ch9-14
+
+//	Control Surface Item	Key	Remotable Item	Scale	Mode	Group
+//Map	part1-next		Channels=Ch1-8
+//Map	part2-prev		Channels=Ch9-14
+
+Map	master-volume		Master Level
+Map	master-pan		Aux 1 Return Level
+
+Map	fader-1		Channel 1 Level			Ch1-8
+Map	fader-2		Channel 2 Level			Ch1-8
+Map	fader-3		Channel 3 Level			Ch1-8
+Map	fader-4		Channel 4 Level			Ch1-8
+Map	fader-5		Channel 5 Level			Ch1-8
+Map	fader-6		Channel 6 Level			Ch1-8
+Map	fader-7		Channel 7 Level			Ch1-8
+Map	fader-8		Channel 8 Level			Ch1-8
+Map	fader-1		Channel 9 Level			Ch9-14
+Map	fader-2		Channel 10 Level			Ch9-14
+Map	fader-3		Channel 11 Level			Ch9-14
+Map	fader-4		Channel 12 Level			Ch9-14
+Map	fader-5		Channel 13 Level			Ch9-14
+Map	fader-6		Channel 14 Level			Ch9-14
+
+Map	pan-1		Channel 1 Pan			Ch1-8
+Map	pan-2		Channel 2 Pan			Ch1-8
+Map	pan-3		Channel 3 Pan			Ch1-8
+Map	pan-4		Channel 4 Pan			Ch1-8
+Map	pan-5		Channel 5 Pan			Ch1-8
+Map	pan-6		Channel 6 Pan			Ch1-8
+Map	pan-7		Channel 7 Pan			Ch1-8
+Map	pan-8		Channel 8 Pan			Ch1-8
+Map	pan-1		Channel 9 Pan			Ch9-14
+Map	pan-2		Channel 10 Pan			Ch9-14
+Map	pan-3		Channel 11 Pan			Ch9-14
+Map	pan-4		Channel 12 Pan			Ch9-14
+Map	pan-5		Channel 13 Pan			Ch9-14
+Map	pan-6		Channel 14 Pan			Ch9-14
+
+Map	lcd-1		"Mixer 14:2"
+Map	lcd-2		"Ch1-8"			Ch1-8
+Map	lcd-2		"Ch9-14"			Ch9-14
+
+Scope	Propellerheads	Line Mixer 6:2			
+Define Group	Keyboard Shortcut Variations	Level-Pan	Aux
+//Define Group	Target	Level-Pan	Aux
+
+//	Control Surface Item	Key	Remotable Item	Scale	Mode
+//Map	live-bank		Target=Aux			Level-Pan
+//Map	live-bank		Target=Level-Pan			Aux
+
+Map	master-volume		Master Level
+Map	master-pan		Aux Return Level
+
+Map	fader-1		Channel 1 Level			Level-Pan
+Map	fader-2		Channel 2 Level			Level-Pan
+Map	fader-3		Channel 3 Level			Level-Pan
+Map	fader-4		Channel 4 Level			Level-Pan
+Map	fader-5		Channel 5 Level			Level-Pan
+Map	fader-6		Channel 6 Level			Level-Pan
+
+Map	pan-1		Channel 1 Pan			Level-Pan
+Map	pan-2		Channel 2 Pan			Level-Pan
+Map	pan-3		Channel 3 Pan			Level-Pan
+Map	pan-4		Channel 4 Pan			Level-Pan
+Map	pan-5		Channel 5 Pan			Level-Pan
+Map	pan-6		Channel 6 Pan			Level-Pan
+
+Map	pan-1		Channel 1 Aux Send			Aux
+Map	pan-2		Channel 2 Aux Send			Aux
+Map	pan-3		Channel 3 Aux Send			Aux
+Map	pan-4		Channel 4 Aux Send			Aux
+Map	pan-5		Channel 5 Aux Send			Aux
+Map	pan-6		Channel 6 Aux Send			Aux
+
+Map	lcd-1		"Line Mixer 6:2"
+Map	lcd-2		"Level&Pan"			Level-Pan
+Map	lcd-2		"Aux"			Aux
+
+Scope	Propellerheads	ID8 Instrument Device			
+//	Control Surface Item	Key	Remotable Item	Scale	Mode
+Map	master-volume		Volume
+
+Map	fader-1		Parameter 1
+Map	fader-2		Parameter 2
+
+Map	cat-prev		Select Previous Category
+Map	cat-next		Select Next Category
+Map	preset-prev		Select Previous Sound
+Map	preset-next		Select Next Sound
+Map	left-arrow		Select Previous Preset
+Map	right-arrow		Select Next Preset
+
+Map	lcd-1		"ID8"
+Map	lcd-2		Sound Name
+
+Scope	Propellerheads	SubTractor Analog Synthesizer		
+//	Control Surface Item	Key	Remotable Item	Scale	Mode
+Map	master-volume		Master Level
+
+Map	fader-1		Filter Env Attack
+Map	fader-2		Filter Env Decay
+Map	fader-3		Filter Env Sustain
+Map	fader-4		Filter Env Release
+Map	fader-5		Amp Env Attack
+Map	fader-6		Amp Env Decay
+Map	fader-7		Amp Env Sustain
+Map	fader-8		Amp Env Release
+
+Map	pan-1		Osc1 Phase Diff
+Map	pan-2		Osc2 Phase Diff
+Map	pan-3		Osc1 Wave
+Map	pan-4		Osc2 Wave
+//Map	pan-3		LFO1 Rate
+//Map	pan-4		LFO1 Amount
+
+Map	pan-5		Filter Freq
+Map	pan-6		Filter Res
+Map	pan-7		Filter2 Freq
+Map	pan-8		Filter2 Res
+
+Map	preset-jog-wheel		Select Patch Delta
+Map	lcd-1		"SubTractor"
+Map	lcd-2		Patch Name
+
+Scope	Propellerheads	Thor Polysonic Synthesizer			
+//	Control Surface Item	Key	Remotable Item	Scale	Mode
+Map	master-volume		Master Level
+
+Map	pan-1		Filter 1 Freq
+Map	pan-2		Filter 1 Res
+Map	pan-3		Filter 2 Freq
+Map	pan-4		Filter 2 Res
+Map	pan-5		Filter 3 Freq
+Map	pan-6		Filter 3 Res
+Map	pan-7		Rotary 1
+Map	pan-8		Rotary 2
+
+Map	fader-1		Filter Env Attack
+Map	fader-2		Filter Env Decay
+Map	fader-3		Filter Env Sustain
+Map	fader-4		Filter Env Release
+Map	fader-5		Amp Env Attack
+Map	fader-6		Amp Env Decay
+Map	fader-7		Amp Env Sustain
+Map	fader-8		Amp Env Release
+
+Map	preset-jog-wheel		Select Patch Delta
+Map	lcd-1		"Thor"
+Map	lcd-2		Patch Name
+
+Scope	Propellerheads	Malstrom Graintable Synthesizer			
+//	Control Surface Item	Key	Remotable Item	Scale	Mode
+Map	master-volume		Master Level
+
+Map	pan-1		Filter A Freq
+Map	pan-2		Filter A Resonance
+Map	pan-3		Filter B Freq
+Map	pan-4		Filter B Resonance
+Map	pan-5		Modulator A Rate
+Map	pan-6		Modulator B Rate
+//Map	pan-7		Filter Env Amount
+//Map	pan-8		Shaper Amount
+Map	pan-7		Oscillator A Motion
+Map	pan-8		Oscillator B Motion
+
+Map	fader-1		Filter Env Attack
+Map	fader-2		Filter Env Decay
+Map	fader-3		Filter Env Sustain
+Map	fader-4		Filter Env Release
+Map	fader-5		Oscillator A Attack
+Map	fader-6		Oscillator A Decay
+Map	fader-7		Oscillator A Sustain
+Map	fader-8		Oscillator A Release
+
+Map	preset-jog-wheel		Select Patch Delta
+Map	lcd-1		"Malstrom"
+Map	lcd-2		Patch Name
+
+Scope	Propellerheads	NN19 Digital Sampler	
+//	Control Surface Item	Key	Remotable Item	Scale	Mode
+Map	master-volume		Master Level
+
+Map	pan-1		Filter Freq
+Map	pan-2		Filter Res
+Map	pan-3		LFO Rate
+Map	pan-4		LFO Amount
+Map	pan-5		Filter Kbd Track
+Map	pan-6		Filter Env Amount
+Map	pan-7		Osc Octave
+Map	pan-8		Osc Semitone
+
+Map	fader-1		Filter Env Attack
+Map	fader-2		Filter Env Decay
+Map	fader-3		Filter Env Sustain
+Map	fader-4		Filter Env Release
+Map	fader-5		Amp Env Attack
+Map	fader-6		Amp Env Decay
+Map	fader-7		Amp Env Sustain
+Map	fader-8		Amp Env Release
+
+//Map	chorus		Stereo Spread
+//Map	delay		Portamento
+
+Map	preset-jog-wheel		Select Patch Delta
+Map	lcd-1		"NN19"
+Map	lcd-2		Patch Name
+
+Scope	Propellerheads	NN-XT Advanced Sampler
+//	Control Surface Item	Key	Remotable Item	Scale	Mode
+Map	master-volume		Master Volume
+Map	master-pan		External Controller
+
+Map	pan-1		Filter Freq
+Map	pan-2		Filter Res
+Map	pan-3		Amp Env Attack
+Map	pan-4		Amp Env Decay
+Map	pan-5		Amp Env Release
+Map	pan-6		Mod env Decay
+
+Map	preset-jog-wheel		Select Patch Delta
+Map	lcd-1		"NN-XT"
+Map	lcd-2		Patch Name
+
+Scope	Propellerheads	Dr.REX Loop Player
+//	Control Surface Item	Key	Remotable Item	Scale	Mode
+Map	master-volume		Master Level
+Map	master-pan		Transpose
+	
+Map	pan-1		Filter Freq
+Map	pan-2		Filter Res
+Map	pan-3		Filter Env Amount
+Map	pan-4		LFO1 Rate
+Map	pan-5		LFO1 Amount
+Map	pan-6		Filter Mode
+Map	pan-7		LFO1 Wave
+Map	pan-8		LFO1 Dest
+
+Map	fader-1		Filter Env Attack
+Map	fader-2		Filter Env Decay
+Map	fader-3		Filter Env Sustain
+Map	fader-4		Filter Env Release
+Map	fader-5		Amp Env Attack
+Map	fader-6		Amp Env Decay
+Map	fader-7		Amp Env Sustain
+Map	fader-8		Amp Env Release
+
+Map	preset-jog-wheel		Select Patch Delta
+Map	lcd-1		"Dr. Octo REX"
+Map	lcd-2		Patch Name
+
+Scope	Propellerheads	Redrum Drum Computer
+Define Group	Keyboard Shortcut Variations	Channel 1 to 8	Channel 9 to 10
+//Define Group	Channels	Channel 1 to 8	Channel 9 to 10
+
+//	Control Surface Item	Key	Remotable Item	Scale	Mode
+//Map	part1-next		Channels=Channel 9 to 10
+//Map	part2-prev		Channels=Channel 1 to 8
+
+Map	master-volume		Master Level
+
+Map	fader-1		Drum 1 Level			Channel 1 to 8
+Map	fader-2		Drum 2 Level			Channel 1 to 8
+Map	fader-3		Drum 3 Level			Channel 1 to 8
+Map	fader-4		Drum 4 Level			Channel 1 to 8
+Map	fader-5		Drum 5 Level			Channel 1 to 8
+Map	fader-6		Drum 6 Level			Channel 1 to 8
+Map	fader-7		Drum 7 Level			Channel 1 to 8
+Map	fader-8		Drum 8 Level			Channel 1 to 8
+Map	fader-1		Drum 9 Level			Channel 9 to 10
+Map	fader-2		Drum 10 Level			Channel 9 to 10
+
+Map	pan-1		Drum 1 Pan			Channel 1 to 8
+Map	pan-2		Drum 2 Pan			Channel 1 to 8
+Map	pan-3		Drum 3 Pan			Channel 1 to 8
+Map	pan-4		Drum 4 Pan			Channel 1 to 8
+Map	pan-5		Drum 5 Pan			Channel 1 to 8
+Map	pan-6		Drum 6 Pan			Channel 1 to 8
+Map	pan-7		Drum 7 Pan			Channel 1 to 8
+Map	pan-8		Drum 8 Pan			Channel 1 to 8
+Map	pan-1		Drum 9 Pan			Channel 9 to 10
+Map	pan-2		Drum 10 Pan			Channel 9 to 10
+
+Map	preset-jog-wheel		Select Patch Delta
+Map	lcd-1		"Redrum - Ch1-8"			Channel 1 to 8
+Map	lcd-1		"Redrum - Ch9-10"			Channel 9 to 10
+Map	lcd-2		Patch Name
+
+Scope	Propellerheads	Kong Drum Designer
+Define Group	Keyboard Shortcut Variations	Channel 1 to 8	Channel 9 to 16
+//Define Group	Channels	Channel 1 to 8	Channel 9 to 16
+
+//	Control Surface Item	Key	Remotable Item	Scale	Mode
+//Map	part1-next		Channels=Channel 9 to 16
+//Map	part2-prev		Channels=Channel 1 to 8
+
+Map	master-volume		Master Level
+
+Map	fader-1		Drum 1 Level			Channel 1 to 8
+Map	fader-2		Drum 2 Level			Channel 1 to 8
+Map	fader-3		Drum 3 Level			Channel 1 to 8
+Map	fader-4		Drum 4 Level			Channel 1 to 8
+Map	fader-5		Drum 5 Level			Channel 1 to 8
+Map	fader-6		Drum 6 Level			Channel 1 to 8
+Map	fader-7		Drum 7 Level			Channel 1 to 8
+Map	fader-8		Drum 8 Level			Channel 1 to 8
+
+Map	fader-1		Drum 9 Level			Channel 9 to 16
+Map	fader-2		Drum 10 Level			Channel 9 to 16
+Map	fader-3		Drum 11 Level			Channel 9 to 16
+Map	fader-4		Drum 12 Level			Channel 9 to 16
+Map	fader-5		Drum 13 Level			Channel 9 to 16
+Map	fader-6		Drum 14 Level			Channel 9 to 16
+Map	fader-7		Drum 15 Level			Channel 9 to 16
+Map	fader-8		Drum 16 Level			Channel 9 to 16
+ 
+Map	pan-1		Drum 1 Pan			Channel 1 to 8
+Map	pan-2		Drum 2 Pan			Channel 1 to 8
+Map	pan-3		Drum 3 Pan			Channel 1 to 8
+Map	pan-4		Drum 4 Pan			Channel 1 to 8
+Map	pan-5		Drum 5 Pan			Channel 1 to 8
+Map	pan-6		Drum 6 Pan			Channel 1 to 8
+Map	pan-7		Drum 7 Pan			Channel 1 to 8
+Map	pan-8		Drum 8 Pan			Channel 1 to 8
+
+Map	pan-1		Drum 9 Pan			Channel 9 to 16
+Map	pan-2		Drum 10 Pan			Channel 9 to 16
+Map	pan-3		Drum 11 Pan			Channel 9 to 16
+Map	pan-4		Drum 12 Pan			Channel 9 to 16
+Map	pan-5		Drum 13 Pan			Channel 9 to 16
+Map	pan-6		Drum 14 Pan			Channel 9 to 16
+Map	pan-7		Drum 15 Pan			Channel 9 to 16
+Map	pan-8		Drum 16 Pan			Channel 9 to 16
+
+Map	preset-jog-wheel		Select Patch Delta
+Map	lcd-1		"Kong - Ch1-8"			Channel 1 to 8
+Map	lcd-1		"Kong - Ch9-16"			Channel 9 to 16
+Map	lcd-2		Patch Name

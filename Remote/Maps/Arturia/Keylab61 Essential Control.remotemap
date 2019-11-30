@@ -1,13 +1,12 @@
-Propellerhead Remote Mapping File					
-File Format Version	1.0.0				
-Control Surface Manufacturer	Arturia				
-Control Surface Model	Keylab61 Essential Control			
-Map Version	1.0.0				
+Propellerhead Remote Mapping File
+File Format Version	1.0.0
+Control Surface Manufacturer	Arturia
+Control Surface Model	Keylab61 Essential Control
+Map Version	1.0.0
 
 //This is a remote map template for the Arturia KEYLAB61 Essential Keyboard and Reason 10
 
-
-Scope	Propellerheads	Reason Document	
+Scope	Propellerheads	Reason Document
 //	Control Surface Item	Key	Remotable Item	Scale	Mode
 Map	stop		Stop		
 Map	play		Play		
@@ -19,4 +18,59 @@ Map	punch		Precount On/Off
 Map	metro		Click On/Off		
 Map	undo		Undo		
 Map	save		Redo		
+Map	left-loop		Left Loop
+Map	right-loop		Right Loop
+Map	tempo		Tempo
+
+Scope	Propellerheads	Reason Master Section
+Define Group	Target	Channels	Master
+
+//	Control Surface Item	Key	Remotable Item	Scale	Mode	Groups
+Map	next		Target=Master			Channels
+Map	next		Target=Channels			Master
+//Map	prev		Target=Master			Channels
+//Map	prev		Target=Channels			Master
+
+Map	part1		Next 8 Remote Base Channel
+Map	part2		Previous 8 Remote Base Channel
+
+Map	master-fader		Master Level
+
+Map	fader-1		Channel 1 Level			Channels
+Map	fader-2		Channel 2 Level			Channels
+Map	fader-3		Channel 3 Level			Channels
+Map	fader-4		Channel 4 Level			Channels
+Map	fader-5		Channel 5 Level			Channels
+Map	fader-6		Channel 6 Level			Channels
+Map	fader-7		Channel 7 Level			Channels
+Map	fader-8		Channel 8 Level			Channels
+
+Map	encoder-1		Channel 1 Pan			Channels
+Map	encoder-2		Channel 2 Pan			Channels
+Map	encoder-3		Channel 3 Pan			Channels
+Map	encoder-4		Channel 4 Pan			Channels
+Map	encoder-5		Channel 5 Pan			Channels
+Map	encoder-6		Channel 6 Pan			Channels
+Map	encoder-7		Channel 7 Pan			Channels
+Map	encoder-8		Channel 8 Pan			Channels
+
+Map	fader-1		FX1 Return Level			Master
+Map	fader-2		FX2 Return Level			Master
+Map	fader-3		FX3 Return Level			Master
+Map	fader-4		FX4 Return Level			Master
+Map	fader-5		FX5 Return Level			Master
+Map	fader-6		FX6 Return Level			Master
+Map	fader-7		FX7 Return Level			Master
+Map	fader-8		FX8 Return Level			Master
+
+Map	encoder-1		FX1 Pan			Master
+Map	encoder-2		FX2 Pan			Master
+Map	encoder-3		FX3 Pan			Master
+Map	encoder-4		FX4 Pan			Master
+Map	encoder-5		FX5 Pan			Master
+Map	encoder-6		FX6 Pan			Master
+Map	encoder-7		FX7 Pan			Master
+Map	encoder-8		FX8 Pan			Master
+
+Map	lcd-1		"Reason Master Section"
 

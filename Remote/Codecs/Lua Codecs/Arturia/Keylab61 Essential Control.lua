@@ -8,8 +8,11 @@
 
 -- init globals varaiables
 g_pause_play_button_state = "stop"
+g_active_loop_locator = "left"
 g_pause_play_button_index = 3
 g_stop_button_index = 2
+g_left_loop_index = 12
+g_right_loop_index = 13
 
 g_last_input_time=-2000
 g_last_input_item=nil
@@ -26,6 +29,36 @@ function remote_init(manufacturer, model)
 		{name="punch", input="button", output="value"},
 		{name="undo", input="button", output="value"},
 		{name="metro", input="button", output="value"},
+		{name="master-fader", input="value", min = 0, max = 127},
+		{name="left-loop", input="delta"},
+		{name="right-loop", input="delta"},
+		{name="tempo", input="delta"},
+
+		{name="part1", input="button"},
+		{name="part2", input="button"},
+		{name="next", input="button"},
+		{name="prev", input="button"},
+		
+		{name="fader-1", input="value", min=0, max=127},
+		{name="fader-2", input="value", min=0, max=127},
+		{name="fader-3", input="value", min=0, max=127},
+		{name="fader-4", input="value", min=0, max=127},
+		{name="fader-5", input="value", min=0, max=127},
+		{name="fader-6", input="value", min=0, max=127},
+		{name="fader-7", input="value", min=0, max=127},
+		{name="fader-8", input="value", min=0, max=127},
+
+		{name="encoder-1", input="delta"},
+		{name="encoder-2", input="delta"},
+		{name="encoder-3", input="delta"},
+		{name="encoder-4", input="delta"},
+		{name="encoder-5", input="delta"},
+		{name="encoder-6", input="delta"},
+		{name="encoder-7", input="delta"},
+		{name="encoder-8", input="delta"},
+
+		{name="lcd-1", output="text"},
+		{name="lcd-2", output="text"},
 	}
 	remote.define_items(items)
 
@@ -40,6 +73,33 @@ function remote_init(manufacturer, model)
 		{pattern="9? 58 xx", name="punch", value="x"},
 		{pattern="9? 51 xx", name="undo", value="x"},
 		{pattern="9? 59 xx", name="metro", value="x"},
+		{pattern="E8 00 xx", name="master-fader", value="x"},
+		{pattern="9? 63 7f", name="tempo", value="1000"},
+		{pattern="9? 62 7f", name="tempo", value="-1000"},
+
+		{pattern="9? 31 xx", name="part1", value="x"},
+		{pattern="9? 30 xx", name="part2", value="x"},
+
+		{pattern="9? 2f xx", name="next", value="x"},
+		{pattern="9? 2e xx", name="prev", value="x"},
+
+		{pattern="E0 ?? xx", name="fader-1", value="x"},
+		{pattern="E1 ?? xx", name="fader-2", value="x"},
+		{pattern="E2 ?? xx", name="fader-3", value="x"},
+		{pattern="E3 ?? xx", name="fader-4", value="x"},
+		{pattern="E4 ?? xx", name="fader-5", value="x"},
+		{pattern="E5 ?? xx", name="fader-6", value="x"},
+		{pattern="E6 ?? xx", name="fader-7", value="x"},
+		{pattern="E7 ?? xx", name="fader-8", value="x"},
+
+		{pattern="b? 10 <?x??>?", name="encoder-1", value="1-2*x"},
+		{pattern="b? 11 <?x??>?", name="encoder-2", value="1-2*x"},
+		{pattern="b? 12 <?x??>?", name="encoder-3", value="1-2*x"},
+		{pattern="b? 13 <?x??>?", name="encoder-4", value="1-2*x"},
+		{pattern="b? 14 <?x??>?", name="encoder-5", value="1-2*x"},
+		{pattern="b? 15 <?x??>?", name="encoder-6", value="1-2*x"},
+		{pattern="b? 16 <?x??>?", name="encoder-7", value="1-2*x"},
+		{pattern="b? 17 <?x??>?", name="encoder-8", value="1-2*x"},
 	}
 	remote.define_auto_inputs(inputs)
 
@@ -155,6 +215,15 @@ function toggle_pause_play_button_state()
 	return g_pause_play_button_state
 end
 
+function toggle_loop_locator()
+	if g_active_loop_locator == "left" then
+		g_active_loop_locator = "right" 
+	else
+		g_active_loop_locator = "left"
+	end
+	return g_active_loop_locator
+end
+
 function remote_process_midi(event)  -- handle incoming midi event
 	-- test if pause/play is pressed
 	ret = remote.match_midi("9? 5e 7f",event)
@@ -181,9 +250,29 @@ function remote_process_midi(event)  -- handle incoming midi event
 		return true
 	end
 
+	-- In DAW mode, if jog-wheel is pressed then toogle active loop locator
+	ret = remote.match_midi("9? 54 7f",event)
+	if ret~=nil then
+		g_active_loop_locator = toggle_loop_locator()
+		-- remote_on_auto_input(event)
+		return true
+	end
+
+	--test if jog-wheel is turned
+	ret = remote.match_midi("B0 3C <?y??><???x>",event)
+	if ret~=nil then
+		if g_active_loop_locator == "left" then
+			local msg={ time_stamp=event.time_stamp, item=g_left_loop_index, value=ret.x*(1-2*ret.y)*15360 }
+			remote.handle_input(msg)
+		else
+			local msg={ time_stamp=event.time_stamp, item=g_right_loop_index, value=ret.x*(1-2*ret.y)*15360 }
+			remote.handle_input(msg)
+		end
+		return true
+	end
+
 	return false
 end
-
 
 function remote_set_state(changed_items) --handle incoming changes sent by Reason
 end
