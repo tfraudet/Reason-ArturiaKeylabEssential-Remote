@@ -35,7 +35,7 @@ C:/ProgramData/Propellerhead Software/Remote
 
 <img src="./images/ControlSurfaceSelection.png" width="400">
 
-### :three: Setup the Arturia Keylab61 Essential as a control surface in Reason
+### :three: Setup the Arturia Keylab61 Essential keyboard as a control surface in Reason
 
 * Open the Preferences dialog and click the Control Surfaces tab.
 * To add manually the control surface, click the “Add manually” button. This brings up a new dialog.

@@ -2,8 +2,6 @@
 
 <img src="../images/DAWCommandCenter.png" width="300">
 
-Mapping of the different buttons
-
 | Arturia DAW Command Center | Reason Command | Comment |
 | -------------------------- | -------------- | ----------------------- |
 | Stop | Stop | Stops playback. Pressing two time will return the playback cursor to the start of the track. |
@@ -19,9 +17,15 @@ Mapping of the different buttons
 
 ## Mapping with Reason when using the Arturia keyboard DAW map
 
+:warning: To activate DAW map on Arturia keyboard, press `Map Select` then pren `pad#2`. The pad #2 lights up in green.
+
+:bulb: When the `Map Select` button is pressed on the Arturia keyboard, the active pad will light up to show the Map currently in use.
+
+<img src="../images/Keylab61-pads.png" width="400">
+
 | Arturia Keyboard surface | Reason Command | Comment |
 | -------------------------- | -------------- | ----------------------- |
 | Jog wheel | Loop locators | jog wheel is used to change the position of left&right loop locators (press the jog wheel to change the active loop locator) |
 | Left Arrow | Tempo | Left & Right arrows buttons arround the jog wheel are use to change the tempo |
 | Right Arrow | Tempo | Left & Right arrows buttons arround the jog wheel are use to change the tempo |
-| Master fader| Master Section level | Change the Master Section level (This control surface need to be locked to the Master Section to work properlly |
+| Master fader| Master Section level | Change the Master Section level (:warning: the `Arturia KeyLab 61 Essential Control` surface need to be locked to the Reason Master Section to work properlly |
