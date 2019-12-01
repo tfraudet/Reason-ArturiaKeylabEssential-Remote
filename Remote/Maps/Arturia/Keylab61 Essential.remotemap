@@ -467,3 +467,131 @@ Map	fader-3		Env Release
 Map	preset-jog-wheel		Select Patch Delta
 Map	lcd-1		"Radical Piano"
 Map	lcd-2		Patch Name
+
+Scope	Propellerhead Software	se.propellerheads.Klang
+//	Control Surface Item	Key	Remotable Item	Scale	Mode
+Map	master-volume		Master_Volume
+Map	master-pan		Pitch_Bend_Range
+
+Map	fader-1		Filter_Attack
+Map	fader-2		Filter_Decay
+Map	fader-3		Filter_Sustain
+Map	fader-4		Filter_Release
+Map	fader-5		Amp_Attack
+Map	fader-6		Amp_Decay
+Map	fader-7		Amp_Sustain
+Map	fader-8		Amp_Release
+
+Map	pan-1		Filter_Cutoff
+Map	pan-2		Filter_Reso
+Map	pan-3		Filter_Env
+Map	pan-4		Amp_Velocity
+
+Map	pan-5		Synced_Delay_Time
+Map	pan-6		Delay_Feedback
+Map	pan-7		Reverb_Time
+Map	pan-8		Reverb_PreDelay
+
+Map	preset-jog-wheel		Select Patch Delta
+Map	lcd-1		"Klang"
+Map	lcd-2		Patch Name
+
+Scope	Propellerhead Software	se.propellerheads.Pangea
+//	Control Surface Item	Key	Remotable Item	Scale	Mode
+Map	master-volume		Master_Volume
+Map	master-pan		Pitch_Bend_Range
+
+Map	fader-1		Filter_Attack
+Map	fader-2		Filter_Decay
+Map	fader-3		Filter_Sustain
+Map	fader-4		Filter_Release
+Map	fader-5		Amp_Attack
+Map	fader-6		Amp_Decay
+Map	fader-7		Amp_Sustain
+Map	fader-8		Amp_Release
+
+Map	pan-1		Filter_Cutoff
+Map	pan-2		Filter_Reso
+Map	pan-3		Filter_Env
+Map	pan-4		Amp_Velocity
+Map	pan-5		Synced_Delay_Time
+Map	pan-6		Delay_Feedback
+Map	pan-7		Reverb_Time
+Map	pan-8		Reverb_PreDelay
+
+Map	preset-jog-wheel		Select Patch Delta
+Map	lcd-1		"Pangea"
+Map	lcd-2		Patch Name
+
+Scope	Propellerhead Software	se.propellerheads.Humana
+//	Control Surface Item	Key	Remotable Item	Scale	Mode
+Map	master-volume		Master_Volume
+Map	master-pan		Pitch_Bend_Range
+
+Map	fader-1		Filter_Attack
+Map	fader-2		Filter_Decay
+Map	fader-3		Filter_Sustain
+Map	fader-4		Filter_Release
+Map	fader-5		Amp_Attack
+Map	fader-6		Amp_Decay
+Map	fader-7		Amp_Sustain
+Map	fader-8		Amp_Release
+
+Map	pan-1		Filter_Cutoff
+Map	pan-2		Filter_Reso
+Map	pan-3		Filter_Env
+Map	pan-4		Amp_Velocity
+Map	pan-5		Synced_Delay_Time
+Map	pan-6		Delay_Feedback
+Map	pan-7		Reverb_Time
+Map	pan-8		Reverb_PreDelay
+
+Map	preset-jog-wheel		Select Patch Delta
+Map	lcd-1		"Humana"
+Map	lcd-2		Patch Name
+
+Scope	Propellerhead Software	se.propellerheads.DMFC
+Define Group	Keyboard Shortcut Variations	Level	FX
+//Define Group	Target	Level	FX
+
+//	Control Surface Item	Key	Remotable Item	Scale	Mode
+//Map	part1-next		Target=FX
+//Map	part2-prev		Target=Level
+
+Map	master-volume		Master_Volume
+
+Map	fader-1		Drum_1_Volume			Level
+Map	fader-2		Drum_2_Volume			Level
+Map	fader-3		Drum_3_Volume			Level
+Map	fader-4		Drum_4_Volume			Level
+Map	fader-5		Drum_5_Volume			Level
+Map	fader-6		Drum_6_Volume			Level
+Map	fader-7		Drum_7_Volume			Level
+Map	fader-8		Drum_8_Volume			Level
+
+Map	pan-1		Master_Pitch			Level
+Map	pan-2		Master_Reverb			Level
+Map	pan-3		Master_Filter			Level
+
+Map	fader-1		Drum_1_Reverb_Amount			FX
+Map	fader-2		Drum_2_Reverb_Amount			FX
+Map	fader-3		Drum_3_Reverb_Amount			FX
+Map	fader-4		Drum_4_Reverb_Amount			FX
+Map	fader-5		Drum_5_Reverb_Amount			FX
+Map	fader-6		Drum_6_Reverb_Amount			FX
+Map	fader-7		Drum_7_Reverb_Amount			FX
+Map	fader-8		Drum_8_Reverb_Amount			FX
+
+Map	pan-1		Drum_1_Delay_Amount			FX
+Map	pan-2		Drum_2_Delay_Amount			FX
+Map	pan-3		Drum_3_Delay_Amount			FX
+Map	pan-4		Drum_4_Delay_Amount			FX
+Map	pan-5		Drum_5_Delay_Amount			FX
+Map	pan-6		Drum_6_Delay_Amount			FX
+Map	pan-7		Drum_7_Delay_Amount			FX
+Map	pan-8		Drum_8_Delay_Amount			FX
+
+Map	preset-jog-wheel		Select Patch Delta
+Map	lcd-1		"Rytmik - Level"			Level
+Map	lcd-1		"Rytmik - FX"			FX
+Map	lcd-2		Patch Name
