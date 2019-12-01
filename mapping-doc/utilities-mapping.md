@@ -2,6 +2,8 @@
 
 ## Mapping with the Combinator
 
+![Combinator Logo](../images/Combinator.png)
+
 | Arturia Keyboard surface | Reason Command | Comment |
 | -------------------------- | -------------- | ----------------------- |
 | Encoder 1 | Rotary 1 |  |
@@ -11,6 +13,8 @@
 | Jog Wheel | Patch Selection | The 1 line of the Arturia Keyboad LCD should display "Combinator" and the second one the name of the selected patch |
 
 ## Mapping with the Mixer 14:2
+
+![Mixer 14:2 Logo](../images/Mixer14_2.png)
 
 | Arturia Keyboard surface | Reason Command | Comment |
 | -------------------------- | -------------- | ----------------------- |
@@ -24,6 +28,8 @@
 | Part2 / Prev| Keyboard Shortcut Variations | Channels 1 to 8 actives |
 
 ## Mapping with the Line Mixer 6:2
+
+![Line Mixer 6:2 Logo](../images/LineMixer6.png)
 
 | Arturia Keyboard surface | Reason Command | Comment |
 | -------------------------- | -------------- | ----------------------- |
