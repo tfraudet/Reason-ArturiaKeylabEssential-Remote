@@ -595,3 +595,33 @@ Map	preset-jog-wheel		Select Patch Delta
 Map	lcd-1		"Rytmik - Level"			Level
 Map	lcd-1		"Rytmik - FX"			FX
 Map	lcd-2		Patch Name
+
+Scope	Propellerhead Software	se.propellerheads.Pulsar
+//	Control Surface Item	Key	Remotable Item	Scale	Mode
+
+Map	pan-1		LFO1 Rate Synced
+Map	pan-2		LFO1 Level
+Map	pan-3		LFO2 to LFO1 Rate
+Map	pan-4		LFO2 to LFO1 Level
+Map	pan-5		LFO2 Rate Free
+Map	pan-6		LFO2 Level
+Map	pan-7		Keyboard Track
+
+Map	lcd-1		"Pulsar"
+
+Scope	Propellerheads	RPG-8 Monophonic Arpeggiator
+//	Control Surface Item	Key	Remotable Item	Scale	Mode
+Map	pan-1		Velocity/Manual
+Map	pan-2		Octave Shift
+Map	pan-3		Mode
+Map	pan-4		Octave
+Map	pan-5		Insert
+Map	pan-6		Rate
+Map	pan-7		Gate Length
+Map	lcd-1		"RPG8 Arpeggiator"
+
+Scope	Propellerheads	Matrix Pattern Sequencer
+//	Control Surface Item	Key	Remotable Item	Scale	Mode
+Map	pan-1		Resolution
+Map	lcd-1		"Matrix"
+Map	lcd-2		Pattern Select in Bank
