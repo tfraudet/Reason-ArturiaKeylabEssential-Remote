@@ -180,7 +180,7 @@ The first line of the Arturia Keyboad LCD should display "Kong" and "Ch1-8" or "
 | Master fader | Master level|  |
 | Fader <1-8> | Drum <1-8> Level | When "Ch1-8" variation is active |
 | Encoder <1-8> | Drum <1-8> Pan | When "Ch1-8" variation is active |
-| Fader <1-8> | Drum <9-16> Level | When "Ch9-16" vartiona is active |
+| Fader <1-8> | Drum <9-16> Level | When "Ch9-16" variation is active |
 | Encoder <1-8> | Drum <9-16> Pan | When "Ch9-16" variation is active |
 | Part1 / Next| Keyboard Shortcut Variations | To select Channels 9 to 16 variation |
 | Part2 / Prev| Keyboard Shortcut Variations | To select Channels 1 to 8 varation |
