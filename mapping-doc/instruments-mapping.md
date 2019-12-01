@@ -2,6 +2,8 @@
 
 ## Mapping with the ID8 instrument device
 
+![ID8 Logo](../images/ID8.png)
+
 The first line of the Arturia Keyboad LCD should display "ID8" and the second one the preset name.
 
 | Arturia Keyboard surface | Reason Command | Comment |
@@ -40,6 +42,8 @@ The first line of the Arturia Keyboad LCD should display "SubTractor" and the se
 | Jog-wheel | Select Previous/Next Preset | when "Preset" is selected |
 
 ## Mapping with the Thor instrument device
+
+![Thor Logo](../images/Thor.png)
 
 The first line of the Arturia Keyboad LCD should display "Thor" and the second one the preset name.
 
@@ -132,6 +136,8 @@ The first line of the Arturia Keyboad LCD should display "NN-XT" and the second 
 
 ## Mapping with the Dr. Octo REX
 
+![Dr. Octo REX Logo](../images/Dr_Octo_Rex.png)
+
 The first line of the Arturia Keyboad LCD should display "Dr. Octo REX" and the second one the preset name.
 
 | Arturia Keyboard surface | Reason Command | Comment |
@@ -158,6 +164,8 @@ The first line of the Arturia Keyboad LCD should display "Dr. Octo REX" and the 
 
 ## Mapping with the Redrum Drum Computer
 
+![Redrum Logo](../images/Redrum.png)
+
 The first line of the Arturia Keyboad LCD should display "Redrum" and "Ch1-8" or "Ch9-10" depending which variation is active. The second line display the preset name.
 
 | Arturia Keyboard surface | Reason Command | Comment |
@@ -173,6 +181,8 @@ The first line of the Arturia Keyboad LCD should display "Redrum" and "Ch1-8" or
 
 ## Mapping with the Kong Drum Designer
 
+![Kong Logo](../images/Kong.png)
+
 The first line of the Arturia Keyboad LCD should display "Kong" and "Ch1-8" or "Ch9-16" depending which variation is active. The second line display the preset name.
 
 | Arturia Keyboard surface | Reason Command | Comment |
@@ -187,6 +197,8 @@ The first line of the Arturia Keyboad LCD should display "Kong" and "Ch1-8" or "
 | Jog-wheel | Select Previous/Next Preset | when "Preset" is selected |
 
 ## Mapping with the Europa Shapeshifting Synthesizer
+
+![Europ Logo](../images/Europa.png)
 
 The first line of the Arturia Keyboad LCD should display "Europa" and "Osc<1-3>" depending which variation is active. The second line display the preset name.
 
@@ -209,6 +221,8 @@ The first line of the Arturia Keyboad LCD should display "Europa" and "Osc<1-3>"
 | Jog-wheel | Select Previous/Next Preset | when "Preset" is selected |
 
 ## Mapping with the Grain Sample Manipulator
+
+![Grain Logo](../images/Grain.png)
 
 The first line of the Arturia Keyboad LCD should display "Grain". The second line display the preset name.
 
@@ -256,6 +270,8 @@ The first line of the Arturia Keyboad LCD should display "Grain". The second lin
 
 ## Mapping with the Radical Piano
 
+![Radical Piano Logo](../images/RadicalPiano.png)
+
 The first line of the Arturia Keyboad LCD should display "Radical Piano". The second line display the preset name.
 
 | Arturia Keyboard surface | Reason Command | Comment |
@@ -271,6 +287,8 @@ The first line of the Arturia Keyboad LCD should display "Radical Piano". The se
 | Jog-wheel | Select Previous/Next Preset | when "Preset" is selected |
 
 ## Mapping with the Klang Tuned Percussion
+
+![Klang Logo](../images/Klang.png)
 
 The first line of the Arturia Keyboad LCD should display "Klang". The second line display the preset name.
 
@@ -298,6 +316,8 @@ The first line of the Arturia Keyboad LCD should display "Klang". The second lin
 
 ## Mapping with the Pangea World Instruments
 
+![Pangea Logo](../images/Pangea.png)
+
 The first line of the Arturia Keyboad LCD should display "Pangea". The second line display the preset name.
 
 | Arturia Keyboard surface | Reason Command | Comment |
@@ -323,6 +343,8 @@ The first line of the Arturia Keyboad LCD should display "Pangea". The second li
 | Jog-wheel | Select Previous/Next Preset | when "Preset" is selected |
 
 ## Mapping with the Humana Vocal Ensemble
+
+![Humana Logo](../images/Humana.png)
 
 The first line of the Arturia Keyboad LCD should display "Humana". The second line display the preset name.
 
