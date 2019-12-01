@@ -18,6 +18,8 @@ The first line of the Arturia Keyboad LCD should display "ID8" and the second on
 
 ## Mapping with the SubTractor instrument device
 
+![SubTractor Logo](../images/SubTractor.png)
+
 The first line of the Arturia Keyboad LCD should display "SubTractor" and the second one the preset name.
 
 | Arturia Keyboard surface | Reason Command | Comment |
@@ -70,6 +72,8 @@ The first line of the Arturia Keyboad LCD should display "Thor" and the second o
 
 ## Mapping with the Malstrom instrument device
 
+![Malstrom Logo](../images/Malstrom.png)
+
 The first line of the Arturia Keyboad LCD should display "Malstrom" and the second one the preset name.
 
 | Arturia Keyboard surface | Reason Command | Comment |
@@ -95,6 +99,8 @@ The first line of the Arturia Keyboad LCD should display "Malstrom" and the seco
 
 ## Mapping with the NN19 Digital Sampler
 
+![NN-19 Logo](../images/NN-19.png)
+
 The first line of the Arturia Keyboad LCD should display "NN19" and the second one the preset name.
 
 | Arturia Keyboard surface | Reason Command | Comment |
@@ -119,6 +125,8 @@ The first line of the Arturia Keyboad LCD should display "NN19" and the second o
 | Jog-wheel | Select Previous/Next Preset | when "Preset" is selected |
 
 ## Mapping with the NN-XT Advanced Sampler
+
+![NN-XT Logo](../images/NN-XT.png)
 
 The first line of the Arturia Keyboad LCD should display "NN-XT" and the second one the preset name.
 
@@ -248,6 +256,8 @@ The first line of the Arturia Keyboad LCD should display "Grain". The second lin
 
 ## Mapping with the Monotone Bass Synthesizer
 
+![Monotone Logo](../images/Monotone.png)
+
 The first line of the Arturia Keyboad LCD should display "Grain". The second line display the preset name.
 
 | Arturia Keyboard surface | Reason Command | Comment |
@@ -371,6 +381,8 @@ The first line of the Arturia Keyboad LCD should display "Humana". The second li
 | Jog-wheel | Select Previous/Next Preset | when "Preset" is selected |
 
 ## Mapping with the Rytmik Drum Machine
+
+![Rytmik Logo](../images/Rytmik.png)
 
 The first line of the Arturia Keyboad LCD should display "Rytmik" follow by "Level" or "FX" depending which variation is active. The second line display the preset name.
 
