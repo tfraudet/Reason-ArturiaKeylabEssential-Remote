@@ -21,11 +21,12 @@
 
 :bulb: When the `Map Select` button is pressed on the Arturia keyboard, the active pad will light up to show the Map currently in use.
 
-<img src="../images/Keylab61-pads.png" width="400">
+<img src="../images/keylab61-pads.png" width="400">
 
 | Arturia Keyboard surface | Reason Command | Comment |
 | -------------------------- | -------------- | ----------------------- |
 | Jog wheel | Loop locators | jog wheel is used to change the position of left&right loop locators (press the jog wheel to change the active loop locator) |
 | Left Arrow | Tempo | Left & Right arrows buttons arround the jog wheel are use to change the tempo |
 | Right Arrow | Tempo | Left & Right arrows buttons arround the jog wheel are use to change the tempo |
-| Master fader| Master Section level | Change the Master Section level (:warning: the `Arturia KeyLab 61 Essential Control` surface need to be locked to the Reason Master Section to work properlly |
+| Master fader| Master Section level | Change the Master Section level
+:warning: the `Arturia KeyLab 61 Essential Control` surface need to be locked to the Reason Master Section to work properlly |
