@@ -625,3 +625,289 @@ Scope	Propellerheads	Matrix Pattern Sequencer
 Map	pan-1		Resolution
 Map	lcd-1		"Matrix"
 Map	lcd-2		Pattern Select in Bank
+
+Scope	Propellerheads	Alligator
+Define Group	Keyboard Shortcut Variations	global	filter1	filter2	filter3
+//Define Group	Target	global	filter1	filter2	filter3
+
+//	Control Surface Item	Key	Remotable Item	Scale	Mode
+//Map	part1-next		Target=filter1			global
+//Map	part1-next		Target=filter2			filter1
+//Map	part1-next		Target=filter3			filter2
+//Map	part2-prev		Target=filter2			filter3
+//Map	part2-prev		Target=filter1			filter2
+//Map	part2-prev		Target=global			filter1
+
+Map	master-volume		Master Volume
+
+Map	fader-1		Amp Env Attack			global
+Map	fader-2		Amp Env Decay			global
+Map	fader-3		Amp Env Release			global
+Map	fader-5		Filter Env Attack			global
+Map	fader-6		Filter Env Decay			global
+Map	fader-7		Filter Env Release			global
+
+Map	pan-1		High Pass LFO Amount			filter1
+Map	pan-2		High Pass Frequency			filter1
+Map	pan-3		High Pass Resonance			filter1
+Map	pan-4		High Pass Env Amount			filter1
+Map	pan-5		High Pass Drive Amount			filter1
+Map	pan-6		High Pass Phaser Amount			filter1
+Map	pan-7		High Pass Delay Amount			filter1
+Map	pan-8		High Pass Pan			filter1
+Map	master-pan		High Pass Volume			filter1
+
+Map	pan-1		Band Pass LFO Amount			filter2
+Map	pan-2		Band Pass Frequency			filter2
+Map	pan-3		Band Pass Resonance			filter2
+Map	pan-4		Band Pass Env Amount			filter2
+Map	pan-5		Band Pass Drive Amount			filter2
+Map	pan-6		Band Pass Phaser Amount			filter2
+Map	pan-7		Band Pass Delay Amount			filter2
+Map	pan-8		Band Pass Pan			filter2
+Map	master-pan		Band Pass Volume			filter2
+
+Map	pan-1		Low Pass LFO Amount			filter3
+Map	pan-2		Low Pass Frequency			filter3
+Map	pan-3		Low Pass Resonance			filter3
+Map	pan-4		Low Pass Env Amount			filter3
+Map	pan-5		Low Pass Drive Amount			filter3
+Map	pan-6		Low Pass Phaser Amount			filter3
+Map	pan-7		Low Pass Delay Amount			filter3
+Map	pan-8		Low Pass Pan			filter3
+Map	master-pan		Low Pass Volume			filter3
+
+Map	preset-jog-wheel		Select Patch Delta
+Map	lcd-1		"Alligator"
+Map	lcd-2		Patch Name			global
+Map	lcd-2		"High Pass filter params"			filter1
+Map	lcd-2		"Band Pass filter params"			filter2
+Map	lcd-2		"Low Pass filter params"			filter3
+
+Scope	Propellerheads	The Echo
+//	Control Surface Item	Key	Remotable Item	Scale	Mode
+Map	master-pan		Dry/Wet Balance
+Map	master-volume		Ducking
+
+Map	pan-1		Delay Time	
+Map	pan-2		Right Ch Time Offset		
+Map	pan-3		Feedback		
+Map	pan-4		Right Ch Feedback Offset		
+Map	pan-5		Drive Amount
+Map	pan-6		Drive Type
+Map	pan-7		Envelope		
+Map	pan-8		Wobble
+
+Map	fader-1		Ping-Pong Mode		
+Map	fader-2		Ping-Pong Pan		
+Map	fader-3		Diffuse Spread		
+Map	fader-4		Diffuse Amount		
+Map	fader-5		Filter Frequency	
+Map	fader-6		Filter Resonance
+Map	fader-7		LFO Rate		
+Map	fader-8		LFO Amount
+
+Map	preset-jog-wheel		Select Patch Delta
+Map	lcd-1		"The Echo"
+Map	lcd-2		Patch Name
+
+Scope	Propellerheads	Pulveriser
+//	Control Surface Item	Key	Remotable Item	Scale	Mode
+Map	master-pan		Volume
+Map	master-volume		Blend
+
+Map	pan-1		Squash
+Map	pan-2		Dirt
+Map	pan-3		Filter Mode
+Map	pan-4		Tremor to Frequency
+Map	pan-5		Follower to Rate
+Map	pan-6		Tremor Rate
+Map	pan-7		Tremor Lag
+Map	pan-8		Tremor to Volume
+
+Map	fader-1		Release
+Map	fader-2		Tone
+Map	fader-3		Filter Frequency
+Map	fader-4		Peak
+Map	fader-5		Follower to Frequency
+Map	fader-6		Follower Threshold
+Map	fader-7		Follower Attack
+Map	fader-8		Follower Release
+
+Map	preset-jog-wheel		Select Patch Delta
+Map	lcd-1		"Pulveriser"
+Map	lcd-2		Patch Name
+
+Scope	Propellerhead Software	se.propellerheads.ReasonBassAmp
+Map	master-volume		Volume
+
+Map	fader-1		Amp Switch
+Map	fader-2		Cab Switch
+
+Map	pan-1		Drive
+Map	pan-2		Bass
+Map	pan-3		Middle
+Map	pan-4		Mid Freq
+Map	pan-5		Treble
+
+Map	preset-jog-wheel		Select Patch Delta
+Map	lcd-1		"BassAmp"
+Map	lcd-2		Patch Name
+
+Scope	Propellerhead Software	se.propellerheads.ReasonAmp
+Map	master-volume		Volume
+
+Map	fader-1		Amp Switch
+Map	fader-2		Cab Switch
+
+Map	pan-1		Gate
+Map	pan-2		Gain
+Map	pan-3		Bass
+Map	pan-4		Mid
+Map	pan-5		Treble
+Map	pan-6		Poweramp Gain
+
+Map	preset-jog-wheel		Select Patch Delta
+Map	lcd-1		"Softube Amp"
+Map	lcd-2		Patch Name
+
+Scope	Propellerhead Software	se.propellerheads.Synchronous
+Map	master-volume		Master Level
+Map	master-pan		DryWet
+
+Map	pan-1		Dist Amount
+Map	pan-2		Dist Character
+Map	pan-3		Filter Freq
+Map	pan-4		Filter Reso
+Map	pan-5		Delay  Amount
+Map	pan-6		Delay Feedback
+Map	pan-7		Reverb Amount
+Map	pan-8		Reverb Decay
+
+Map	fader-1		Dist On
+Map	fader-2		Filter On
+Map	fader-3		Delay On
+Map	fader-4		Reverb On
+Map	fader-8		Level
+
+Map	preset-jog-wheel		Select Patch Delta
+Map	lcd-1		"Synchronous"
+Map	lcd-2		Patch Name
+
+Scope	Propellerhead Software	se.propellerheads.Audiomatic
+Map	master-volume		Volume
+Map	master-pan		Dry Wet
+
+Map	pan-1		Input Gain
+Map	pan-2		Transform
+
+Map	preset-jog-wheel		Preset
+Map	lcd-1		"Audiomatic"
+Map	lcd-2		Patch Name
+
+Scope	Propellerheads	Scream 4 Distortion			
+//	Control Surface Item	Key	Remotable Item	Scale	Mode
+Map	master-volume		Master Level
+
+Map	pan-1		Damage Control
+Map	pan-2		Damage Type
+Map	pan-3		Parameter 1
+Map	pan-4		Parameter 2
+Map	pan-5		Body Resonance
+Map	pan-6		Body Scale
+Map	pan-7		Body Auto
+Map	pan-8		Body Type
+
+Map	fader-1		Cut Lo
+Map	fader-2		Cut Mid
+Map	fader-3		Cut Hi
+
+Map	fader-6		Damage On/Off
+Map	fader-7		Cut On/Off
+Map	fader-8		Body On/Off
+
+Map	preset-jog-wheel		Select Patch Delta
+Map	lcd-1		"Scream 4"
+Map	lcd-2		Patch Name
+
+Scope	Propellerheads	BV512 Digital Vocoder
+
+Define Group	Keyboard Shortcut Variations	Band Lv 1-8	Band Lv 9-16	Band Lv 17-24	Band Lv 25-32
+//Define Group	Target	Band Lv 1-8	Band Lv 9-16	Band Lv 17-24	Band Lv 25-32
+
+//	Control Surface Item	Key	Remotable Item	Scale	Mode
+//Map	part1-next		Target=Band Lv 9-16			Band Lv 1-8
+//Map	part1-next		Target=Band Lv 17-24			Band Lv 9-16
+//Map	part1-next		Target=fBand Lv 25-32			Band Lv 17-24
+//Map	part2-prev		Target=Band Lv 17-24			Band Lv 25-32
+//Map	part2-prev		Target=Band Lv 9-16			Band Lv 17-24
+//Map	part2-prev		Target=Band Lv 1-8			Band Lv 9-16
+
+Map	master-pan		Dry/Wet
+
+Map	pan-1		Band Count
+Map	pan-2		Vocoder/Equalizer
+Map	pan-3		Attack
+Map	pan-4		Decay
+Map	pan-5		Shift
+Map	pan-6		HF Emphasis
+
+Map	fader-1		Band Level 1			Band Lv 1-8
+Map	fader-2		Band Level 2			Band Lv 1-8
+Map	fader-3		Band Level 3			Band Lv 1-8
+Map	fader-4		Band Level 4			Band Lv 1-8
+Map	fader-5		Band Level 5			Band Lv 1-8
+Map	fader-6		Band Level 6			Band Lv 1-8
+Map	fader-7		Band Level 7			Band Lv 1-8
+Map	fader-8		Band Level 8			Band Lv 1-8
+
+Map	fader-1		Band Level 9			Band Lv 9-16
+Map	fader-2		Band Level 10			Band Lv 9-16
+Map	fader-3		Band Level 11			Band Lv 9-16
+Map	fader-4		Band Level 12			Band Lv 9-16
+Map	fader-5		Band Level 13			Band Lv 9-16
+Map	fader-6		Band Level 14			Band Lv 9-16
+Map	fader-7		Band Level 15			Band Lv 9-16
+Map	fader-8		Band Level 16			Band Lv 9-16
+
+Map	fader-1		Band Level 17			Band Lv 17-24
+Map	fader-2		Band Level 18			Band Lv 17-24
+Map	fader-3		Band Level 19			Band Lv 17-24
+Map	fader-4		Band Level 20			Band Lv 17-24
+Map	fader-5		Band Level 21			Band Lv 17-24
+Map	fader-6		Band Level 22			Band Lv 17-24
+Map	fader-7		Band Level 23			Band Lv 17-24
+Map	fader-8		Band Level 24			Band Lv 17-24
+
+Map	fader-1		Band Level 25			Band Lv 25-32
+Map	fader-2		Band Level 26			Band Lv 25-32
+Map	fader-3		Band Level 27			Band Lv 25-32
+Map	fader-4		Band Level 28			Band Lv 25-32
+Map	fader-5		Band Level 29			Band Lv 25-32
+Map	fader-6		Band Level 30			Band Lv 25-32
+Map	fader-7		Band Level 31			Band Lv 25-32
+Map	fader-8		Band Level 32			Band Lv 25-32
+
+Map	lcd-1		"BV512 Vocoder"
+Map	lcd-2		"Band Lv 1-8"			Band Lv 1-8
+Map	lcd-2		"Band Lv 9-16"			Band Lv 9-16
+Map	lcd-2		"Band Lv 7-24"			Band Lv 17-24
+Map	lcd-2		"Band Lv 25-32"			Band Lv 25-32
+
+Scope	Propellerheads	Neptune Pitch Adjuster		
+//	Control Surface Item	Key	Remotable Item	Scale	Mode
+
+Map	pan-1		Pitch Bend Range
+Map	pan-2		Vibrato Rate
+Map	pan-3		Catch Zone
+Map	pan-4		Cent
+Map	pan-5		Semitones
+Map	pan-6		Formant Shift
+
+Map	fader-1		Correction Speed
+Map	fader-2		Preserve Expression
+Map	fader-3		Pitched Signal Level
+Map	fader-4		Voice Synth Level
+
+Map	lcd-1		"Neptune"
+Map	lcd-2		Target Note Name
