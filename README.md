@@ -55,7 +55,7 @@ C:/ProgramData/Propellerhead Software/Remote
 
 * [DAW commands & Master Section mapping](./mapping-doc/daw-mapping.md)
 * [Instruments mapping](./mapping-doc/instruments-mapping.md)
-* [Effects mapping](./mapping-doc/effect-mapping.md)
+* [Effects mapping](./mapping-doc/effects-mapping.md)
 * [Utilities mapping](./mapping-doc/utilities-mapping.md)
 * [Players mapping](./mapping-doc/players-mapping.md)
 
