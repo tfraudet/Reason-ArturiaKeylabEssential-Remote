@@ -243,3 +243,151 @@ The first line of the Arturia Keyboad LCD should display "Neptune" and the secon
 | Fader 2 | Preserve Expression |  |
 | Fader 3 | Pitched Signal Level |  |
 | Fader 4 | Voice Synth Level |  |
+
+## Mapping with the Reverb RV7000 Mk II Advanced Reverb
+
+![RV7000](../images/RV7000.png)
+
+The first line of the Arturia Keyboad LCD should display "RV7000" and the second one, the name of the selected patch.
+
+| Arturia Keyboard surface | Reason Command | Comment |
+| -------------------------- | -------------- | ----------------------- |
+| Encoder 1 | Decay |  |
+| Encoder 2 | HF Damp |  |
+| Encoder 3 | Hi EQ |  |
+| Main Encoder | Dry/Wet |  |
+| Fader <1-8> | Soft Knob <1-8> |  |
+| Jog Wheel | Select Previous/Next Preset | when "Preset" is selected |
+
+## Mapping with the MClass Equalizer
+
+![MClass Equalizer](../images/MClassEqualizer.png)
+
+The first line of the Arturia Keyboad LCD should display "MClass" and the second one "Equalizer".
+
+| Arturia Keyboard surface | Reason Command | Comment |
+| -------------------------- | -------------- | ----------------------- |
+| Encoder 1 | Low Shelf Frequency |  |
+| Encoder 2 | Low Shelf Gain |  |
+| Fader 1 | Low Shelf Q |  |
+| Encoder 3 | Parametric 1 Frequency |  |
+| Encoder 4 | Parametric 1 Gain |  |
+| Fader 3 | Parametric 1 Q |  |
+| Encoder 5 | Parametric 2 Frequency |  |
+| Encoder 6 | Parametric 2 Gain |  |
+| Fader 5 | Parametric 2 Q |  |
+| Encoder 7 | Hi Shelf Frequency |  |
+| Encoder 8 | Hi Shelf Gain |  |
+| Fader 7 | Hi Shelf Q |  |
+
+## Mapping with the MClass Compressor
+
+![MClass Compressor](../images/MClassCompressor.png)
+
+The first line of the Arturia Keyboad LCD should display "MClass" and the second one "Comrpessor".
+
+| Arturia Keyboard surface | Reason Command | Comment |
+| -------------------------- | -------------- | ----------------------- |
+| Encoder 1 | Input Gain |  |
+| Encoder 2 | Threshold |  |
+| Encoder 3 | Ratio |  |
+| Encoder 4 | Attack |  |
+| Encoder 5 | Release |  |
+| Main Encoder | Output Gain |  |
+
+## Mapping with the MClass Maximizer
+
+![MClass Maximizer](../images/MClassMaximizer.png)
+
+The first line of the Arturia Keyboad LCD should display "MClass" and the second one "Maximizer".
+
+| Arturia Keyboard surface | Reason Command | Comment |
+| -------------------------- | -------------- | ----------------------- |
+| Encoder 1 | Input Gain |  |
+| Encoder 2 | Attack Speed |  |
+| Encoder 3 | Release Speed |  |
+| Encoder 4 | Output Gain |  |
+| Encoder 5 | Soft Clip Amount |  |
+
+## Mapping with the MClass Stereo Imager
+
+![MClass Stereo Imager](../images/MClassStereoImager.png)
+
+The first line of the Arturia Keyboad LCD should display "MClass" and the second one "Stereo Imager".
+
+| Arturia Keyboard surface | Reason Command | Comment |
+| -------------------------- | -------------- | ----------------------- |
+| Encoder 1 | Low Width |  |
+| Encoder 2 | X-Over Frequency|  |
+| Encoder 3 | High Width |  |
+| Encoder 4 | Solo Mode |  |
+
+## Mapping with the RV-7 Digital Reverb
+
+![RV-7](../images/RV7.png)
+
+The first line of the Arturia Keyboad LCD should display "RV-7 (reverb)" and the second one the name of the selected algorithm.
+
+| Arturia Keyboard surface | Reason Command | Comment |
+| -------------------------- | -------------- | ----------------------- |
+| Encoder 1 | Size |  |
+| Encoder 2 | Decay |  |
+| Encoder 3 | Damping |  |
+| Encoder 4 | Dry/Wet |  |
+| Jog Wheel | Select Previous/Next Algorithm | when "Preset" is selected |
+
+## Mapping with the DDL-1 Digital Delay Line
+
+![DDL-1](../images/DDL1.png)
+
+The first line of the Arturia Keyboad LCD should display "DDL-1 (delay)".
+
+| Arturia Keyboard surface | Reason Command | Comment |
+| -------------------------- | -------------- | ----------------------- |
+| Encoder 1 | DelayTime (steps) |  |
+| Encoder 2 | DelayTime (ms) |  |
+| Encoder 3 | Feedback |  |
+| Encoder 4 | Pan |  |
+| Encoder 5 | Dry/Wet Balance |  |
+
+## Mapping with the D-11 Foldback Distortion
+
+![D-11](../images/D11.png)
+
+The first line of the Arturia Keyboad LCD should display "D-11 (dist.)".
+
+| Arturia Keyboard surface | Reason Command | Comment |
+| -------------------------- | -------------- | ----------------------- |
+| Encoder 1 | Amount |  |
+| Encoder 2 | Foldback |  |
+
+## Mapping with the ECF-42 Envelope Controlled Filter
+
+![ECF-42](../images/ECF42.png)
+
+The first line of the Arturia Keyboad LCD should display "ECF-42 (filter)".
+
+| Arturia Keyboard surface | Reason Command | Comment |
+| -------------------------- | -------------- | ----------------------- |
+| Encoder 1 | Frequency |  |
+| Encoder 2 | Resonance |  |
+| Encoder 3 | Env Amount |  |
+| Encoder 4 | Velocity |  |
+| Encoder 5 | Attack |  |
+| Encoder 6 | Decay |  |
+| Encoder 7 | Sustain |  |
+| Encoder 8 | Release |  |
+| Master Pan | Mode |  |
+
+## Mapping with the CF-101 Chorus/Flanger
+
+![CF-101](../images/CF101.png)
+
+The first line of the Arturia Keyboad LCD should display "CF-101 (Ch/Fl)".
+
+| Arturia Keyboard surface | Reason Command | Comment |
+| -------------------------- | -------------- | ----------------------- |
+| Encoder 1 | Delay |  |
+| Encoder 2 | Feedback |  |
+| Encoder 3 | Rate |  |
+| Encoder 4 | Modulation Amount |  |

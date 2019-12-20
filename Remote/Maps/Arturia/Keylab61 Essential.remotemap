@@ -911,3 +911,132 @@ Map	fader-4		Voice Synth Level
 
 Map	lcd-1		"Neptune"
 Map	lcd-2		Target Note Name
+
+Scope	Propellerheads	RV7000 Advanced Reverb			
+//	Control Surface Item	Key	Remotable Item	Scale	Mode
+Map	master-pan		Dry/Wet
+Map	pan-1		Decay
+Map	pan-2		HF Damp
+Map	pan-3		Hi EQ
+	
+Map	fader-1		Soft Knob 1
+Map	fader-2		Soft Knob 2
+Map	fader-3		Soft Knob 3
+Map	fader-4		Soft Knob 4
+Map	fader-5		Soft Knob 5
+Map	fader-6		Soft Knob 6
+Map	fader-7		Soft Knob 7
+Map	fader-8		Soft Knob 8
+
+Map	preset-jog-wheel		Select Patch Delta
+Map	lcd-1		"RV7000"
+Map	lcd-2		Patch Name
+
+Scope	Propellerheads	MClass Equalizer
+//	Control Surface Item	Key	Remotable Item	Scale	Mode
+Map	pan-1		Low Shelf Frequency
+Map	pan-2		Low Shelf Gain
+Map	fader-1		Low Shelf Q
+
+Map	pan-3		Parametric 1 Frequency
+Map	pan-4		Parametric 1 Gain
+Map	fader-3		Parametric 1 Q
+
+Map	pan-5		Parametric 2 Frequency
+Map	pan-6		Parametric 2 Gain
+Map	fader-5		Parametric 2 Q
+			
+Map	pan-7		Hi Shelf Frequency
+Map	pan-8		Hi Shelf Gain
+Map	fader-7		Hi Shelf Q
+
+Map	lcd-1		"MClass"
+Map	lcd-2		"Equalizer"
+
+Scope	Propellerheads	MClass Compressor
+//	Control Surface Item	Key	Remotable Item	Scale	Mode
+Map	pan-1		Input Gain
+Map	pan-2		Threshold
+Map	pan-3		Ratio
+Map	pan-4		Attack
+Map	pan-5		Release
+Map	master-pan		Output Gain	
+
+Map	lcd-1		"MClass"
+Map	lcd-2		"Compressor"
+
+Scope	Propellerheads	MClass Maximizer
+Map	pan-1		Input Gain
+Map	pan-2		Attack Speed
+Map	pan-3		Release Speed
+Map	pan-4		Output Gain
+Map	pan-5		Soft Clip Amount
+
+Map	lcd-1		"MClass"
+Map	lcd-2		"Maximizer"
+
+Scope	Propellerheads	MClass Stereo Imager
+//	Control Surface Item	Key	Remotable Item	Scale	Mode
+Map	pan-1		Low Width
+Map	pan-2		X-Over Frequency
+Map	pan-3		High Width
+Map	pan-4		Solo Mode
+
+Map	lcd-1		"MClass"
+Map	lcd-2		"Stereo Imager"
+
+Scope	Propellerheads	RV-7 Digital Reverb
+//	Control Surface Item	Key	Remotable Item	Scale	Mode
+Map	pan-1		Size
+Map	pan-2		Decay
+Map	pan-3		Damping
+Map	pan-4		Dry/Wet
+
+Map	preset-jog-wheel		Algorithm
+Map	lcd-1		"RV-7 (reverb)"
+Map	lcd-2		"algorithm?"
+
+Scope	Propellerheads	DDL-1 Digital Delay Line
+//	Control Surface Item	Key	Remotable Item	Scale	Mode
+Map	pan-1		DelayTime (steps)
+Map	pan-2		DelayTime (ms)
+Map	pan-3		Feedback
+Map	pan-4		Pan
+Map	pan-5		Dry/Wet Balance
+
+Map	lcd-1		"DDL-1 (delay)"
+Map	lcd-2		""
+
+Scope	Propellerheads	D-11 Foldback Distortion
+//	Control Surface Item	Key	Remotable Item	Scale	Mode
+Map	pan-1		Amount
+Map	pan-2		Foldback
+
+Map	lcd-1		"D-11 (dist.)"
+Map	lcd-2		""
+
+Scope	Propellerheads	ECF-42 Envelope Controlled Filter		
+//	Control Surface Item	Key	Remotable Item	Scale	Mode
+Map	pan-1		Frequency
+Map	pan-2		Resonance
+Map	pan-3		Env Amount
+Map	pan-4		Velocity
+Map	master-pan		Mode
+
+Map	pan-5		Attack
+Map	pan-6		Decay
+Map	pan-7		Sustain
+Map	pan-8		Release
+
+Map	lcd-1		"ECF-42 (filter)"
+Map	lcd-2		""
+
+Scope	Propellerheads	CF-101 Chorus/Flanger			
+//	Control Surface Item	Key	Remotable Item	Scale	Mode
+Map	pan-1		Delay
+Map	pan-2		Feedback
+Map	pan-3		Rate
+Map	pan-4		Modulation Amount
+
+Map	lcd-1		"CF-101 (Ch/Fl)"
+Map	lcd-2		""
