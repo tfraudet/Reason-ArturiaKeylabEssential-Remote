@@ -174,6 +174,7 @@ end
 
 
 g_rv7_algorithms = { "Hall", "Large Hall", "Hall 2", "Large Room", "Medium Room", "Small Room", "Gated", "Low Density" ,"Stereo Echoes" , "Pan Room"}
+g_matrix_bank = { "A", "B", "C", "D"}
 
 function remote_set_state(changed_items) --handle incoming changes sent by Reason
 	for i,item_index in ipairs(changed_items) do
@@ -191,6 +192,17 @@ function remote_set_state(changed_items) --handle incoming changes sent by Reaso
 			if g_lcd_line1_new_text == "RV-7 (reverb)" then
 				g_lcd_line2_new_text = g_rv7_algorithms[remote.get_item_text_value(item_index)+1]
 			end
+
+			if g_lcd_line1_new_text == "Matrix" then
+				bank = math.floor(remote.get_item_text_value(item_index) / 8) +1
+				if bank == 0 then
+					g_lcd_line2_new_text = "Bank - / Pat. -"
+				else
+					pattern = remote.get_item_text_value(item_index) - ((bank-1)*8) +1
+					g_lcd_line2_new_text = "Bank "..g_matrix_bank[bank].." / Pat. "..pattern
+				end
+			end
+
 		end
 
 	end

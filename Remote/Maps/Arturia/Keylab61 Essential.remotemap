@@ -623,8 +623,11 @@ Map	lcd-1		"RPG8 Arpeggiator"
 Scope	Propellerheads	Matrix Pattern Sequencer
 //	Control Surface Item	Key	Remotable Item	Scale	Mode
 Map	pan-1		Resolution
+
+Map	preset-jog-wheel		Pattern Select
+
 Map	lcd-1		"Matrix"
-Map	lcd-2		Pattern Select in Bank
+Map	lcd-2		"Bank x / Pat. y"
 
 Scope	Propellerheads	Alligator
 Define Group	Keyboard Shortcut Variations	global	filter1	filter2	filter3

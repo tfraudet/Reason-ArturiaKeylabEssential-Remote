@@ -12,7 +12,7 @@ The 1 line of the Arturia Keyboad LCD should display "Combinator" and the second
 | Encoder 2 | Rotary 2 |  |
 | Encoder 3 | Rotary 3 |  |
 | Encoder 4 | Rotary 4 |  |
-| Jog Wheel | Patch Selection |  |
+| Jog Wheel | Patch Selection | when "Preset" is selected |
 
 ## Mapping with the Mixer 14:2
 
@@ -83,11 +83,13 @@ The first line of the Arturia Keyboad LCD should display "RPG8 Arpeggiator".
 
 ![Matrix Logo](../images/Matrix.png)
 
-The first line of the Arturia Keyboad LCD should display "Matrix".
+The first line of the Arturia Keyboad LCD should display "Matrix" and the second line the bank & the pattern active
 
 | Arturia Keyboard surface | Reason Command | Comment |
 | -------------------------- | -------------- | ----------------------- |
 | Encoder 1 | Resolution |  |
+| Jog Wheel | Banck / Pattern selection | when "Preset" is selected |
+
 
 ## Mapping with the Morphin XF Crossfader
 
