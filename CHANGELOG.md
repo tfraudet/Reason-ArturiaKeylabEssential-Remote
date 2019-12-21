@@ -15,7 +15,12 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
   * Master fader is used to change the Master Section level (:warning: the `Arturia KeyLab 61 Essential Control` surface need to be locked to the Reason Master Section to work properlly, see [Reason doc](http://docs.propellerheads.se/reason10/wwhelp/wwhimpl/js/html/wwhelp.htm#context=EngOpManProjectPro&topic=PreferencesControlSurface))
 * Refactor documentation mapping
 * Add mapping for Propellerhead Software instruments bundle with Reason 10.4
-* Add mapping for Propellerhead Sofware utilities bundle with Reason 10.4 (Combinator, Mixer 14:2, Line Mixer 6:2)
+* Add mapping for Propellerhead Sofware utilities bundle with Reason 10.4
+* Add mapping for Propellerhead Sofware effects bundle with Reason 10.4
+* Add mapping for Saturation Knob from Softube
+* Add mapping for Classic Filter from MagmaSonic
+* Add mapping for RPSpec Spectogram from Rob Papen
+* Add mapping for Morphin XF Crossfader from Groovy Melon
 
 ### Changed
 

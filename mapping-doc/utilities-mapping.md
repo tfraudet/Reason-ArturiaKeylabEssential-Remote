@@ -88,3 +88,31 @@ The first line of the Arturia Keyboad LCD should display "Matrix".
 | Arturia Keyboard surface | Reason Command | Comment |
 | -------------------------- | -------------- | ----------------------- |
 | Encoder 1 | Resolution |  |
+
+## Mapping with the Morphin XF Crossfader
+
+![Morfin XF](../images/MorfinXF.jpg)
+
+The first line of the Arturia Keyboad LCD should display "Groovy Melon" and the second one "MorfinXF".
+
+| Arturia Keyboard surface | Reason Command | Comment |
+| -------------------------- | -------------- | ----------------------- |
+| Encoder 1 | Ch A Select Input |  |
+| Encoder 2 | Volume A |  |
+| Encoder 3 | Crossfader |  |
+| Encoder 4 | Volume B |  |
+| Encoder 5 | Ch B Select Input |  |
+| Encoder 6 | Curve Type |  |
+
+## Mapping with the RPSpec Spectogram
+
+![RBSpec](../images/RBSpec.jpg)
+
+The first line of the Arturia Keyboad LCD should display "Rob papen" and the second one "RBSpec Spectogram".
+
+| Arturia Keyboard surface | Reason Command | Comment |
+| -------------------------- | -------------- | ----------------------- |
+| Encoder 1 | Spectogram Mode |  |
+| Encoder 2 | Boost |  |
+| Encoder 3 | Hold |  |
+| Encoder 4 | Release |  |

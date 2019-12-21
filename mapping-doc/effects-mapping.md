@@ -391,3 +391,84 @@ The first line of the Arturia Keyboad LCD should display "CF-101 (Ch/Fl)".
 | Encoder 2 | Feedback |  |
 | Encoder 3 | Rate |  |
 | Encoder 4 | Modulation Amount |  |
+
+## Mapping with the PH-90 Phaser
+
+![PH-90](../images/PH90.png)
+
+The first line of the Arturia Keyboad LCD should display "PH-90 (Phaser)".
+
+| Arturia Keyboard surface | Reason Command | Comment |
+| -------------------------- | -------------- | ----------------------- |
+| Encoder 1 | Frequency |  |
+| Encoder 2 | Split |  |
+| Encoder 3 | Width |  |
+| Encoder 4 | Rate |  |
+| Encoder 5 | Frequency Modulation |  |
+| Encoder 6 | Feedback |  |
+
+## Mapping with the UN-16 Unison
+
+![UN-16](../images/UN16.png)
+
+The first line of the Arturia Keyboad LCD should display "UN-16 (Unison)".
+
+| Arturia Keyboard surface | Reason Command | Comment |
+| -------------------------- | -------------- | ----------------------- |
+| Encoder 1 | Voice Count |  |
+| Encoder 2 | Detune |  |
+| Encoder 3 | Dry/Wet |  |
+
+## Mapping with the COMP-01 Auto Make-up Gain Compressor
+
+![COMP-01](../images/COMP01.png)
+
+The first line of the Arturia Keyboad LCD should display "COMP-01 (Comp.)".
+
+| Arturia Keyboard surface | Reason Command | Comment |
+| -------------------------- | -------------- | ----------------------- |
+| Encoder 1 | Ratio |  |
+| Encoder 2 | Threshold |  |
+| Encoder 3 | Attack |  |
+| Encoder 4 | Release |  |
+| Encoder 5 | Gain |  |
+
+## Mapping with the PEQ-2 Two Band Parametric EQ
+
+![PEQ-2](../images/PEQ2.png)
+
+The first line of the Arturia Keyboad LCD should display "PEQ-2 (filter)".
+
+| Arturia Keyboard surface | Reason Command | Comment |
+| -------------------------- | -------------- | ----------------------- |
+| Encoder 1 | Filter A Freq |  |
+| Encoder 2 | Filter A Q |  |
+| Encoder 3 | Filter A Gain |  |
+| Encoder 4 | Filter B Freq |  |
+| Encoder 5 | Filter B Q |  |
+| Encoder 6 | Filter B Gain |  |
+
+## Mapping with the MagmaSonic Classic Filter
+
+![MagmaSonic](../images/MagmaSonic.jpg)
+
+The first line of the Arturia Keyboad LCD should display "MagmaSonic".
+
+| Arturia Keyboard surface | Reason Command | Comment |
+| -------------------------- | -------------- | ----------------------- |
+| Encoder 1 | Cutoff |  |
+| Encoder 2 | Resonance |  |
+| Encoder 3 | Spice |  |
+| Encoder 4 | Volume |  |
+
+## Mapping with the Softube Saturation Knob
+
+![SaturationKnob](../images/SaturationKnob.jpg)
+
+The first line of the Arturia Keyboad LCD should display "Saturation Knob" and the second one, the name of the selected patch.
+
+| Arturia Keyboard surface | Reason Command | Comment |
+| -------------------------- | -------------- | ----------------------- |
+| Encoder 1 | Saturation |  |
+| Encoder 2 | Saturation Type |  |
+| Jog Wheel | Select Previous/Next Algorithm | when "Preset" is selected |

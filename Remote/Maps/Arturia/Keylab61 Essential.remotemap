@@ -2,7 +2,7 @@ Propellerhead Remote Mapping File
 File Format Version	1.0.0
 Control Surface Manufacturer	Arturia
 Control Surface Model	Keylab61 Essential
-Map Version	1.0.0
+Map Version	1.1.0
 
 //This is a remote map template for the Arturia KEYLAB61 Essential Keyboard and Reason 10
 
@@ -994,7 +994,7 @@ Map	pan-4		Dry/Wet
 
 Map	preset-jog-wheel		Algorithm
 Map	lcd-1		"RV-7 (reverb)"
-Map	lcd-2		"algorithm?"
+//Map	lcd-2		"algorithm?"
 
 Scope	Propellerheads	DDL-1 Digital Delay Line
 //	Control Surface Item	Key	Remotable Item	Scale	Mode
@@ -1040,3 +1040,88 @@ Map	pan-4		Modulation Amount
 
 Map	lcd-1		"CF-101 (Ch/Fl)"
 Map	lcd-2		""
+
+Scope	Propellerheads	PH-90 Phaser
+//	Control Surface Item	Key	Remotable Item	Scale	Mode
+Map	pan-1		Frequency
+Map	pan-2		Split
+Map	pan-3		Width
+Map	pan-4		Rate
+Map	pan-5		Frequency Modulation
+Map	pan-6		Feedback
+
+Map	lcd-1		"PH-90 (Phaser)"
+Map	lcd-2		""
+
+Scope	Propellerheads	UN-16 Unison
+//	Control Surface Item	Key	Remotable Item	Scale	Mode
+Map	pan-1		Voice Count
+Map	pan-2		Detune
+Map	pan-3		Dry/Wet
+
+Map	lcd-1		"UN-16 (Unison)"
+Map	lcd-2		""
+
+Scope	Propellerheads	COMP-01 Compressor/Limiter
+//	Control Surface Item	Key	Remotable Item	Scale	Mode
+Map	pan-1		Ratio
+Map	pan-2		Threshold
+Map	pan-3		Attack
+Map	pan-4		Release
+Map	pan-5		Gain
+
+Map	lcd-1		"COMP-01 (Comp.)"
+Map	lcd-2		""
+
+Scope	Propellerheads	PEQ-2 Two Band Parametric EQ
+//	Control Surface Item	Key	Remotable Item	Scale	Mode
+Map	pan-1		Filter A Freq
+Map	pan-2		Filter A Q
+Map	pan-3		Filter A Gain
+Map	pan-4		Filter B Freq
+Map	pan-5		Filter B Q
+Map	pan-6		Filter B Gain
+
+Map	lcd-1		"PEQ-2 (filter)"
+Map	lcd-2		""
+
+Scope	MagmaSonic	drno.magmasonic.ClassicFilter
+//	Control Surface Item	Key	Remotable Item	Scale	Mode
+Map	pan-1		Cutoff
+Map	pan-2		Resonance
+Map	pan-3		Spice
+Map	pan-4		Volume
+
+Map	lcd-1		"MagmaSonic"
+Map	lcd-2		"Classic Filter"
+
+Scope	Softube	com.softube.re.SaturationKnob
+//	Control Surface Item	Key	Remotable Item	Scale	Mode
+Map	pan-1		Saturation
+Map	pan-2		Saturation Type
+
+Map	preset-jog-wheel		Select Patch Delta
+Map	lcd-1		"Saturation Knob"
+Map	lcd-2		Patch Name
+
+Scope	Groovy Melon	com.groovymelon.MorfinXF
+//	Control Surface Item	Key	Remotable Item	Scale	Mode
+Map	pan-1		Ch A Select Input
+Map	pan-2		Volume A
+Map	pan-3		Crossfader
+Map	pan-4		Volume B
+Map	pan-5		Ch B Select Input
+Map	pan-6		Curve Type
+
+Map	lcd-1		"Groovy Melon"
+Map	lcd-2		"MorfinXF"
+
+Scope	Rob Papen	com.robpapen.RPSpec
+//	Control Surface Item	Key	Remotable Item	Scale	Mode
+Map	pan-1		Spectogram Mode
+Map	pan-2		Boost
+Map	pan-3		Hold
+Map	pan-4		Release
+
+Map	lcd-1		"Rob Papen"
+Map	lcd-2		"RPSpec Spectogram"

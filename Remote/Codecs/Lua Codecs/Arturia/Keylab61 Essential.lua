@@ -1,8 +1,8 @@
 --[[
 	Surface:	Keyboard Arturia Keylab 61 Essential
 	Developer:	Thierry Fraudet
-	Version:	1.0
-	Date:		24/11/2019
+	Version:	1.1
+	Date:		21/12/2019
 
 ]]
 
@@ -12,6 +12,7 @@ g_lcd_line1_new_text = ""
 g_lcd_line1_old_text = ""
 g_lcd_line2_new_text = ""
 g_lcd_line2_old_text = ""
+g_preset_jog_wheel_index = 36
 
 function remote_init(manufacturer, model)
 	local items = {
@@ -56,7 +57,7 @@ function remote_init(manufacturer, model)
 		{name="master-pan", input="value", min=0, max=127},
 		{name="master-volume", input="value", min=0, max=127},
 
-		{name="preset-jog-wheel", input="delta"},
+		{name="preset-jog-wheel", input="delta", output="value", min=0, max=127},
 		{name="preset-jog-wheel-button", input="button"},
 		{name="preset-prev", input="button"},
 		{name="preset-next", input="button"},
@@ -171,6 +172,9 @@ function remote_process_midi(event)  -- handle incoming midi event
 	
 end
 
+
+g_rv7_algorithms = { "Hall", "Large Hall", "Hall 2", "Large Room", "Medium Room", "Small Room", "Gated", "Low Density" ,"Stereo Echoes" , "Pan Room"}
+
 function remote_set_state(changed_items) --handle incoming changes sent by Reason
 	for i,item_index in ipairs(changed_items) do
 		if item_index==g_lcd_line1_index then
@@ -181,6 +185,12 @@ function remote_set_state(changed_items) --handle incoming changes sent by Reaso
 		if item_index==g_lcd_line2_index then
 			--g_is_lcd_enabled=remote.is_item_enabled(item_index)
 			g_lcd_line2_new_text=remote.get_item_text_value(item_index)
+		end
+
+		if item_index==g_preset_jog_wheel_index then
+			if g_lcd_line1_new_text == "RV-7 (reverb)" then
+				g_lcd_line2_new_text = g_rv7_algorithms[remote.get_item_text_value(item_index)+1]
+			end
 		end
 
 	end
