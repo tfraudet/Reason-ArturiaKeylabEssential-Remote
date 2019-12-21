@@ -1128,3 +1128,141 @@ Map	pan-4		Release
 
 Map	lcd-1		"Rob Papen"
 Map	lcd-2		"RPSpec Spectogram"
+
+Scope	Propellerhead Software	se.propellerheads.AcousticGuitarist
+//	Control Surface Item	Key	Remotable Item	Scale	Mode
+Map	pan-1		Character
+Map	pan-2		Position
+Map	pan-3		Style
+Map	pan-4		Swing
+
+Map	pan-5		Feel
+Map	pan-6		Shimmer
+Map	pan-7		Attack
+Map	pan-8		Volume
+
+Map	preset-jog-wheel		Select Patch Delta
+Map	lcd-1		"Accoustic Guitar"
+Map	lcd-2		Patch Name
+
+Scope	Propellerhead Software	se.propellerheads.Parsec
+//	Control Surface Item	Key	Remotable Item	Scale	Mode
+Map	master-pan		Balance
+Map	master-volume		Master Level
+
+Map	pan-1		A Mod1 X
+Map	pan-2		A Mod1 Y
+Map	pan-3		A Mod2 X
+Map	pan-4		A Mod2 Y
+
+Map	pan-5		B Mod1 X
+Map	pan-6		B Mod1 Y
+Map	pan-7		B Mod2 X
+Map	pan-8		B Mod2 Y
+
+Map	fader-1		Env1 Attack
+Map	fader-2		Env1 Decay
+Map	fader-3		Env1 Sustain
+Map	fader-4		Env1 Release
+
+Map	fader-5		Env2 Attack
+Map	fader-6		Env2 Decay
+Map	fader-7		Env2 Sustain
+Map	fader-8		Env2 Release
+
+Map	preset-jog-wheel		Select Patch Delta
+Map	lcd-1		"Parsec"
+Map	lcd-2		Patch Name
+
+Scope	Pitchblende	nz.co.pitchblende.AutoTheory
+//	Control Surface Item	Key	Remotable Item	Scale	Mode
+Map	pan-1		Key
+Map	pan-2		Scale
+Map	pan-3		Strummer Duration
+Map	pan-4		Strummer Absolute Velocity
+Map	pan-5		Strummer Humanise Amount
+
+Map	preset-jog-wheel		Select Patch Delta
+Map	lcd-1		"AutoTheory"
+Map	lcd-2		Patch Name
+
+Scope	Quadelectra Audioworx	com.quadelectra.Mercury
+//	Control Surface Item	Key	Remotable Item	Scale	Mode
+Map	pan-1		Octave
+Map	pan-2		Octave Range
+Map	pan-3		Direction Mode
+Map	pan-4		Rate (Synced)
+Map	pan-5		Gate Length
+Map	pan-6		Shuffle
+Map	pan-7		Velocity Mode
+Map	pan-8		Velocity Amount
+
+Map	preset-jog-wheel		Select Patch Delta
+Map	lcd-1		"Mercury"
+Map	lcd-2		Patch Name
+
+Scope	Skrock Music	se.skrockmusic.Nautilus
+//	Control Surface Item	Key	Remotable Item	Scale	Mode
+Map	master-volume		Master Volume
+
+Map	pan-1		Saw Pan
+Map	pan-2		Square Pan
+Map	pan-3		Sine Pan
+
+Map	pan-4		Filter Env
+Map	pan-5		Filter Cutoff
+Map	pan-6		Filter Resonance
+
+Map	fader-1		Amp Attack
+Map	fader-2		Amp Decay
+Map	fader-3		Amp Sustain
+Map	fader-4		Amp Release
+
+Map	fader-5		Filter Attack
+Map	fader-6		Filter Decay
+Map	fader-7		Filter Sustain
+Map	fader-8		Filter Release
+
+Map	preset-jog-wheel		Select Patch Delta
+Map	lcd-1		"Nautilus"
+Map	lcd-2		Patch Name
+
+Scope	Synapse Audio	com.synapseAudioSoftware.Antidote
+Define Group	Keyboard Shortcut Variations	Osc1	Osc2
+//Define Group	Target	Osc1	Osc2
+//	Control Surface Item	Key	Remotable Item	Scale	Mode
+//Map	part1-next		Target=Osc2			Osc1
+//Map	part2-prev		Target=Osc1			Osc2
+
+//	Control Surface Item	Key	Remotable Item	Scale	Mode
+Map	master-volume		Master Volume
+Map	master-pan		Glide
+
+Map	pan-1		Osc 1 Semi			Osc1
+Map	pan-2		Osc 1 Fine			Osc1
+Map	pan-3		Osc 1 Detune			Osc1
+Map	pan-4		Osc 1 Spread			Osc1
+Map	pan-5		Osc 1 Phase			Osc1
+Map	pan-6		Osc 1 Modifier			Osc1
+Map	pan-7		Osc 1 Key Track			Osc1
+Map	pan-8		Osc 1 Pan			Osc1
+
+Map	pan-1		Osc 2 Semi			Osc2
+Map	pan-2		Osc 2 Fine			Osc2
+Map	pan-3		Osc 2 Detune			Osc2
+Map	pan-4		Osc 2 Spread			Osc2
+Map	pan-5		Osc 2 Phase			Osc2
+Map	pan-6		Osc 2 Modifier			Osc2
+Map	pan-7		Osc 2 Key Track			Osc2
+Map	pan-8		Osc 2 Pan			Osc2
+
+Map	fader-1		Osc 1 Volume
+Map	fader-2		Osc 2 Volume
+Map	fader-3		Sub 1 Volume
+Map	fader-4		Sub 2 Volume
+Map	fader-5		Drift
+
+Map	preset-jog-wheel		Select Patch Delta
+Map	lcd-1		"Antidote (Osc1)"			Osc1
+Map	lcd-1		"Antidote (Osc2)"			Osc2
+Map	lcd-2		Patch Name

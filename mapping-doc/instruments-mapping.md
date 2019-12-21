@@ -398,3 +398,142 @@ The first line of the Arturia Keyboad LCD should display "Rytmik" follow by "Lev
 | Part1 / Next| Keyboard Shortcut Variations | To select FX variation |
 | Part2 / Prev| Keyboard Shortcut Variations | To select Level varation |
 | Jog-wheel | Select Previous/Next Preset | when "Preset" is selected |
+
+## Mapping with the A-List Accoustic Guitarist
+
+![Accoustic Guitarist](../images/AccousticGuitarist.jpg)
+
+The first line of the Arturia Keyboad LCD should display "Accoustic Guitar". The second line display the preset name.
+
+| Arturia Keyboard surface | Reason Command | Comment |
+| -------------------------- | -------------- | ----------------------- |
+| Encoder 1 | Character |  |
+| Encoder 2 | Position |  |
+| Encoder 3 | Style |  |
+| Encoder 4 | Swing |  |
+| Encoder 5 | Feel |  |
+| Encoder 6 | Shimmer | |
+| Encoder 7 | Attack |  |
+| Encoder 8 | Volume |  |
+| Jog-wheel | Select Previous/Next Preset | when "Preset" is selected |
+
+## Mapping with the Parsec Spectral Synthesizer
+
+![Parsec](../images/Parsec.png)
+
+The first line of the Arturia Keyboad LCD should display "Parsec". The second line display the preset name.
+
+| Arturia Keyboard surface | Reason Command | Comment |
+| -------------------------- | -------------- | ----------------------- |
+| Master fader | Master Level |  |
+| Master pan | Balance |  |
+| Encoder 1 | A Mod1 X |  |
+| Encoder 2 | A Mod1 Y |  |
+| Encoder 3 | A Mod2 X |  |
+| Encoder 4 | A Mod2 Y |  |
+| Encoder 5 | B Mod1 X |  |
+| Encoder 6 | B Mod1 Y | |
+| Encoder 7 | B Mod2 X |  |
+| Encoder 8 | B Mod2 Y |  |
+| Fader 1 | Env1 Attack |  |
+| Fader 2 | Env1 Decay|  |
+| Fader 3 | Env1 Sustain |  |
+| Fader 4 | Env1 Release |  |
+| Fader 5 | Env2 Attack|  |
+| Fader 6 | Env2 Decay|  |
+| Fader 7 | Env2 Sustain |  |
+| Fader 8 | Env2 Release|  |
+| Jog-wheel | Select Previous/Next Preset | when "Preset" is selected |
+
+## Mapping with the AutoTheory
+
+![AutoTheory](../images/AutoTheory.jpg)
+
+The first line of the Arturia Keyboad LCD should display "AutoTheory". The second line display the preset name.
+
+| Arturia Keyboard surface | Reason Command | Comment |
+| -------------------------- | -------------- | ----------------------- |
+| Encoder 1 | Key |  |
+| Encoder 2 | Scale |  |
+| Encoder 3 | Strummer Duration |  |
+| Encoder 4 | Strummer Absolute Velocity |  |
+| Encoder 5 | Strummer Humanise Amount |  |
+| Jog-wheel | Select Previous/Next Preset | when "Preset" is selected |
+
+## Mapping with the Mercury 4 Voice Polyphonic Arpeggiator
+
+![Mercury](../images/Mercury.jpg)
+
+The first line of the Arturia Keyboad LCD should display "Mercury". The second line display the preset name.
+
+| Arturia Keyboard surface | Reason Command | Comment |
+| -------------------------- | -------------- | ----------------------- |
+| Encoder 1 | Octave |  |
+| Encoder 2 | Octave Range |  |
+| Encoder 3 | Direction Mode |  |
+| Encoder 4 | Rate (Synced) |  |
+| Encoder 5 | Gate Length |  |
+| Encoder 6 | Shuffle |  |
+| Encoder 7 | Velocity Mode |  |
+| Encoder 8 | Velocity Amount |  |
+| Jog-wheel | Select Previous/Next Preset | when "Preset" is selected |
+
+## Mapping with the Nautilus Bass Synthesizer
+
+![Nautilus](../images/Nautilus.jpg)
+
+The first line of the Arturia Keyboad LCD should display "Nautilus". The second line display the preset name.
+
+| Arturia Keyboard surface | Reason Command | Comment |
+| -------------------------- | -------------- | ----------------------- |
+| Master fader | Master Volume |  |
+| Encoder 1 | Saw Pan |  |
+| Encoder 2 | Square Pan |  |
+| Encoder 3 | Sine Pan |  |
+| Encoder 4 | Filter Env |  |
+| Encoder 5 | Filter Cutoff |  |
+| Encoder 6 | Filter Resonance |  |
+| Fader 1 | Amp Attack |  |
+| Fader 2 | Amp Decay |  |
+| Fader 3 | Amp Sustain |  |
+| Fader 4 | Amp Release |  |
+| Fader 5 | Filter Attack|  |
+| Fader 6 | Filter Decay|  |
+| Fader 7 | Filter Sustain |  |
+| Fader 8 | Filter Release|  |
+| Jog-wheel | Select Previous/Next Preset | when "Preset" is selected |
+
+## Mapping with the Synapse Antidote
+
+![Antidote](../images/Antidote.jpg)
+
+The first line of the Arturia Keyboad LCD should display "Antidote" and "(Osc1)" or "(Osc2)" depending which variation is active. The second line display the preset name.
+
+| Arturia Keyboard surface | Reason Command | Comment |
+| -------------------------- | -------------- | ----------------------- |
+| Master fader | Master Volume |  |
+| Master fader | Glide |  |
+| Encoder 1 | Osc 1 Semi | When "Osc1" variation is active |
+| Encoder 2 | Osc 1 Fine | When "Osc1" variation is active |
+| Encoder 3 | Osc 1 Detune | When "Osc1" variation is active |
+| Encoder 4 | Osc 1 Spread | When "Osc1" variation is active |
+| Encoder 5 | Osc 1 Phase | When "Osc1" variation is active |
+| Encoder 6 | Osc 1 Modifier | When "Osc1" variation is active |
+| Encoder 7 | Osc 1 Key Track | When "Osc1" variation is active |
+| Encoder 8 | Osc 1 Pan | When "Osc1" variation is active |
+| Encoder 1 | Osc 2 Semi | When "Osc2" variation is active |
+| Encoder 2 | Osc 2 Fine | When "Osc2" variation is active |
+| Encoder 3 | Osc 2 Detune | When "Osc2" variation is active |
+| Encoder 4 | Osc 2 Spread | When "Osc2" variation is active |
+| Encoder 5 | Osc 2 Phase | When "Osc2" variation is active |
+| Encoder 6 | Osc 2 Modifier | When "Osc2" variation is active |
+| Encoder 7 | Osc 2 Key Track | When "Osc2" variation is active |
+| Encoder 8 | Osc 2 Pan | When "Osc2" variation is active |
+| Fader 1 | Osc 1 Volume |  |
+| Fader 2 | Osc 2 Volume |  |
+| Fader 3 | Sub 1 Volume |  |
+| Fader 4 | Sub 2 Volume |  |
+| Fader 5 | Drift |  |
+| Part1 / Next | Keyboard Shortcut Variations | To select Osc 2 varation |
+| Part2 / Prev | Keyboard Shortcut Variations | To select Osc 1 varation |
+| Jog-wheel | Select Previous/Next Preset | when "Preset" is selected |

@@ -21,6 +21,12 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
 * Add mapping for Classic Filter from MagmaSonic
 * Add mapping for RPSpec Spectogram from Rob Papen
 * Add mapping for Morphin XF Crossfader from Groovy Melon
+* Add mapping for A-List Accoustic Guitarist from Propellerhead Software
+* Add mapping for Parsec Spectral Synthesizer from Propellerhead Software
+* Add mapping for AutoTheory Spectral Synthesizer from Pitchblende
+* Add mapping for Mercury 4 Voice Polyphonic Arpeggiator Spectral Synthesizer from Quadelectra
+* Add mapping for Nautilus Bass Synthesizer from Skrock Music
+* Add mapping for Synapse Antidote from Synapse Audio
 
 ### Changed
 
