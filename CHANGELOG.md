@@ -17,6 +17,7 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
 * Add mapping for Propellerhead Software instruments bundle with Reason 10.4
 * Add mapping for Propellerhead Sofware utilities bundle with Reason 10.4
 * Add mapping for Propellerhead Sofware effects bundle with Reason 10.4
+* Add mapping for Propellerhead Sofware players bundle with Reason 10.4
 * Add mapping for Saturation Knob from Softube
 * Add mapping for Classic Filter from MagmaSonic
 * Add mapping for RPSpec Spectogram from Rob Papen
@@ -27,6 +28,7 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
 * Add mapping for Mercury 4 Voice Polyphonic Arpeggiator Spectral Synthesizer from Quadelectra
 * Add mapping for Nautilus Bass Synthesizer from Skrock Music
 * Add mapping for Synapse Antidote from Synapse Audio
+* Add mapping for Drum Sequencer from Propellerhead Software
 
 ### Changed
 

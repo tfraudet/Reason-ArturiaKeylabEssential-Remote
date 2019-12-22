@@ -1266,3 +1266,57 @@ Map	preset-jog-wheel		Select Patch Delta
 Map	lcd-1		"Antidote (Osc1)"			Osc1
 Map	lcd-1		"Antidote (Osc2)"			Osc2
 Map	lcd-2		Patch Name
+
+Scope	Propellerhead Software	se.propellerheads.ScalesAndChords
+//	Control Surface Item	Key	Remotable Item	Scale	Mode
+Map	pan-1		Key
+Map	pan-2		Scale
+Map	pan-3		Notes
+Map	pan-4		Inversion
+
+Map	preset-jog-wheel		Select Patch Delta
+Map	lcd-1		"Scales & Chords"
+Map	lcd-2		Patch Name
+
+Scope	Propellerhead Software	se.propellerheads.NoteEcho
+//	Control Surface Item	Key	Remotable Item	Scale	Mode
+Map	pan-1		Step Length Synced
+Map	pan-2		Repeats
+Map	pan-3		Velocity
+Map	pan-4		Pitch
+
+Map	preset-jog-wheel		Select Patch Delta
+Map	lcd-1		"Note Echo"
+Map	lcd-2		Patch Name
+
+Scope	Propellerhead Software	se.propellerheads.Arpeggio
+//	Control Surface Item	Key	Remotable Item	Scale	Mode
+Map	pan-1		Low Key 1
+Map	pan-2		High Key 1
+Map	pan-3		Rate 1
+Map	pan-4		Octaves 1
+Map	pan-5		Direction 1
+Map	pan-6		Shift Step 1
+Map	pan-7		Transpose 1
+Map	pan-8		Gate Length 1
+
+Map	fader-1		Low Key 2
+Map	fader-2		High Key 2
+Map	fader-3		Rate 2
+Map	fader-4		Octaves 2
+Map	fader-5		Direction 2
+Map	fader-6		Shift Step 2
+Map	fader-7		Transpose 2
+Map	fader-8		Gate Length 2
+
+Map	preset-jog-wheel		Select Patch Delta
+Map	lcd-1		"Dual Arpeggio"
+Map	lcd-2		Patch Name
+
+Scope	Propellerhead Software	se.propellerheads.DrumSeq
+//	Control Surface Item	Key	Remotable Item	Scale	Mode
+Map	master-pan		Pattern Select
+
+Map	preset-jog-wheel		Select Patch Delta
+Map	lcd-1		"Drum Sequencer"
+Map	lcd-2		Patch Name

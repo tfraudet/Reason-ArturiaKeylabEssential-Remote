@@ -30,8 +30,10 @@ The first line of the Arturia Keyboad LCD should display "Master (base ch)" and 
 | Jog wheel | Loop locators | jog wheel is used to change the position of left&right loop locators (press the jog wheel to change the active loop locator) |
 | Left Arrow | Tempo | Left & Right arrows buttons arround the jog wheel are use to change the tempo |
 | Right Arrow | Tempo | Left & Right arrows buttons arround the jog wheel are use to change the tempo |
-| Master fader| Master Section level | Change the Master Section level :warning: the `Arturia KeyLab 61 Essential Control` surface need to be locked to the Reason Master Section to work properlly |
+| Master fader| Master Section level | Change the Master Section level |
 | Encoder <1-8> | Channel <1-8> Pan | The group of 8 channels controlled are function of the base channel selected |
 | Fader <1-8> | Channel <1-8> Level | The group of 8 channels controlled are function of the base channel selected |
 | Part 1 | Next 8 Remote Base Channel | To select the next 8 remote channels that will be controlled at a given time |
 | Part 2 | Previous 8 Remote Base Channel | To select the previous 8 remote channels that will be controlled at a given time |
+
+:warning: the `Arturia KeyLab 61 Essential Control` surface need to be locked to the Reason Master Section to work properlly
