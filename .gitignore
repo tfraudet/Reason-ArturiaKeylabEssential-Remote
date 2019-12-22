@@ -1,4 +1,6 @@
 /products-doc/
 /Remote SDK/
+/scripts/
 .markdownlint.json
 .DS_Store
+.gitignore
