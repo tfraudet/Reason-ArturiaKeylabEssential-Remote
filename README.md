@@ -1,6 +1,6 @@
 # Reason-ArturiaKeylabEssential-Remote
 
-Remote is the Propellerheadʼs protocol for communication between hardware control surfaces and Reason Studio application. This project provides Reason remote scripts for the **DAW Command Center** surface of the Arturia Keylab Essential keyboard
+Remote is the Propellerheadʼs protocol for communication between hardware control surfaces and Reason Studio application. This project provides Reason remote scripts for the **DAW Command Center** surface of the Arturia Keylab Essential keyboard and the **keyboard** itself (pads, encoders and faders sections).
 
 ![Arturia Keylab Essential Logo](https://medias.arturia.net/images/products/keylab-essential/keylab-essential-image.png)
 
@@ -48,6 +48,14 @@ C:/ProgramData/Propellerhead Software/Remote
 * `Arturia KeyLab 61 Essential` map to Arturia Midi in & out ports and defined as master keyboard
 
 <img src="./images/SetupFinal.png" width="400">
+
+### :four: Set Keyboard Shortcut Variations
+
+To change which keyboard shortcut variation is selected in Reason using the Arturia keyboard, map Previous/Next keyboard shortcut variation to `Arturia KeyLab 61 Essential` - `part2-prev/part1-next`
+
+<img src="./images/SetKeyboardShortcutVariations.png" width="400">
+
+See [Reason doc](http://docs.propellerheads.se/reason10/wwhelp/wwhimpl/js/html/wwhelp.htm#context=EngOpManProjectPro&topic=PreferencesControlSurface) for more information
 
 ## Mapping between Arturia control surfaces and Reason
 

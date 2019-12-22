@@ -1,8 +1,8 @@
 --[[
 	Surface:	DAW Command Center of Arturia Keylab 61 Essential
 	Developer:	Thierry Fraudet
-	Version:	1.0
-	Date:		10/11/2019
+	Version:	1.1
+	Date:		22/12/2019
 
 ]]
 
@@ -16,6 +16,16 @@ g_right_loop_index = 13
 
 g_last_input_time=-2000
 g_last_input_item=nil
+
+g_lcd_line1_index = 35
+g_lcd_line2_index = 36
+g_lcd_line1_new_text = ""
+g_lcd_line1_old_text = ""
+g_lcd_line2_new_text = ""
+g_lcd_line2_old_text = ""
+
+g_part1_index = 15
+g_part2_index = 16
 
 function remote_init(manufacturer, model)
 	local items = {
@@ -34,8 +44,8 @@ function remote_init(manufacturer, model)
 		{name="right-loop", input="delta"},
 		{name="tempo", input="delta"},
 
-		{name="part1", input="button"},
-		{name="part2", input="button"},
+		{name="part1", input="button", output="value"},
+		{name="part2", input="button", output="value"},
 		{name="next", input="button"},
 		{name="prev", input="button"},
 		
@@ -275,10 +285,44 @@ function remote_process_midi(event)  -- handle incoming midi event
 end
 
 function remote_set_state(changed_items) --handle incoming changes sent by Reason
+	for i,item_index in ipairs(changed_items) do
+		if item_index==g_lcd_line1_index then
+			--g_is_lcd_enabled=remote.is_item_enabled(item_index)
+			g_lcd_line1_new_text=remote.get_item_text_value(item_index)
+		end
+
+		if item_index==g_lcd_line2_index then
+			--g_is_lcd_enabled=remote.is_item_enabled(item_index)
+			g_lcd_line2_new_text=remote.get_item_text_value(item_index)
+		end
+
+		if item_index==g_part1_index then
+			g_lcd_line2_new_text=""..remote.get_item_text_value(item_index)
+		end
+
+		if item_index==g_part2_index then
+			g_lcd_line2_new_text=""..remote.get_item_text_value(item_index)
+		end
+
+
+	end
+
 end
 
 function remote_deliver_midi(max_bytes, port)
 	local ret_events={}
+
+	-- if there is a new message to display 
+	if (g_lcd_line1_new_text ~= g_lcd_line1_old_text) then
+		g_lcd_line1_old_text = g_lcd_line1_new_text
+		table.insert(ret_events,make_lcd_midi_message(g_lcd_line1_new_text, g_lcd_line2_old_text))
+	end
+
+	-- if there is a new message to display 
+	if (g_lcd_line2_new_text ~= g_lcd_line2_old_text) then
+		g_lcd_line2_old_text = g_lcd_line2_new_text
+		table.insert(ret_events,make_lcd_midi_message(g_lcd_line1_old_text, g_lcd_line2_new_text))
+	end
 
 	-- play_pause_button_state has 3 value: stop, pause, play
 	-- following the state, we send sysex to light the pause/play button led

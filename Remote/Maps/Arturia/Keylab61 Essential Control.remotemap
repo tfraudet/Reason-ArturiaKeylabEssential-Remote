@@ -23,13 +23,12 @@ Map	right-loop		Right Loop
 Map	tempo		Tempo
 
 Scope	Propellerheads	Reason Master Section
-Define Group	Target	Channels	Master
+//Define Group	Keyboard Shortcut Variations	Channels	FX Lv-Pan
+Define Group	Target	Channels	FX Lv-Pan
 
 //	Control Surface Item	Key	Remotable Item	Scale	Mode	Groups
-Map	next		Target=Master			Channels
-Map	next		Target=Channels			Master
-//Map	prev		Target=Master			Channels
-//Map	prev		Target=Channels			Master
+Map	next		Target=FX Lv-Pan			Channels
+Map	prev		Target=Channels			FX Lv-Pan
 
 Map	part1		Next 8 Remote Base Channel
 Map	part2		Previous 8 Remote Base Channel
@@ -54,23 +53,24 @@ Map	encoder-6		Channel 6 Pan			Channels
 Map	encoder-7		Channel 7 Pan			Channels
 Map	encoder-8		Channel 8 Pan			Channels
 
-Map	fader-1		FX1 Return Level			Master
-Map	fader-2		FX2 Return Level			Master
-Map	fader-3		FX3 Return Level			Master
-Map	fader-4		FX4 Return Level			Master
-Map	fader-5		FX5 Return Level			Master
-Map	fader-6		FX6 Return Level			Master
-Map	fader-7		FX7 Return Level			Master
-Map	fader-8		FX8 Return Level			Master
+Map	fader-1		FX1 Return Level			FX Lv-Pan
+Map	fader-2		FX2 Return Level			FX Lv-Pan
+Map	fader-3		FX3 Return Level			FX Lv-Pan
+Map	fader-4		FX4 Return Level			FX Lv-Pan
+Map	fader-5		FX5 Return Level			FX Lv-Pan
+Map	fader-6		FX6 Return Level			FX Lv-Pan
+Map	fader-7		FX7 Return Level			FX Lv-Pan
+Map	fader-8		FX8 Return Level			FX Lv-Pan
 
-Map	encoder-1		FX1 Pan			Master
-Map	encoder-2		FX2 Pan			Master
-Map	encoder-3		FX3 Pan			Master
-Map	encoder-4		FX4 Pan			Master
-Map	encoder-5		FX5 Pan			Master
-Map	encoder-6		FX6 Pan			Master
-Map	encoder-7		FX7 Pan			Master
-Map	encoder-8		FX8 Pan			Master
+Map	encoder-1		FX1 Pan			FX Lv-Pan
+Map	encoder-2		FX2 Pan			FX Lv-Pan
+Map	encoder-3		FX3 Pan			FX Lv-Pan
+Map	encoder-4		FX4 Pan			FX Lv-Pan
+Map	encoder-5		FX5 Pan			FX Lv-Pan
+Map	encoder-6		FX6 Pan			FX Lv-Pan
+Map	encoder-7		FX7 Pan			FX Lv-Pan
+Map	encoder-8		FX8 Pan			FX Lv-Pan
 
-Map	lcd-1		"Reason Master Section"
+Map	lcd-1		"Master (base ch)"
+Map	lcd-2		""
 

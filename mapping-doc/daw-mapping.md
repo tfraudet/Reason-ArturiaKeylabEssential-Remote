@@ -21,7 +21,9 @@
 
 :bulb: When the `Map Select` button is pressed on the Arturia keyboard, the active pad will light up to show the Map currently in use.
 
-<img src="../images/keylab61-pads.png" width="400">
+The first line of the Arturia Keyboad LCD should display "Master (base ch)" and the second the name of the remote base channel selected.
+
+<img src="../images/keylab61-pads.jpg" width="400">
 
 | Arturia Keyboard surface | Reason Command | Comment |
 | -------------------------- | -------------- | ----------------------- |
@@ -29,3 +31,7 @@
 | Left Arrow | Tempo | Left & Right arrows buttons arround the jog wheel are use to change the tempo |
 | Right Arrow | Tempo | Left & Right arrows buttons arround the jog wheel are use to change the tempo |
 | Master fader| Master Section level | Change the Master Section level :warning: the `Arturia KeyLab 61 Essential Control` surface need to be locked to the Reason Master Section to work properlly |
+| Encoder <1-8> | Channel <1-8> Pan | The group of 8 channels controlled are function of the base channel selected |
+| Fader <1-8> | Channel <1-8> Level | The group of 8 channels controlled are function of the base channel selected |
+| Part 1 | Next 8 Remote Base Channel | To select the next 8 remote channels that will be controlled at a given time |
+| Part 2 | Previous 8 Remote Base Channel | To select the previous 8 remote channels that will be controlled at a given time |
