@@ -1,5 +1,14 @@
 # Utilities mapping
 
+* [Combinator](#mapping-with-the-combinator)
+* [Mixer 14:2](#mapping-with-the-mixer-142)
+* [Line Mixer 6:2](#mapping-with-the-line-mixer-62)
+* [Pulsar Dual LFO](#mapping-with-the-pulsar-dual-lfo)
+* [RPG-8 Monophonic Arpeggiator](#mapping-with-the-rpg-8-monophonic-arpeggiator)
+* [Matrix Pattern Sequencer](#mapping-with-the-matrix-pattern-sequencer)
+* [Morphin XF Crossfader](#mapping-with-the-morphin-xf-crossfader)
+* [RPSpec Spectogram](#mapping-with-the-rpspec-spectogram)
+
 ## Mapping with the Combinator
 
 ![Combinator Logo](../images/Combinator.png)

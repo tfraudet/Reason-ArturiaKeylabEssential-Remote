@@ -1,5 +1,32 @@
 # Effects mapping
 
+* [Alligator](#mapping-with-the-alligator)
+* [Echo](#mapping-with-the-echo)
+* [Pulveriser](#mapping-with-the-pulveriser)
+* [Softube BassAmp](#mapping-with-the-softube-bassamp)
+* [Softube Amp](#mapping-with-the-softube-amp)
+* [Synchronous Timed Effect Modulator](#mapping-with-the-synchronous-timed-effect-modulator)
+* [Audiomatic Retro Transformer](#mapping-with-the-audiomatic-retro-transformer)
+* [Scream 4 Sound Destruction Unit](#mapping-with-the-scream-4-sound-destruction-unit)
+* [BV512 Vocoder](#mapping-with-the-bv512-vocoder)
+* [Neptune Pitch Adjuster and Voice Synth](#mapping-with-the-neptune-pitch-adjuster-and-voice-synth)
+* [Reverb RV7000 Mk II Advanced Reverb](#mapping-with-the-reverb-rv7000-mk-ii-advanced-reverb)
+* [MClass Equalizer](#mapping-with-the-mclass-equalizer)
+* [MClass Compressor](#mapping-with-the-mclass-compressor)
+* [MClass Maximizer](#mapping-with-the-mclass-maximizer)
+* [MClass Stereo Imager](#mapping-with-the-mclass-stereo-imager)
+* [RV-7 Digital Reverb](#mapping-with-the-rv-7-digital-reverb)
+* [DDL-1 Digital Delay Line](#mapping-with-the-ddl-1-digital-delay-line)
+* [D-11 Foldback Distortion](#mapping-with-the-d-11-foldback-distortion)
+* [ECF-42 Envelope Controlled Filter](#mapping-with-the-ecf-42-envelope-controlled-filter)
+* [CF-101 Chorus/Flanger](#mapping-with-the-cf-101-chorusflanger)
+* [PH-90 Phaser](#mapping-with-the-ph-90-phaser)
+* [UN-16 Unison](#mapping-with-the-un-16-unison)
+* [COMP-01 Auto Make-up Gain Compressor](#mapping-with-the-comp-01-auto-make-up-gain-compressor)
+* [PEQ-2 Two Band Parametric EQ](#mapping-with-the-peq-2-two-band-parametric-eq)
+* [MagmaSonic Classic Filter](#mapping-with-the-magmasonic-classic-filter)
+* [Softube Saturation Knob](#mapping-with-the-softube-saturation-knob)
+
 ## Mapping with the Alligator
 
 ![Alligator Logo](../images/Alligator.png)

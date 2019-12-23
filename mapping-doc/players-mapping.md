@@ -1,5 +1,10 @@
 # Players mapping
 
+* [Scales & Chords](#mapping-with-scales--chords)
+* [Note Echo](#mapping-with-note-echo)
+* [Dual Arpeggio](#mapping-with-dual-arpeggio)
+* [Drum Sequencer](#mapping-with-drum-sequencer)
+
 ## Mapping with Scales & Chords
 
 ![ScalesAndChords](../images/ScalesAndChords.png)
