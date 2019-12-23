@@ -1,5 +1,4 @@
 ---
-layout: page
 title: Reason remote scripts for Arturia Keylab Essential
 ---
 # Utilities mapping
