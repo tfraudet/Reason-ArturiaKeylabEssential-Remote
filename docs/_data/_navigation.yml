@@ -5,12 +5,12 @@
 - title: Mapping
     subfolderitems:
       - page: DAW
-        url: /daw-mapping.md
+        url: /daw-mapping.html
       - page: Effects
-        url: /effects-mapping.md
+        url: /effects-mapping.html
       - page: Instruments
-        url: /instruments-mapping.md
+        url: /instruments-mapping.html
       - page: Utilities
-        url: /utilities-mapping.md
+        url: /utilities-mapping.html
       - page: PLayers
-        url: /players-mapping.md
+        url: /players-mapping.html
