@@ -4,3 +4,6 @@
 .markdownlint.json
 .DS_Store
 .gitignore
+/docs/Gemfile
+/docs/Gemfile.lock
+/docs/_site/
