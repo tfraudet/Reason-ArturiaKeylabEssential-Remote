@@ -1,0 +1,16 @@
+# Site navigation links
+- title: Home
+  url: /
+
+- title: Mapping
+    subfolderitems:
+      - page: DAW
+        url: /daw-mapping.md
+      - page: Effects
+        url: /effects-mapping.md
+      - page: Instruments
+        url: /instruments-mapping.md
+      - page: Utilities
+        url: /utilities-mapping.md
+      - page: PLayers
+        url: /players-mapping.md
