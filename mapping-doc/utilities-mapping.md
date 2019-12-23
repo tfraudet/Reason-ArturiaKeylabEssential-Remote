@@ -99,7 +99,6 @@ The first line of the Arturia Keyboad LCD should display "Matrix" and the second
 | Encoder 1 | Resolution |  |
 | Jog Wheel | Banck / Pattern selection | when "Preset" is selected |
 
-
 ## Mapping with the Morphin XF Crossfader
 
 ![Morfin XF](../images/MorfinXF.jpg)
