@@ -75,6 +75,7 @@ See [Reason doc](http://docs.propellerheads.se/reason10/wwhelp/wwhimpl/js/html/w
 ## Other links
 
 * [Markdown guide](https://guides.github.com/pdfs/markdown-cheatsheet-online.pdf)
+* [Create TOC for GitHub markdown files](https://imthenachoman.github.io/nGitHubTOC/)
 * [LUA 5.0 documentation](http://www.lua.org/manual/5.0/.)
 * [LUA Script tutorial](https://wxlua.developpez.com/tutoriels/lua/general/cours-complet/)
 * [Midi reference tables](https://www.midi.org/specifications-old/category/reference-tables)

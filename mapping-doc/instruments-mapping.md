@@ -1,8 +1,28 @@
 # Instruments mapping
 
-* [ID8 Instrument device](#user-content-mapping-with-the-id8-instrument-device)
-* [SubTractor Instrument device](#user-content-mapping-with-the-subtractor-instrument-device)
-* [Thor Instrument device](#user-content-mapping-with-the-thor-instrument-device)
+* [ID8 instrument device](#mapping-with-the-id8-instrument-device)
+* [SubTractor instrument device](#mapping-with-the-subtractor-instrument-device)
+* [Thor instrument device](#mapping-with-the-thor-instrument-device)
+* [Malstrom instrument device](#mapping-with-the-malstrom-instrument-device)
+* [NN19 Digital Sampler](#mapping-with-the-nn19-digital-sampler)
+* [NN-XT Advanced Sampler](#mapping-with-the-nn-xt-advanced-sampler)
+* [Dr. Octo REX](#mapping-with-the-dr-octo-rex)
+* [Redrum Drum Computer](#mapping-with-the-redrum-drum-computer)
+* [Kong Drum Designer](#mapping-with-the-kong-drum-designer)
+* [Europa Shapeshifting Synthesizer](#mapping-with-the-europa-shapeshifting-synthesizer)
+* [Grain Sample Manipulator](#mapping-with-the-grain-sample-manipulator)
+* [Monotone Bass Synthesizer](#mapping-with-the-monotone-bass-synthesizer)
+* [Radical Piano](#mapping-with-the-radical-piano)
+* [Klang Tuned Percussion](#mapping-with-the-klang-tuned-percussion)
+* [Pangea World Instruments](#mapping-with-the-pangea-world-instruments)
+* [Humana Vocal Ensemble](#mapping-with-the-humana-vocal-ensemble)
+* [Rytmik Drum Machine](#mapping-with-the-rytmik-drum-machine)
+* [A-List Accoustic Guitarist](#mapping-with-the-a-list-accoustic-guitarist)
+* [Parsec Spectral Synthesizer](#mapping-with-the-parsec-spectral-synthesizer)
+* [AutoTheory](#mapping-with-the-autotheory)
+* [Mercury 4 Voice Polyphonic Arpeggiator](#mapping-with-the-mercury-4-voice-polyphonic-arpeggiator)
+* [Nautilus Bass Synthesizer](#mapping-with-the-nautilus-bass-synthesizer)
+* [Synapse Antidote](#mapping-with-the-synapse-antidote)
 
 ## Mapping with the ID8 instrument device
 
