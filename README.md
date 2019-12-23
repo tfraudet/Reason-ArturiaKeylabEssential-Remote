@@ -1,6 +1,6 @@
 # Reason-ArturiaKeylabEssential-Remote
 
-Remote is the Propellerheadʼs protocol for communication between hardware control surfaces and Reason Studio application. This project provides Reason remote scripts for the **DAW Command Center** surface of the Arturia Keylab Essential keyboard and the **keyboard** itself (pads, encoders and faders sections).
+Remote is the Propellerheadʼs protocol for communication between hardware control surfaces and [Reason Studio](https://www.reasonstudios.com/fr/reason) application. This project provides Reason remote scripts for the **DAW Command Center** surface of the Arturia Keylab Essential keyboard and the **keyboard** itself (pads, encoders and faders sections).
 
 Have a look to the [documentation](https://tfraudet.github.io/Reason-ArturiaKeylabEssential-Remote/) for scripts installation & understand the keyboard mapping with the differents devices (instruments, players, effects, utilities)
 

@@ -3,3 +3,12 @@ locale: en_US
 theme: jekyll-theme-cayman
 plugins:
   - jemoji
+
+  # Enter the following platform usernames if you would like for them to appear on your site.
+owner:
+  name: Thierry Fraudet
+  email: thierry.fraudet@gmail.com
+  # Do not include the @ symbol in your Twitter username
+  twitter: tfraudet
+  linkedin: thierryfraudet
+  github: tfraudet
