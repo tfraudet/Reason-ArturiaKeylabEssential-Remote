@@ -1,5 +1,9 @@
 # Instruments mapping
 
+* [ID8 Instrument device](#user-content-mapping-with-the-id8-instrument-device)
+* [SubTractor Instrument device](#user-content-mapping-with-the-subtractor-instrument-device)
+* [Thor Instrument device](#user-content-mapping-with-the-thor-instrument-device)
+
 ## Mapping with the ID8 instrument device
 
 ![ID8 Logo](../images/ID8.png)
@@ -74,7 +78,7 @@ The first line of the Arturia Keyboad LCD should display "Thor" and the second o
 
 ![Malstrom Logo](../images/Malstrom.png)
 
-The first line of the Arturia Keyboad LCD should display "Malstrom" and the second one the preset name.
+The first line of the Arturia Keyboad LCD should display "Malstrom" and "(Osc-A)" or "(Osc-B)" depending which variation is active. The second line display the preset name.
 
 | Arturia Keyboard surface | Reason Command | Comment |
 | -------------------------- | -------------- | ----------------------- |
@@ -83,10 +87,14 @@ The first line of the Arturia Keyboad LCD should display "Malstrom" and the seco
 | Fader 2 | Filter Env Decay |  |
 | Fader 3 | Filter Env Sustain |  |
 | Fader 4 | Filter Env Release |  |
-| Fader 5 | Oscillator A Attack |  |
-| Fader 6 | Oscillator A Decay |  |
-| Fader 7 | Oscillator A Sustain |  |
-| Fader 8 | Oscillator A Release |  |
+| Fader 5 | Oscillator A Attack | When Osc-A variation is active |
+| Fader 6 | Oscillator A Decay | When Osc-A variation is active |
+| Fader 7 | Oscillator A Sustain | When Osc-A variation is active |
+| Fader 8 | Oscillator A Release | When Osc-A variation is active |
+| Fader 5 | Oscillator B Attack | When Osc-B variation is active |
+| Fader 6 | Oscillator B Decay | When Osc-B variation is active |
+| Fader 7 | Oscillator B Sustain | When Osc-B variation is active |
+| Fader 8 | Oscillator B Release | When Osc-B variation is active |
 | Encoder 1 | Filter A Freq |  |
 | Encoder 2 | Filter A Res |  |
 | Encoder 3 | Filter B Freq |  |
@@ -95,6 +103,8 @@ The first line of the Arturia Keyboad LCD should display "Malstrom" and the seco
 | Encoder 6 | Modulator B Rate |  |
 | Encoder 7 | Oscillator A Motion |  |
 | Encoder 8 | Oscillator B Motion |  |
+| Part1 / Next| Keyboard Shortcut Variations | To select Osc-B variation |
+| Part2 / Prev| Keyboard Shortcut Variations | To select Osc-A varation |
 | Jog-wheel | Select Previous/Next Preset | when "Preset" is selected |
 
 ## Mapping with the NN19 Digital Sampler
@@ -414,7 +424,7 @@ The first line of the Arturia Keyboad LCD should display "Accoustic Guitar". The
 | Encoder 5 | Feel |  |
 | Encoder 6 | Shimmer | |
 | Encoder 7 | Attack |  |
-| Encoder 8 | Volume |  |
+| Master fader | Volume |  |
 | Jog-wheel | Select Previous/Next Preset | when "Preset" is selected |
 
 ## Mapping with the Parsec Spectral Synthesizer

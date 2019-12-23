@@ -181,7 +181,9 @@ Map	preset-jog-wheel		Select Patch Delta
 Map	lcd-1		"Thor"
 Map	lcd-2		Patch Name
 
-Scope	Propellerheads	Malstrom Graintable Synthesizer			
+Scope	Propellerheads	Malstrom Graintable Synthesizer
+Define Group	Keyboard Shortcut Variations	OscA	OscB
+
 //	Control Surface Item	Key	Remotable Item	Scale	Mode
 Map	master-volume		Master Level
 
@@ -191,8 +193,6 @@ Map	pan-3		Filter B Freq
 Map	pan-4		Filter B Resonance
 Map	pan-5		Modulator A Rate
 Map	pan-6		Modulator B Rate
-//Map	pan-7		Filter Env Amount
-//Map	pan-8		Shaper Amount
 Map	pan-7		Oscillator A Motion
 Map	pan-8		Oscillator B Motion
 
@@ -200,13 +200,19 @@ Map	fader-1		Filter Env Attack
 Map	fader-2		Filter Env Decay
 Map	fader-3		Filter Env Sustain
 Map	fader-4		Filter Env Release
-Map	fader-5		Oscillator A Attack
-Map	fader-6		Oscillator A Decay
-Map	fader-7		Oscillator A Sustain
-Map	fader-8		Oscillator A Release
+Map	fader-5		Oscillator A Attack			OscA
+Map	fader-6		Oscillator A Decay			OscA
+Map	fader-7		Oscillator A Sustain			OscA
+Map	fader-8		Oscillator A Release			OscA
+
+Map	fader-5		Oscillator B Attack			OscB
+Map	fader-6		Oscillator B Decay			OscB
+Map	fader-7		Oscillator B Sustain			OscB
+Map	fader-8		Oscillator B Release			OscB
 
 Map	preset-jog-wheel		Select Patch Delta
-Map	lcd-1		"Malstrom"
+Map	lcd-1		"Malstrom (Osc-A)"			OscA
+Map	lcd-1		"Malstrom (Osc-B)"			OscB
 Map	lcd-2		Patch Name
 
 Scope	Propellerheads	NN19 Digital Sampler	
@@ -806,7 +812,8 @@ Map	pan-2		Transform
 
 Map	preset-jog-wheel		Preset
 Map	lcd-1		"Audiomatic"
-Map	lcd-2		Patch Name
+//Map	lcd-2		Patch Name
+Map	lcd-2		"Tape"
 
 Scope	Propellerheads	Scream 4 Distortion			
 //	Control Surface Item	Key	Remotable Item	Scale	Mode
@@ -1139,7 +1146,7 @@ Map	pan-4		Swing
 Map	pan-5		Feel
 Map	pan-6		Shimmer
 Map	pan-7		Attack
-Map	pan-8		Volume
+Map	master-volume		Volume
 
 Map	preset-jog-wheel		Select Patch Delta
 Map	lcd-1		"Accoustic Guitar"

@@ -67,7 +67,6 @@ See [Reason doc](http://docs.propellerheads.se/reason10/wwhelp/wwhimpl/js/html/w
 
 ## Ressources on Remote
 
-* [Korg Nano Kontrol](https://github.com/carlosedp/Reason-KorgNanoKontrol2-Remote) by <carlosedp@gmail.com>
 * [Propellerhead Control Remote Tutorial](https://www.reasonstudios.com/blog/control-remote)
 * [Reason Remoter](http://www.reasonremoter.uk/)
 * [Hacking Remote Files in Reason](https://www.soundonsound.com/techniques/hacking-remote-files-reason)
@@ -90,4 +89,4 @@ See [Reason doc](http://docs.propellerheads.se/reason10/wwhelp/wwhimpl/js/html/w
 * When Preset is selected, jog-wheel didn't change the preset selection (on ID8, Combinator)
   * Workaround on Combinator has been to use `Select Patch Delta` remotable item and jog-wheel as delta control for now.
 * Part1/Part2/Live buttons didn't select group variations on map file
-  * workarround has been to use Keyboard Shortcut Variations for now.
+  * workaround has been to use Keyboard Shortcut Variations for now.

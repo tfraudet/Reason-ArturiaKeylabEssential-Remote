@@ -203,6 +203,11 @@ function remote_set_state(changed_items) --handle incoming changes sent by Reaso
 				end
 			end
 
+			if g_lcd_line1_new_text == "Audiomatic" then
+				g_lcd_line2_new_text = remote.get_item_text_value(item_index)
+			end
+
+
 		end
 
 	end
