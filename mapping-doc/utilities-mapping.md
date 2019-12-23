@@ -1,6 +1,3 @@
----
-title: Reason remote scripts for Arturia Keylab Essential
----
 # Utilities mapping
 
 * [Combinator](#mapping-with-the-combinator)
