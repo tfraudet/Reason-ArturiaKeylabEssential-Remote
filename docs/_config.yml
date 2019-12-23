@@ -2,9 +2,10 @@ title: Reason remote scripts for Arturia Keylab Essential
 # description: [A short description of your site's purpose]
 locale: en_US
 theme: jekyll-theme-cayman
+show_downloads: "true" 
+google_analytics: UA-77429462-3
 plugins:
   - jemoji
-show_downloads: "true" google_analytics: UA-77429462-3
 
 # Enter the following platform usernames if you would like for them to appear on your site.
 owner:
