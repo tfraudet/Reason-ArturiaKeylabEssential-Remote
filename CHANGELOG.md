@@ -8,6 +8,14 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
 
 ### Added
 
+* Refactor of the documentation to support git-hub page
+
+### Changed
+
+### Removed
+
+## [1.1] - 2019, December 23
+
 * Changelog.md to track changes on this project
 * Add support for DAW Map Preset
   * jog wheel is used to change the position of left&right loop locators (press the jog wheel to change the active loop locator)  
@@ -30,13 +38,10 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
 * Add mapping for Synapse Antidote from Synapse Audio
 * Add mapping for Drum Sequencer from Propellerhead Software
 
-### Changed
-
-### Removed
-
 ## [1.0] - 2019, November 10
 
 Initial release
 
 [Unreleased]: https://github.com/tfraudet/Reason-ArturiaKeylabEssential-Remote/compare/v1.0...HEAD
 [1.0]: https://github.com/tfraudet/Reason-ArturiaKeylabEssential-Remote/releases/tag/v1.0
+[1.1]: https://github.com/tfraudet/Reason-ArturiaKeylabEssential-Remote/releases/tag/v1.1

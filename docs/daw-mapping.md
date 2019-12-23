@@ -1,6 +1,6 @@
 # Mapping between the Aturia DAW Command Center and Reason
 
-<img src="../images/DAWCommandCenter.png" width="300">
+<img src="./images/DAWCommandCenter.png" width="300">
 
 | Arturia DAW Command Center | Reason Command | Comment |
 | -------------------------- | -------------- | ----------------------- |
@@ -23,7 +23,7 @@
 
 The first line of the Arturia Keyboad LCD should display "Master (base ch)" and the second the name of the remote base channel selected.
 
-<img src="../images/keylab61-pads.jpg" width="400">
+<img src="./images/keylab61-pads.jpg" width="400">
 
 | Arturia Keyboard surface | Reason Command | Comment |
 | -------------------------- | -------------- | ----------------------- |

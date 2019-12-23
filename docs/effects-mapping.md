@@ -29,7 +29,7 @@
 
 ## Mapping with the Alligator
 
-![Alligator Logo](../images/Alligator.png)
+![Alligator Logo](./images/Alligator.png)
 
 The first line of the Arturia Keyboad LCD should display "Alligator" and the second one, the name of the selected patch or the active filter depending which variation is active.
 
@@ -75,7 +75,7 @@ The first line of the Arturia Keyboad LCD should display "Alligator" and the sec
 
 ## Mapping with The Echo
 
-![The Echo Logo](../images/TheEcho.png)
+![The Echo Logo](./images/TheEcho.png)
 
 The first line of the Arturia Keyboad LCD should display "The Echo" and the second one, the name of the selected patch.
 
@@ -103,7 +103,7 @@ The first line of the Arturia Keyboad LCD should display "The Echo" and the seco
 
 ## Mapping with the Pulveriser
 
-![PulveriserLogo](../images/Pulveriser.png)
+![PulveriserLogo](./images/Pulveriser.png)
 
 The first line of the Arturia Keyboad LCD should display "Pulveriser" and the second one, the name of the selected patch.
 
@@ -131,7 +131,7 @@ The first line of the Arturia Keyboad LCD should display "Pulveriser" and the se
 
 ## Mapping with the Softube BassAmp
 
-![Softube BassAmp](../images/SoftubeBassAmp.png)
+![Softube BassAmp](./images/SoftubeBassAmp.png)
 
 The first line of the Arturia Keyboad LCD should display "BassAmp" and the second one, the name of the selected patch.
 
@@ -149,7 +149,7 @@ The first line of the Arturia Keyboad LCD should display "BassAmp" and the secon
 
 ## Mapping with the Softube Amp
 
-![Softube Amp](../images/SoftubeAmp.jpg)
+![Softube Amp](./images/SoftubeAmp.jpg)
 
 The first line of the Arturia Keyboad LCD should display "Softube Amp" and the second one, the name of the selected patch.
 
@@ -168,7 +168,7 @@ The first line of the Arturia Keyboad LCD should display "Softube Amp" and the s
 
 ## Mapping with the Synchronous Timed Effect Modulator
 
-![Synchronous](../images/Synchronous.png)
+![Synchronous](./images/Synchronous.png)
 
 The first line of the Arturia Keyboad LCD should display "Synchronous" and the second one, the name of the selected patch.
 
@@ -193,7 +193,7 @@ The first line of the Arturia Keyboad LCD should display "Synchronous" and the s
 
 ## Mapping with the Audiomatic Retro Transformer
 
-![Audiomatic](../images/Audiomatic.png)
+![Audiomatic](./images/Audiomatic.png)
 
 The first line of the Arturia Keyboad LCD should display "Audiomatic" and the second one, the name of the selected patch.
 
@@ -207,7 +207,7 @@ The first line of the Arturia Keyboad LCD should display "Audiomatic" and the se
 
 ## Mapping with the Scream 4 Sound Destruction Unit
 
-![Scream](../images/Scream.png)
+![Scream](./images/Scream.png)
 
 The first line of the Arturia Keyboad LCD should display "Scream 4" and the second one, the name of the selected patch.
 
@@ -232,7 +232,7 @@ The first line of the Arturia Keyboad LCD should display "Scream 4" and the seco
 
 ## Mapping with the BV512 Vocoder
 
-![BV512 Vocoder](../images/BV512Vocoder.png)
+![BV512 Vocoder](./images/BV512Vocoder.png)
 
 The first line of the Arturia Keyboad LCD should display "BV512 Vocoder" and the second one, the range of active's bandes depending which variation is active.
 
@@ -254,7 +254,7 @@ The first line of the Arturia Keyboad LCD should display "BV512 Vocoder" and the
 
 ## Mapping with the Neptune Pitch Adjuster and Voice Synth
 
-![Neptune](../images/Neptune.png)
+![Neptune](./images/Neptune.png)
 
 The first line of the Arturia Keyboad LCD should display "Neptune" and the second one, the target note name.
 
@@ -273,7 +273,7 @@ The first line of the Arturia Keyboad LCD should display "Neptune" and the secon
 
 ## Mapping with the Reverb RV7000 Mk II Advanced Reverb
 
-![RV7000](../images/RV7000.png)
+![RV7000](./images/RV7000.png)
 
 The first line of the Arturia Keyboad LCD should display "RV7000" and the second one, the name of the selected patch.
 
@@ -288,7 +288,7 @@ The first line of the Arturia Keyboad LCD should display "RV7000" and the second
 
 ## Mapping with the MClass Equalizer
 
-![MClass Equalizer](../images/MClassEqualizer.png)
+![MClass Equalizer](./images/MClassEqualizer.png)
 
 The first line of the Arturia Keyboad LCD should display "MClass" and the second one "Equalizer".
 
@@ -309,7 +309,7 @@ The first line of the Arturia Keyboad LCD should display "MClass" and the second
 
 ## Mapping with the MClass Compressor
 
-![MClass Compressor](../images/MClassCompressor.png)
+![MClass Compressor](./images/MClassCompressor.png)
 
 The first line of the Arturia Keyboad LCD should display "MClass" and the second one "Comrpessor".
 
@@ -324,7 +324,7 @@ The first line of the Arturia Keyboad LCD should display "MClass" and the second
 
 ## Mapping with the MClass Maximizer
 
-![MClass Maximizer](../images/MClassMaximizer.png)
+![MClass Maximizer](./images/MClassMaximizer.png)
 
 The first line of the Arturia Keyboad LCD should display "MClass" and the second one "Maximizer".
 
@@ -338,7 +338,7 @@ The first line of the Arturia Keyboad LCD should display "MClass" and the second
 
 ## Mapping with the MClass Stereo Imager
 
-![MClass Stereo Imager](../images/MClassStereoImager.png)
+![MClass Stereo Imager](./images/MClassStereoImager.png)
 
 The first line of the Arturia Keyboad LCD should display "MClass" and the second one "Stereo Imager".
 
@@ -351,7 +351,7 @@ The first line of the Arturia Keyboad LCD should display "MClass" and the second
 
 ## Mapping with the RV-7 Digital Reverb
 
-![RV-7](../images/RV7.png)
+![RV-7](./images/RV7.png)
 
 The first line of the Arturia Keyboad LCD should display "RV-7 (reverb)" and the second one the name of the selected algorithm.
 
@@ -365,7 +365,7 @@ The first line of the Arturia Keyboad LCD should display "RV-7 (reverb)" and the
 
 ## Mapping with the DDL-1 Digital Delay Line
 
-![DDL-1](../images/DDL1.png)
+![DDL-1](./images/DDL1.png)
 
 The first line of the Arturia Keyboad LCD should display "DDL-1 (delay)".
 
@@ -379,7 +379,7 @@ The first line of the Arturia Keyboad LCD should display "DDL-1 (delay)".
 
 ## Mapping with the D-11 Foldback Distortion
 
-![D-11](../images/D11.png)
+![D-11](./images/D11.png)
 
 The first line of the Arturia Keyboad LCD should display "D-11 (dist.)".
 
@@ -390,7 +390,7 @@ The first line of the Arturia Keyboad LCD should display "D-11 (dist.)".
 
 ## Mapping with the ECF-42 Envelope Controlled Filter
 
-![ECF-42](../images/ECF42.png)
+![ECF-42](./images/ECF42.png)
 
 The first line of the Arturia Keyboad LCD should display "ECF-42 (filter)".
 
@@ -408,7 +408,7 @@ The first line of the Arturia Keyboad LCD should display "ECF-42 (filter)".
 
 ## Mapping with the CF-101 Chorus/Flanger
 
-![CF-101](../images/CF101.png)
+![CF-101](./images/CF101.png)
 
 The first line of the Arturia Keyboad LCD should display "CF-101 (Ch/Fl)".
 
@@ -421,7 +421,7 @@ The first line of the Arturia Keyboad LCD should display "CF-101 (Ch/Fl)".
 
 ## Mapping with the PH-90 Phaser
 
-![PH-90](../images/PH90.png)
+![PH-90](./images/PH90.png)
 
 The first line of the Arturia Keyboad LCD should display "PH-90 (Phaser)".
 
@@ -436,7 +436,7 @@ The first line of the Arturia Keyboad LCD should display "PH-90 (Phaser)".
 
 ## Mapping with the UN-16 Unison
 
-![UN-16](../images/UN16.png)
+![UN-16](./images/UN16.png)
 
 The first line of the Arturia Keyboad LCD should display "UN-16 (Unison)".
 
@@ -448,7 +448,7 @@ The first line of the Arturia Keyboad LCD should display "UN-16 (Unison)".
 
 ## Mapping with the COMP-01 Auto Make-up Gain Compressor
 
-![COMP-01](../images/COMP01.png)
+![COMP-01](./images/COMP01.png)
 
 The first line of the Arturia Keyboad LCD should display "COMP-01 (Comp.)".
 
@@ -462,7 +462,7 @@ The first line of the Arturia Keyboad LCD should display "COMP-01 (Comp.)".
 
 ## Mapping with the PEQ-2 Two Band Parametric EQ
 
-![PEQ-2](../images/PEQ2.png)
+![PEQ-2](./images/PEQ2.png)
 
 The first line of the Arturia Keyboad LCD should display "PEQ-2 (filter)".
 
@@ -477,7 +477,7 @@ The first line of the Arturia Keyboad LCD should display "PEQ-2 (filter)".
 
 ## Mapping with the MagmaSonic Classic Filter
 
-![MagmaSonic](../images/MagmaSonic.jpg)
+![MagmaSonic](./images/MagmaSonic.jpg)
 
 The first line of the Arturia Keyboad LCD should display "MagmaSonic".
 
@@ -490,7 +490,7 @@ The first line of the Arturia Keyboad LCD should display "MagmaSonic".
 
 ## Mapping with the Softube Saturation Knob
 
-![SaturationKnob](../images/SaturationKnob.jpg)
+![SaturationKnob](./images/SaturationKnob.jpg)
 
 The first line of the Arturia Keyboad LCD should display "Saturation Knob" and the second one, the name of the selected patch.
 

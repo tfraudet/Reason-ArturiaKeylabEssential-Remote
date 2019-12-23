@@ -1,6 +1,5 @@
 title: Reason remote scripts for Arturia Keylab Essential
 locale: en_US
-
 theme: jekyll-theme-cayman
 plugins:
   - jemoji

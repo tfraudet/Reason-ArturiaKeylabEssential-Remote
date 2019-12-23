@@ -11,7 +11,7 @@
 
 ## Mapping with the Combinator
 
-![Combinator Logo](../images/Combinator.png)
+![Combinator Logo](./images/Combinator.png)
 
 The 1 line of the Arturia Keyboad LCD should display "Combinator" and the second one the name of the selected patch
 
@@ -25,7 +25,7 @@ The 1 line of the Arturia Keyboad LCD should display "Combinator" and the second
 
 ## Mapping with the Mixer 14:2
 
-![Mixer 14:2 Logo](../images/Mixer14_2.png)
+![Mixer 14:2 Logo](./images/Mixer14_2.png)
 
 The first line of the Arturia Keyboad LCD should display "Mixer 14:2" and  the second one "Ch1-8" or "Ch9-16" depending which variation is active.
 
@@ -42,7 +42,7 @@ The first line of the Arturia Keyboad LCD should display "Mixer 14:2" and  the s
 
 ## Mapping with the Line Mixer 6:2
 
-![Line Mixer 6:2 Logo](../images/LineMixer6.png)
+![Line Mixer 6:2 Logo](./images/LineMixer6.png)
 
 The first line of the Arturia Keyboad LCD should display "Line Mixer 6:2" and  the second one "Level&Pan" or "Aux" depending which variation is active.
 
@@ -58,7 +58,7 @@ The first line of the Arturia Keyboad LCD should display "Line Mixer 6:2" and  t
 
 ## Mapping with the Pulsar Dual LFO
 
-![Pulsar Logo](../images/Pulsar.png)
+![Pulsar Logo](./images/Pulsar.png)
 
 The first line of the Arturia Keyboad LCD should display "Pulsar".
 
@@ -74,7 +74,7 @@ The first line of the Arturia Keyboad LCD should display "Pulsar".
 
 ## Mapping with the RPG-8 Monophonic Arpeggiator
 
-![RPG-8 Logo](../images/RPG8.png)
+![RPG-8 Logo](./images/RPG8.png)
 
 The first line of the Arturia Keyboad LCD should display "RPG8 Arpeggiator".
 
@@ -90,7 +90,7 @@ The first line of the Arturia Keyboad LCD should display "RPG8 Arpeggiator".
 
 ## Mapping with the Matrix Pattern Sequencer
 
-![Matrix Logo](../images/Matrix.png)
+![Matrix Logo](./images/Matrix.png)
 
 The first line of the Arturia Keyboad LCD should display "Matrix" and the second line the bank & the pattern active
 
@@ -101,7 +101,7 @@ The first line of the Arturia Keyboad LCD should display "Matrix" and the second
 
 ## Mapping with the Morphin XF Crossfader
 
-![Morfin XF](../images/MorfinXF.jpg)
+![Morfin XF](./images/MorfinXF.jpg)
 
 The first line of the Arturia Keyboad LCD should display "Groovy Melon" and the second one "MorfinXF".
 
@@ -116,7 +116,7 @@ The first line of the Arturia Keyboad LCD should display "Groovy Melon" and the 
 
 ## Mapping with the RPSpec Spectogram
 
-![RBSpec](../images/RBSpec.jpg)
+![RBSpec](./images/RBSpec.jpg)
 
 The first line of the Arturia Keyboad LCD should display "Rob papen" and the second one "RBSpec Spectogram".
 

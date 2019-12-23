@@ -7,7 +7,7 @@
 
 ## Mapping with Scales & Chords
 
-![ScalesAndChords](../images/ScalesAndChords.png)
+![ScalesAndChords](./images/ScalesAndChords.png)
 
 The first line of the Arturia Keyboad LCD should display "Scales & Chords" and the second one, the name of the selected patch.
 
@@ -21,7 +21,7 @@ The first line of the Arturia Keyboad LCD should display "Scales & Chords" and t
 
 ## Mapping with Note Echo
 
-![NoteEcho](../images/NoteEcho.png)
+![NoteEcho](./images/NoteEcho.png)
 
 The first line of the Arturia Keyboad LCD should display "Note Echo" and the second one, the name of the selected patch.
 
@@ -35,7 +35,7 @@ The first line of the Arturia Keyboad LCD should display "Note Echo" and the sec
 
 ## Mapping with Dual Arpeggio
 
-![DualArpeggio](../images/DualArpeggio.png)
+![DualArpeggio](./images/DualArpeggio.png)
 
 The first line of the Arturia Keyboad LCD should display "Dual Arpeggio" and the second one, the name of the selected patch.
 
@@ -61,7 +61,7 @@ The first line of the Arturia Keyboad LCD should display "Dual Arpeggio" and the
 
 ## Mapping with Drum Sequencer
 
-![DrumSequencer](../images/DrumSequencer.jpg)
+![DrumSequencer](./images/DrumSequencer.jpg)
 
 The first line of the Arturia Keyboad LCD should display "Drum Sequencer" and the second one, the name of the selected patch.
 
