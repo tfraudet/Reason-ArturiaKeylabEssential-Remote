@@ -16,16 +16,3 @@
 
 - name: Players
   link: players-mapping.html
-
-# - title: Mapping
-#     subfolderitems:
-#       - page: DAW
-#         url: /daw-mapping.html
-#       - page: Effects
-#         url: /effects-mapping.html
-#       - page: Instruments
-#         url: /instruments-mapping.html
-#       - page: Utilities
-#         url: /utilities-mapping.html
-#       - page: PLayers
-#         url: /players-mapping.html
