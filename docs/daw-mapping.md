@@ -1,3 +1,6 @@
+---
+description: Mapping between Reason Studio and Arturia Keylab Essential DAW command center and DAW map
+---
 # Mapping between the Aturia DAW Command Center and Reason
 
 <img src="./images/DAWCommandCenter.png" width="300">

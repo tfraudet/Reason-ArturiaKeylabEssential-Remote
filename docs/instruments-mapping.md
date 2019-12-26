@@ -1,3 +1,6 @@
+---
+description: Mapping between Reason Studio instruments and Arturia Keylab Essential
+---
 # Instruments mapping
 
 * [ID8 instrument device](#mapping-with-the-id8-instrument-device)

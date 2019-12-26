@@ -1,4 +1,4 @@
-title: Reason remote scripts for Arturia Keylab Essential
+title: Reason Studio remote scripts for Arturia Keylab Essential
 # description: [A short description of your site's purpose]
 locale: en_US
 theme: jekyll-theme-cayman
@@ -6,12 +6,4 @@ show_downloads: "true"
 google_analytics: UA-77429462-3
 plugins:
   - jemoji
-
-# Enter the following platform usernames if you would like for them to appear on your site.
-owner:
-  name: Thierry Fraudet
-  email: thierry.fraudet@gmail.com
-  # Do not include the @ symbol in your Twitter username
-  twitter: tfraudet
-  linkedin: thierryfraudet
-  github: tfraudet
+  

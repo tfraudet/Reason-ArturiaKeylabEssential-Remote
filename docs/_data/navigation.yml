@@ -1,6 +1,21 @@
 # Site navigation links
-- title: Home
-  url: /
+- name: Home
+  link: /
+
+- name: DAW
+  link: /daw-mapping.html
+
+- name: Effects
+  link: /effects-mapping.html
+
+- name: Instruments
+  link: /instruments-mapping.html
+
+- name: Utilities
+  link: /utilities-mapping.html
+
+- name: Players
+  link: /players-mapping.html
 
 # - title: Mapping
 #     subfolderitems:

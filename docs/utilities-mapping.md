@@ -1,3 +1,6 @@
+---
+description: Mapping between Reason Studio utilities and Arturia Keylab Essential
+---
 # Utilities mapping
 
 * [Combinator](#mapping-with-the-combinator)

@@ -1,3 +1,6 @@
+---
+description: Mapping between Reason Studio players and Arturia Keylab Essential
+---
 # Players mapping
 
 * [Scales & Chords](#mapping-with-scales--chords)

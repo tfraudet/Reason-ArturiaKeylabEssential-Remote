@@ -1,3 +1,6 @@
+---
+description: Mapping between Reason Studio effects and Arturia Keylab Essential
+---
 # Effects mapping
 
 * [Alligator](#mapping-with-the-alligator)
