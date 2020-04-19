@@ -1,7 +1,7 @@
 --[[
 	Surface:	Keyboard Arturia Keylab 61 Essential
 	Developer:	Thierry Fraudet
-	Version:	1.1
+	Version:	1.2
 	Date:		21/12/2019
 
 ]]
@@ -13,6 +13,8 @@ g_lcd_line1_old_text = ""
 g_lcd_line2_new_text = ""
 g_lcd_line2_old_text = ""
 g_preset_jog_wheel_index = 36
+g_cat_jog_wheel_index = 43
+g_quartet_effect_selected = ""
 
 function remote_init(manufacturer, model)
 	local items = {
@@ -57,6 +59,7 @@ function remote_init(manufacturer, model)
 		{name="master-pan", input="value", min=0, max=127},
 		{name="master-volume", input="value", min=0, max=127},
 
+		-- index 36
 		{name="preset-jog-wheel", input="delta", output="value", min=0, max=127},
 		{name="preset-jog-wheel-button", input="button"},
 		{name="preset-prev", input="button"},
@@ -66,13 +69,58 @@ function remote_init(manufacturer, model)
 		{name="part2-prev", input="button"},
 		{name="live-bank", input="button"},
 
-		{name="cat-jog-wheel", input="delta"},
+		{name="cat-jog-wheel", input="delta", output="value", min=0, max=127},
 		{name="cat-jog-wheel-button", input="button"},
 		{name="cat-prev", input="button"},
 		{name="cat-next", input="button"},
 
 		{name="left-arrow", input="button"},
 		{name="right-arrow", input="button"},
+
+		-- index is 49
+		{name="pan-1-var-a", input="value", output="value", min=0, max=127},
+		{name="pan-2-var-a", input="value", output="value", min=0, max=127},
+		{name="pan-3-var-a", input="value", output="value", min=0, max=127},
+		{name="pan-4-var-a", input="value", output="value", min=0, max=127},
+		{name="pan-5-var-a", input="value", output="value", min=0, max=127},
+		{name="pan-6-var-a", input="value", output="value", min=0, max=127},
+		{name="pan-7-var-a", input="value", output="value", min=0, max=127},
+		{name="pan-8-var-a", input="value", output="value", min=0, max=127},
+		{name="master-pan-var-a", input="value", output="value", min=0, max=127},
+
+		-- index is 58
+		{name="pan-1-var-b", input="value", output="value", min=0, max=127},
+		{name="pan-2-var-b", input="value", output="value", min=0, max=127},
+		{name="pan-3-var-b", input="value", output="value", min=0, max=127},
+		{name="pan-4-var-b", input="value", output="value", min=0, max=127},
+		{name="pan-5-var-b", input="value", output="value", min=0, max=127},
+		{name="pan-6-var-b", input="value", output="value", min=0, max=127},
+		{name="pan-7-var-b", input="value", output="value", min=0, max=127},
+		{name="pan-8-var-b", input="value", output="value", min=0, max=127},
+		{name="master-pan-var-b", input="value", output="value", min=0, max=127},
+		
+		-- index is 67
+		{name="pan-1-var-c", input="value", output="value", min=0, max=127},
+		{name="pan-2-var-c", input="value", output="value", min=0, max=127},
+		{name="pan-3-var-c", input="value", output="value", min=0, max=127},
+		{name="pan-4-var-c", input="value", output="value", min=0, max=127},
+		{name="pan-5-var-c", input="value", output="value", min=0, max=127},
+		{name="pan-6-var-c", input="value", output="value", min=0, max=127},
+		{name="pan-7-var-c", input="value", output="value", min=0, max=127},
+		{name="pan-8-var-c", input="value", output="value", min=0, max=127},
+		{name="master-pan-var-c", input="value", output="value", min=0, max=127},
+
+		-- index is 76
+		{name="pan-1-var-d", input="value", output="value", min=0, max=127},
+		{name="pan-2-var-d", input="value", output="value", min=0, max=127},
+		{name="pan-3-var-d", input="value", output="value", min=0, max=127},
+		{name="pan-4-var-d", input="value", output="value", min=0, max=127},
+		{name="pan-5-var-d", input="value", output="value", min=0, max=127},
+		{name="pan-6-var-d", input="value", output="value", min=0, max=127},
+		{name="pan-7-var-d", input="value", output="value", min=0, max=127},
+		{name="pan-8-var-d", input="value", output="value", min=0, max=127},
+		{name="master-pan-var-d", input="value", output="value", min=0, max=127},
+
 	}
 	remote.define_items(items)
 
@@ -120,7 +168,7 @@ function remote_init(manufacturer, model)
 		-- {pattern="b? 72 3f", name="preset-prev", value="1"},
 		-- {pattern="b? 72 41", name="preset-next", value="1"},
 
-		-- {pattern="b? 70 <?y??><???x>", name="cat-jog-wheel", value="x*(2*y-1)"},  -- when "Cat" is selected, 41 <0100><0001>   ou  3f <0011><1111>
+		{pattern="b? 70 <?y??><???x>", name="cat-jog-wheel", value="x*(2*y-1)"},  -- when "Cat" is selected, 41 <0100><0001>   ou  3f <0011><1111>
 		{pattern="b? 71 xx", name="cat-jog-wheel-button", value="x"},	-- when "Cat" is selected
 		{pattern="b? 70 3f", name="cat-prev", value="1"},
 		{pattern="b? 70 41", name="cat-next", value="1"},
@@ -132,7 +180,6 @@ function remote_init(manufacturer, model)
 
 		{pattern="b? 1c xx", name="left-arrow", value="x"},
 		{pattern="b? 1d xx", name="right-arrow", value="x"},
-
 	}
 	remote.define_auto_inputs(inputs)
 
@@ -149,6 +196,31 @@ function remote_init(manufacturer, model)
 	}
 	remote.define_auto_outputs(outputs)
 
+end
+
+encoder_patterns = {
+	"b? 4a xx", -- pan-1
+	"b? 47 xx", -- pan-2
+	"b? 4c xx", -- pan-3
+	"b? 4d xx", -- pan-4
+
+	"b? 5d xx", -- pan-5
+	"b? 12 xx", -- pan-6
+	"b? 13 xx", -- pan-7
+	"b? 10 xx", -- pan-8
+
+	"b? 11 xx", -- master pan
+}
+
+-- Return the encoder that has been activated (1 to 8 and 9 for the master-pan) or -1 if any
+function incomingMidiMessageFromEncoder(event)
+	for key,value in ipairs(encoder_patterns) do
+		ret = remote.match_midi(value,event)
+		if ret~=nil then
+			return key
+		end
+	end
+	return -1
 end
 
 function remote_process_midi(event)  -- handle incoming midi event
@@ -169,7 +241,38 @@ function remote_process_midi(event)  -- handle incoming midi event
 	-- 	remote.handle_input(msg)
 	-- 	return true
 	-- end
-	
+
+
+	local tab_index = {Chorus = 49, BDD = 58, FFT = 67, Grain = 76}
+
+	if string.starts(g_lcd_line1_new_text,"Quartet") then
+		local encoder_number = incomingMidiMessageFromEncoder(event) -- which encoder number send midi ?	
+		local item_to_activate 
+
+		-- tell reason to process the translated incoming midi message 
+		if encoder_number > 0 then
+
+			-- handle midi msg depending on selected effect on Quartet
+			if g_quartet_effect_selected == "Chorus" then
+				item_to_activate = tab_index.Chorus + (encoder_number-1)
+			elseif g_quartet_effect_selected == "BBD" then
+				item_to_activate = tab_index.BDD + (encoder_number-1)
+			elseif g_quartet_effect_selected == "FFT" then
+				item_to_activate = tab_index.FFT + (encoder_number-1)
+			elseif g_quartet_effect_selected == "Grain" then
+				item_to_activate = tab_index.Grain + (encoder_number-1)
+			end
+
+			-- decode the incoming midi message for the activated encoder
+			ret = remote.match_midi(encoder_patterns[encoder_number],event)
+			if ret~=nil then
+				msg={ time_stamp=event.time_stamp, item=item_to_activate, value=ret.x }
+				remote.handle_input(msg)
+				return true
+			end
+		end
+	end
+	return false
 end
 
 
@@ -178,6 +281,7 @@ g_matrix_bank = { "A", "B", "C", "D"}
 
 function remote_set_state(changed_items) --handle incoming changes sent by Reason
 	for i,item_index in ipairs(changed_items) do
+		-- if i==0 then g_lcd_line2_new_text = '!'; end
 		if item_index==g_lcd_line1_index then
 			--g_is_lcd_enabled=remote.is_item_enabled(item_index)
 			g_lcd_line1_new_text=remote.get_item_text_value(item_index)
@@ -206,10 +310,15 @@ function remote_set_state(changed_items) --handle incoming changes sent by Reaso
 			if g_lcd_line1_new_text == "Audiomatic" then
 				g_lcd_line2_new_text = remote.get_item_text_value(item_index)
 			end
-
-
 		end
 
+		if string.starts(g_lcd_line1_new_text,"Quartet") then
+			if item_index==g_cat_jog_wheel_index then
+				g_quartet_effect_selected = remote.get_item_text_value(item_index)
+				g_lcd_line1_new_text = "Quartet ("..g_quartet_effect_selected..")"
+				-- g_lcd_line2_new_text = " ES -"..remote.get_item_text_value(item_index)
+			end
+		end
 	end
 end
 
@@ -276,3 +385,8 @@ function make_lcd_midi_message(line1, line2)
 	local event=remote.make_midi(sysex)
 	return event
 end
+
+function string.starts(String,Start)
+	return string.sub(String,1,string.len(Start)) == Start
+end
+

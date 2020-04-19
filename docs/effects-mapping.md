@@ -29,6 +29,7 @@ description: Mapping between Reason Studio effects and Arturia Keylab Essential
 * [PEQ-2 Two Band Parametric EQ](#mapping-with-the-peq-2-two-band-parametric-eq)
 * [MagmaSonic Classic Filter](#mapping-with-the-magmasonic-classic-filter)
 * [Softube Saturation Knob](#mapping-with-the-softube-saturation-knob)
+* [Quartet Chorus Ensemble](#mapping-with-the-quartet-chorus-ensemble)
 
 ## Mapping with the Alligator
 
@@ -502,3 +503,40 @@ The first line of the Arturia Keyboad LCD should display "Saturation Knob" and t
 | Encoder 1 | Saturation |  |
 | Encoder 2 | Saturation Type |  |
 | Jog Wheel | Select Previous/Next Algorithm | when "Preset" is selected |
+
+## Mapping with the Quartet Chorus Ensemble
+
+![Quartet](./images/Quartet.png)
+
+The first line of the Arturia Keyboad LCD should display "Quartet" and the selected effect in brackets.
+
+| Arturia Keyboard surface | Reason Command | Comment |
+| -------------------------- | -------------- | ----------------------- |
+| Encoder 1 | Chorus Delay | When the Chorus effect is selected |
+| Encoder 2 | Chorus Depth | When the Chorus effect is selected  |
+| Encoder 3 | Chorus Rate | When the Chorus effect is selected  |
+| Encoder 4 | Chorus Feedback | When the Chorus effect is selected  |
+| Encoder 5 | Chorus Width | When the Chorus effect is selected  |
+| Master Pan | Chorus DryWet | When the Chorus effect is selected  |
+| Encoder 1 | BBD Delay | When the BBD effect is selected |
+| Encoder 2 | BBD Depth | When the BBD effect is selected  |
+| Encoder 3 | BBD Rate | When the BBD effect is selected  |
+| Encoder 4 | BBD Noise | When the BBD effect is selected  |
+| Encoder 5 | BBD Width | When the BBD effect is selected  |
+| Master Pan | BBD DryWet | When the BBD effect is selected  |
+| Encoder 1 | FFT Size | When the FFT effect is selected |
+| Encoder 2 | FFT Depth | When the FFT effect is selected  |
+| Encoder 3 | FFT Start | When the FFT effect is selected  |
+| Encoder 4 | FFT End | When the FFT effect is selected  |
+| Encoder 5 | FFT Width | When the FFT effect is selected  |
+| Master Pan | FFT DryWet | When the FFT effect is selected  |
+| Encoder 1 | Grain Phase | When the FFT effect is selected |
+| Encoder 2 | Grain Size | When the FFT effect is selected  |
+| Encoder 3 | Grain Depth | When the FFT effect is selected  |
+| Encoder 4 | Grain Jitter | When the FFT effect is selected  |
+| Encoder 5 | Grain Density | When the FFT effect is selected  |
+| Encoder 6 | Grain Width | When the FFT effect is selected  |
+| Master Pan | Grain DryWet | When the FFT effect is selected  |
+| Jog Wheel | Patch selection | when "Preset" is selected |
+| Jog Wheel | Effect selection | when "Cat/Char" is selected |
+

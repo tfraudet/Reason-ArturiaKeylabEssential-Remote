@@ -2,7 +2,7 @@ Propellerhead Remote Mapping File
 File Format Version	1.0.0
 Control Surface Manufacturer	Arturia
 Control Surface Model	Keylab61 Essential
-Map Version	1.1.0
+Map Version	1.2.0
 
 //This is a remote map template for the Arturia KEYLAB61 Essential Keyboard and Reason 10
 
@@ -1326,4 +1326,41 @@ Map	master-pan		Pattern Select
 
 Map	preset-jog-wheel		Select Patch Delta
 Map	lcd-1		"Drum Sequencer"
+Map	lcd-2		Patch Name
+
+Scope	Propellerhead Software	se.propellerheads.Quartet
+//	Control Surface Item	Key	Remotable Item	Scale	Mode
+Map	cat-jog-wheel		Effect Select
+
+Map	pan-1-var-a		Chorus Delay
+Map	pan-2-var-a		Chorus Depth
+Map	pan-3-var-a		Chorus Rate
+Map	pan-4-var-a		Chorus Feedback
+Map	pan-5-var-a		Chorus Width
+Map	master-pan-var-a		Chorus DryWet
+
+Map	pan-1-var-b		BBD Delay
+Map	pan-2-var-b		BBD Depth
+Map	pan-3-var-b		BBD Rate
+Map	pan-4-var-b		BBD Noise
+Map	pan-5-var-b		BBD Width
+Map	master-pan-var-b		BBD DryWet
+
+Map	pan-1-var-c		FFT Size
+Map	pan-2-var-c		FFT Depth
+Map	pan-3-var-c		FFT Start
+Map	pan-4-var-c		FFT End
+Map	pan-5-var-c		FFT Width
+Map	master-pan-var-c		FFT DryWet
+
+Map	pan-1-var-d		Grain Phase
+Map	pan-2-var-d		Grain Size
+Map	pan-3-var-d		Grain Depth
+Map	pan-4-var-d		Grain Jitter
+Map	pan-5-var-d		Grain Density
+Map	pan-6-var-d		Grain Width
+Map	master-pan-var-d		Grain DryWet
+
+Map	preset-jog-wheel		Select Patch Delta
+Map	lcd-1		"Quartet (-)"
 Map	lcd-2		Patch Name
