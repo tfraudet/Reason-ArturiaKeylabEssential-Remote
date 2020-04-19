@@ -15,6 +15,7 @@ g_lcd_line2_old_text = ""
 g_preset_jog_wheel_index = 36
 g_cat_jog_wheel_index = 43
 g_quartet_effect_selected = ""
+g_sweeper_effect_selected = ""
 
 function remote_init(manufacturer, model)
 	local items = {
@@ -316,7 +317,13 @@ function remote_set_state(changed_items) --handle incoming changes sent by Reaso
 			if item_index==g_cat_jog_wheel_index then
 				g_quartet_effect_selected = remote.get_item_text_value(item_index)
 				g_lcd_line1_new_text = "Quartet ("..g_quartet_effect_selected..")"
-				-- g_lcd_line2_new_text = " ES -"..remote.get_item_text_value(item_index)
+			end
+		end
+
+		if string.starts(g_lcd_line1_new_text,"Sweeper") then
+			if item_index==g_cat_jog_wheel_index then
+				g_sweeper_effect_selected = remote.get_item_text_value(item_index)
+				g_lcd_line1_new_text = "Sweeper("..g_sweeper_effect_selected..")"
 			end
 		end
 	end

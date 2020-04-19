@@ -30,6 +30,7 @@ description: Mapping between Reason Studio effects and Arturia Keylab Essential
 * [MagmaSonic Classic Filter](#mapping-with-the-magmasonic-classic-filter)
 * [Softube Saturation Knob](#mapping-with-the-softube-saturation-knob)
 * [Quartet Chorus Ensemble](#mapping-with-the-quartet-chorus-ensemble)
+* [Sweeper Modulation Effect](#mapping-with-the-sweeper-modulation-effect)
 
 ## Mapping with the Alligator
 
@@ -508,7 +509,7 @@ The first line of the Arturia Keyboad LCD should display "Saturation Knob" and t
 
 ![Quartet](./images/Quartet.png)
 
-The first line of the Arturia Keyboad LCD should display "Quartet" and the selected effect in brackets.
+The first line of the Arturia Keyboad LCD should display "Quartet" and the selected effect in brackets. The second line should display the name of the selected patch.
 
 | Arturia Keyboard surface | Reason Command | Comment |
 | -------------------------- | -------------- | ----------------------- |
@@ -540,3 +541,25 @@ The first line of the Arturia Keyboad LCD should display "Quartet" and the selec
 | Jog Wheel | Patch selection | when "Preset" is selected |
 | Jog Wheel | Effect selection | when "Cat/Char" is selected |
 
+## Mapping with the Sweeper Modulation Effect
+
+![Sweeper](./images/Sweeper.png)
+
+The first line of the Arturia Keyboad LCD should display "Sweeper" and the selected effect in brackets. The second line should display the name of the selected patch.
+
+| Arturia Keyboard surface | Reason Command | Comment |
+| -------------------------- | -------------- | ----------------------- |
+| Encoder 1 | Freq |  |
+| Encoder 2 | Bandwidth |  |
+| Encoder 3 | Feedback |  |
+| Encoder 4 | Filter Drive |  |
+| Encoder 5 | Reso |  |
+| Encoder 8 | Spread |  |
+| Fader 1 | LFO Freq Mod |  |
+| Fader 2 | Env Freq Mod |  |
+| Fader 3 | LFO Amp Mod |  |
+| Fader 4 | Env Amp Mod |  |
+| Master Pan | DryWet |  |
+| Master Volume | Volume |  |
+| Jog Wheel | Patch selection | when "Preset" is selected |
+| Jog Wheel | Effect type selection | when "Cat/Char" is selected |

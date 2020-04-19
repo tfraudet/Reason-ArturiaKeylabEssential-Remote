@@ -1364,3 +1364,28 @@ Map	master-pan-var-d		Grain DryWet
 Map	preset-jog-wheel		Select Patch Delta
 Map	lcd-1		"Quartet (-)"
 Map	lcd-2		Patch Name
+
+Scope	Propellerhead Software	se.propellerheads.Sweeper
+//	Control Surface Item	Key	Remotable Item	Scale	Mode
+Map	master-volume		Volume
+Map	master-pan		DryWet
+
+Map	cat-jog-wheel		Type
+
+Map	pan-1		Freq
+Map	pan-2		Bandwidth
+Map	pan-3		Feedback
+
+Map	pan-4		Filter Drive
+Map	pan-5		Reso
+
+Map	pan-8		Spread
+
+Map	fader-1		LFO Freq Mod
+Map	fader-2		Env Freq Mod
+Map	fader-3		LFO Amp Mod
+Map	fader-4		Env Amp Mod
+
+Map	preset-jog-wheel		Select Patch Delta
+Map	lcd-1		"Sweeper (-)"
+Map	lcd-2		Patch Name
