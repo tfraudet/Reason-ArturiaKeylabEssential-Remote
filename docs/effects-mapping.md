@@ -31,6 +31,9 @@ description: Mapping between Reason Studio effects and Arturia Keylab Essential
 * [Softube Saturation Knob](#mapping-with-the-softube-saturation-knob)
 * [Quartet Chorus Ensemble](#mapping-with-the-quartet-chorus-ensemble)
 * [Sweeper Modulation Effect](#mapping-with-the-sweeper-modulation-effect)
+* [Master Bus Compressor](#mapping-with-the-master-bus-compressor)
+* [Channel Dynamics Compressor & Gate](#mapping-with-the-channel-dynamics-compressor-and-gate)
+* [Channel EQ Equalizer](#mapping-with-the-channel-eq-equalizer)
 
 ## Mapping with the Alligator
 
@@ -563,3 +566,59 @@ The first line of the Arturia Keyboad LCD should display "Sweeper" and the selec
 | Master Volume | Volume |  |
 | Jog Wheel | Patch selection | when "Preset" is selected |
 | Jog Wheel | Effect type selection | when "Cat/Char" is selected |
+
+## Mapping with the Master Bus Compressor
+
+![MasterBusComrpessor](./images/MasterCompressor.png)
+
+The first line of the Arturia Keyboad LCD should display "Master" and the second one "Bus Comrpessor".
+
+| Arturia Keyboard surface | Reason Command | Comment |
+| -------------------------- | -------------- | ----------------------- |
+| Encoder 1 | Input Gain |  |
+| Encoder 2 | Threshold |  |
+| Encoder 3 | Ratio |  |
+| Encoder 4 | Attack |  |
+| Encoder 5 | Release |  |
+| Encoder 5 | Make-Up Gain |  |
+| Master Pan | Mix |  |
+
+## Mapping with the Channel Dynamics Compressor and Gate
+
+![ChannelDyn](./images/ChannelDyn.png)
+
+The first line of the Arturia Keyboad LCD should display "Channel Dynamics" and the second one "Comp. & Gate".
+
+| Arturia Keyboard surface | Reason Command | Comment |
+| -------------------------- | -------------- | ----------------------- |
+| Encoder 1 | Input Gain |  |
+| Encoder 2 | Comp Ratio |  |
+| Encoder 3 | Comp Threshold |  |
+| Encoder 4 | Comp Release |  |
+| Encoder 5 | Gate Range |  |
+| Encoder 6 | Gate Hold |  |
+| Encoder 7 | Gate Threshold |  |
+| Encoder 8 | GGate Release |  |
+| Master Pan | Mix |  |
+
+## Mapping with the Channel EQ Equalizer
+
+![ChannelEQ](./images/ChannelEQ.png)
+
+The first line of the Arturia Keyboad LCD should display "Channel EQ" and the second one "Equalizer".
+
+| Arturia Keyboard surface | Reason Command | Comment |
+| -------------------------- | -------------- | ----------------------- |
+| Encoder 1 | HPF Frequency |  |
+| Encoder 2 | LPF Frequency |  |
+| Encoder 3 | LF Gain |  |
+| Encoder 4 | LF Frequency|  |
+| Encoder 5 | HF Gain |  |
+| Encoder 6 | HF Frequency |  |
+| Fader 1 | LMF Gain |  |
+| Fader 2 | LMF Frequency |  |
+| Fader 3 | LMF Q |  |
+| Fader 4 | HMF Gain|  |
+| Fader 5 | HMF Frequency |  |
+| Fader 6 | HMF Q |  |
+| Master Pan | Gain |  |

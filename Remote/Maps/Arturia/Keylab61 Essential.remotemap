@@ -1389,3 +1389,55 @@ Map	fader-4		Env Amp Mod
 Map	preset-jog-wheel		Select Patch Delta
 Map	lcd-1		"Sweeper (-)"
 Map	lcd-2		Patch Name
+
+Scope	Propellerhead Software	se.propellerheads.MasterCompressor
+//	Control Surface Item	Key	Remotable Item	Scale	Mode
+
+Map	pan-1		Input Gain
+Map	pan-2		Threshold
+Map	pan-3		Ratio
+Map	pan-4		Attack
+Map	pan-5		Release
+Map	pan-6		Make-Up Gain
+Map	master-pan		Mix
+
+Map	lcd-1		"Master"
+Map	lcd-2		"Bus Compressor"
+
+Scope	Propellerhead Software	se.propellerheads.ChannelDynamics
+//	Control Surface Item	Key	Remotable Item	Scale	Mode
+
+Map	pan-1		Input Gain
+Map	pan-2		Comp Ratio
+Map	pan-3		Comp Threshold
+Map	pan-4		Comp Release
+Map	pan-5		Gate Range
+Map	pan-6		Gate Hold
+Map	pan-7		Gate Threshold
+Map	pan-8		Gate Release
+Map	master-pan		Mix
+
+Map	lcd-1		"Channel Dynamics"
+Map	lcd-2		"Comp. & Gate"
+
+Scope	Propellerhead Software	se.propellerheads.ChannelEQ
+//	Control Surface Item	Key	Remotable Item	Scale	Mode
+
+Map	pan-1		HPF Frequency
+Map	pan-2		LPF Frequency
+Map	pan-3		LF Gain
+Map	pan-4		LF Frequency
+Map	pan-5		HF Gain
+Map	pan-6		HF Frequency
+
+Map	fader-1		LMF Gain
+Map	fader-2		LMF Frequency
+Map	fader-3		LMF Q
+Map	fader-4		HMF Gain
+Map	fader-5		HMF Frequency
+Map	fader-6		HMF Q
+
+Map	master-pan		Gain
+
+Map	lcd-1		"Channel EQ"
+Map	lcd-2		"Equalizer"
