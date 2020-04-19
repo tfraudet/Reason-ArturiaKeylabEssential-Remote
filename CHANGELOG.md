@@ -54,3 +54,4 @@ Initial release
 [Unreleased]: https://github.com/tfraudet/Reason-ArturiaKeylabEssential-Remote/compare/v1.0...HEAD
 [1.0]: https://github.com/tfraudet/Reason-ArturiaKeylabEssential-Remote/releases/tag/v1.0
 [1.1]: https://github.com/tfraudet/Reason-ArturiaKeylabEssential-Remote/releases/tag/v1.1
+[1.2]: https://github.com/tfraudet/Reason-ArturiaKeylabEssential-Remote/releases/tag/v1.2
