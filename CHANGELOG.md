@@ -10,6 +10,7 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
 
 * Refactor of the documentation to support git-hub page
 * Add mapping for Quartet Chorus Ensemble from Propellerhead Software
+* Add mapping for Sweeper Modulation Effect from Propellerhead Software
 
 ### Changed
 
