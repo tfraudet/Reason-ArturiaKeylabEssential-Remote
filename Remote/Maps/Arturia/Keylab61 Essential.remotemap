@@ -1441,3 +1441,20 @@ Map	master-pan		Gain
 
 Map	lcd-1		"Channel EQ"
 Map	lcd-2		"Equalizer"
+
+Scope	Propellerhead Software	se.propellerheads.BeatMap
+//	Control Surface Item	Key	Remotable Item	Scale	Mode
+
+Map	pan-1		Kick Density
+Map	pan-2		Snare Density
+Map	pan-3		Kick Mirror Velocity
+Map	pan-4		Snare Mirror Velocity
+
+Map	pan-5		Hat Density
+Map	pan-6		Perc Density
+Map	pan-7		Hat Mirror Velocity
+Map	pan-8		Perc Mirror Velocity
+
+Map	preset-jog-wheel		Select Patch Delta
+Map	lcd-1		"Beat Map"
+Map	lcd-2		Patch Name

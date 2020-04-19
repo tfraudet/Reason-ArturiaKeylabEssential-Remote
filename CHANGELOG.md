@@ -13,6 +13,7 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
 * Add mapping for Sweeper Modulation Effect from Propellerhead Software
 * Add mapping for Master Bus Compressor from Propellerhead Software
 * Add mapping for Channel Dynamics Compressor & Gate from Propellerhead Software
+* Add mapping for Beat Map from Propellerhead Software
 
 ### Changed
 

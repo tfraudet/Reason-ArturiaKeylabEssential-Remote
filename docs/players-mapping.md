@@ -7,6 +7,7 @@ description: Mapping between Reason Studio players and Arturia Keylab Essential
 * [Note Echo](#mapping-with-note-echo)
 * [Dual Arpeggio](#mapping-with-dual-arpeggio)
 * [Drum Sequencer](#mapping-with-drum-sequencer)
+* [Beat Map](#mapping-with-beat-map)
 
 ## Mapping with Scales & Chords
 
@@ -71,4 +72,22 @@ The first line of the Arturia Keyboad LCD should display "Drum Sequencer" and th
 | Arturia Keyboard surface | Reason Command | Comment |
 | -------------------------- | -------------- | ----------------------- |
 | Master pan | Pattern Select |  |
+| Jog Wheel | Select Previous/Next Preset | when "Preset" is selected |
+
+## Mapping with Beat Map
+
+![BeatMap](./images/BeatMap.png)
+
+The first line of the Arturia Keyboad LCD should display "BeatMap" and the second one, the name of the selected patch.
+
+| Arturia Keyboard surface | Reason Command | Comment |
+| -------------------------- | -------------- | ----------------------- |
+| Encoder 1 | Kick Density |  |
+| Encoder 2 | Snare Density |  |
+| Encoder 3 | Kick Mirror Velocity |  |
+| Encoder 4 | Snare Mirror Velocity |  |
+| Encoder 5 | Hat Density |  |
+| Encoder 6 | Perc Density |  |
+| Encoder 7 | Hat Mirror Velocity |  |
+| Encoder 8 | Perc Mirror Velocity |  |
 | Jog Wheel | Select Previous/Next Preset | when "Preset" is selected |
