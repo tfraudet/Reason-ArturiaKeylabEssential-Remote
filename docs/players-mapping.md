@@ -13,7 +13,7 @@ description: Mapping between Reason Studio players and Arturia Keylab Essential
 
 ![ScalesAndChords](./images/ScalesAndChords.png)
 
-The first line of the Arturia Keyboad LCD should display "Scales & Chords" and the second one, the name of the selected patch.
+The first line of the Arturia Keyboard LCD should display "Scales & Chords" and the second one, the name of the selected patch.
 
 | Arturia Keyboard surface | Reason Command | Comment |
 | -------------------------- | -------------- | ----------------------- |
@@ -27,7 +27,7 @@ The first line of the Arturia Keyboad LCD should display "Scales & Chords" and t
 
 ![NoteEcho](./images/NoteEcho.png)
 
-The first line of the Arturia Keyboad LCD should display "Note Echo" and the second one, the name of the selected patch.
+The first line of the Arturia Keyboard LCD should display "Note Echo" and the second one, the name of the selected patch.
 
 | Arturia Keyboard surface | Reason Command | Comment |
 | -------------------------- | -------------- | ----------------------- |
@@ -41,7 +41,7 @@ The first line of the Arturia Keyboad LCD should display "Note Echo" and the sec
 
 ![DualArpeggio](./images/DualArpeggio.png)
 
-The first line of the Arturia Keyboad LCD should display "Dual Arpeggio" and the second one, the name of the selected patch.
+The first line of the Arturia Keyboard LCD should display "Dual Arpeggio" and the second one, the name of the selected patch.
 
 | Arturia Keyboard surface | Reason Command | Comment |
 | -------------------------- | -------------- | ----------------------- |
@@ -67,7 +67,7 @@ The first line of the Arturia Keyboad LCD should display "Dual Arpeggio" and the
 
 ![DrumSequencer](./images/DrumSequencer.jpg)
 
-The first line of the Arturia Keyboad LCD should display "Drum Sequencer" and the second one, the name of the selected patch.
+The first line of the Arturia Keyboard LCD should display "Drum Sequencer" and the second one, the name of the selected patch.
 
 | Arturia Keyboard surface | Reason Command | Comment |
 | -------------------------- | -------------- | ----------------------- |
@@ -78,7 +78,7 @@ The first line of the Arturia Keyboad LCD should display "Drum Sequencer" and th
 
 ![BeatMap](./images/BeatMap.png)
 
-The first line of the Arturia Keyboad LCD should display "BeatMap" and the second one, the name of the selected patch.
+The first line of the Arturia Keyboard LCD should display "BeatMap" and the second one, the name of the selected patch.
 
 | Arturia Keyboard surface | Reason Command | Comment |
 | -------------------------- | -------------- | ----------------------- |
