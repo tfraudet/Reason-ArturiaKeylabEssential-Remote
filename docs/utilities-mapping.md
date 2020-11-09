@@ -16,7 +16,7 @@ description: Mapping between Reason Studio utilities and Arturia Keylab Essentia
 
 ![Combinator Logo](./images/Combinator.png)
 
-The 1 line of the Arturia Keyboad LCD should display "Combinator" and the second one the name of the selected patch
+The 1 line of the Arturia Keyboard LCD should display "Combinator" and the second one the name of the selected patch
 
 | Arturia Keyboard surface | Reason Command | Comment |
 | -------------------------- | -------------- | ----------------------- |
@@ -30,7 +30,7 @@ The 1 line of the Arturia Keyboad LCD should display "Combinator" and the second
 
 ![Mixer 14:2 Logo](./images/Mixer14_2.png)
 
-The first line of the Arturia Keyboad LCD should display "Mixer 14:2" and  the second one "Ch1-8" or "Ch9-16" depending which variation is active.
+The first line of the Arturia Keyboard LCD should display "Mixer 14:2" and  the second one "Ch1-8" or "Ch9-16" depending which variation is active.
 
 | Arturia Keyboard surface | Reason Command | Comment |
 | -------------------------- | -------------- | ----------------------- |
@@ -47,7 +47,7 @@ The first line of the Arturia Keyboad LCD should display "Mixer 14:2" and  the s
 
 ![Line Mixer 6:2 Logo](./images/LineMixer6.png)
 
-The first line of the Arturia Keyboad LCD should display "Line Mixer 6:2" and  the second one "Level&Pan" or "Aux" depending which variation is active.
+The first line of the Arturia Keyboard LCD should display "Line Mixer 6:2" and  the second one "Level&Pan" or "Aux" depending which variation is active.
 
 | Arturia Keyboard surface | Reason Command | Comment |
 | -------------------------- | -------------- | ----------------------- |
@@ -63,7 +63,7 @@ The first line of the Arturia Keyboad LCD should display "Line Mixer 6:2" and  t
 
 ![Pulsar Logo](./images/Pulsar.png)
 
-The first line of the Arturia Keyboad LCD should display "Pulsar".
+The first line of the Arturia Keyboard LCD should display "Pulsar".
 
 | Arturia Keyboard surface | Reason Command | Comment |
 | -------------------------- | -------------- | ----------------------- |
@@ -79,7 +79,7 @@ The first line of the Arturia Keyboad LCD should display "Pulsar".
 
 ![RPG-8 Logo](./images/RPG8.png)
 
-The first line of the Arturia Keyboad LCD should display "RPG8 Arpeggiator".
+The first line of the Arturia Keyboard LCD should display "RPG8 Arpeggiator".
 
 | Arturia Keyboard surface | Reason Command | Comment |
 | -------------------------- | -------------- | ----------------------- |
@@ -95,7 +95,7 @@ The first line of the Arturia Keyboad LCD should display "RPG8 Arpeggiator".
 
 ![Matrix Logo](./images/Matrix.png)
 
-The first line of the Arturia Keyboad LCD should display "Matrix" and the second line the bank & the pattern active
+The first line of the Arturia Keyboard LCD should display "Matrix" and the second line the bank & the pattern active
 
 | Arturia Keyboard surface | Reason Command | Comment |
 | -------------------------- | -------------- | ----------------------- |
@@ -106,7 +106,7 @@ The first line of the Arturia Keyboad LCD should display "Matrix" and the second
 
 ![Morfin XF](./images/MorfinXF.jpg)
 
-The first line of the Arturia Keyboad LCD should display "Groovy Melon" and the second one "MorfinXF".
+The first line of the Arturia Keyboard LCD should display "Groovy Melon" and the second one "MorfinXF".
 
 | Arturia Keyboard surface | Reason Command | Comment |
 | -------------------------- | -------------- | ----------------------- |
@@ -121,7 +121,7 @@ The first line of the Arturia Keyboad LCD should display "Groovy Melon" and the 
 
 ![RBSpec](./images/RBSpec.jpg)
 
-The first line of the Arturia Keyboad LCD should display "Rob papen" and the second one "RBSpec Spectogram".
+The first line of the Arturia Keyboard LCD should display "Rob papen" and the second one "RBSpec Spectogram".
 
 | Arturia Keyboard surface | Reason Command | Comment |
 | -------------------------- | -------------- | ----------------------- |
