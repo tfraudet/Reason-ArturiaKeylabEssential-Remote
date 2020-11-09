@@ -18,7 +18,7 @@ Have a look to the [documentation](https://tfraudet.github.io/Reason-ArturiaKeyl
 * [Utilities mapping](./docs/utilities-mapping.md)
 * [Players mapping](./docs/players-mapping.md)
 
-## Ressources on Remote
+## Resources on Remote
 
 * [Propellerhead Control Remote Tutorial](https://www.reasonstudios.com/blog/control-remote)
 * [Reason Remoter](http://www.reasonremoter.uk/)
