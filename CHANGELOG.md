@@ -6,7 +6,7 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
 
 ## [Unreleased]
 
-* nothing yet
+* Minor fixes: mainly correction of spelling mistakes
 
 ## [1.2] - 2020, April 19
 
