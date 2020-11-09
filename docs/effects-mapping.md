@@ -569,9 +569,9 @@ The first line of the Arturia Keyboad LCD should display "Sweeper" and the selec
 
 ## Mapping with the Master Bus Compressor
 
-![MasterBusComrpessor](./images/MasterCompressor.png)
+![MasterBusCompressor](./images/MasterCompressor.png)
 
-The first line of the Arturia Keyboad LCD should display "Master" and the second one "Bus Comrpessor".
+The first line of the Arturia Keyboad LCD should display "Master" and the second one "Bus Compressor".
 
 | Arturia Keyboard surface | Reason Command | Comment |
 | -------------------------- | -------------- | ----------------------- |
