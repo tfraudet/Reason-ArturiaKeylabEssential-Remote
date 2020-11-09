@@ -11,7 +11,7 @@ Remote is the Propellerheadʼs protocol for communication between hardware contr
 
 ### :one: Install the scripts
 
-To install the Remote scripts in your environement, the files in the `Remote` directory should be copied to your Propellerhead installation directory:
+To install the Remote scripts in your environment, the files in the `Remote` directory should be copied to your Propellerhead installation directory:
 
 * On MacOS
 
@@ -32,7 +32,7 @@ C:/ProgramData/Propellerhead Software/Remote
 <img src="./images/OpenControlSurfaceTab.png" width="400">
 
 * To add manually the control surface, click the “Add manually” button. This brings up a new dialog.
-* Select "Arturia Keylab 61 Essential Control" from the Model pop-up menu. Select `Arturia KeyLab 61 Essential DAW In` for `In Port` attribut and `Arturia Keylab Essential DAW Out` for `Out Port` attribut.
+* Select "Arturia Keylab 61 Essential Control" from the Model pop-up menu. Select `Arturia KeyLab 61 Essential DAW In` for `In Port` attribute and `Arturia Keylab Essential DAW Out` for `Out Port` attribute.
 
 <img src="./images/ControlSurfaceSelection.png" width="400">
 
@@ -40,7 +40,7 @@ C:/ProgramData/Propellerhead Software/Remote
 
 * Open the Preferences dialog and click the Control Surfaces tab.
 * To add manually the control surface, click the “Add manually” button. This brings up a new dialog.
-* Select "Arturia Keylab 61 Essential" from the Model pop-up menu. Select `Arturia KeyLab 61 Essential MIDI In` for `In Port` attribut and `Arturia Keylab Essential MIDI Out` for `Out Port` attribut.
+* Select "Arturia Keylab 61 Essential" from the Model pop-up menu. Select `Arturia KeyLab 61 Essential MIDI In` for `In Port` attribute and `Arturia Keylab Essential MIDI Out` for `Out Port` attribute.
 * optional: select `Arturia KeyLab 61 Essential` as the master keyboard
 
 <img src="./images/KeyboardSurfaceSelection.png" width="400">
