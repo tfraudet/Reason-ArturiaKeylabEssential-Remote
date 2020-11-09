@@ -1,7 +1,7 @@
 ---
 description: Mapping between Reason Studio and Arturia Keylab Essential DAW command center and DAW map
 ---
-# Mapping between the Aturia DAW Command Center and Reason
+# Mapping between the Arturia DAW Command Center and Reason
 
 <img src="./images/DAWCommandCenter.png" width="300">
 
@@ -39,4 +39,4 @@ The first line of the Arturia Keyboad LCD should display "Master (base ch)" and 
 | Part 1 | Next 8 Remote Base Channel | To select the next 8 remote channels that will be controlled at a given time |
 | Part 2 | Previous 8 Remote Base Channel | To select the previous 8 remote channels that will be controlled at a given time |
 
-:warning: the `Arturia KeyLab 61 Essential Control` surface need to be locked to the Reason Master Section to work properlly
+:warning: the `Arturia KeyLab 61 Essential Control` surface need to be locked to the Reason Master Section to work properly
