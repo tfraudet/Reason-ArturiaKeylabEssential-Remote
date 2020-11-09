@@ -31,7 +31,7 @@ description: Mapping between Reason Studio instruments and Arturia Keylab Essent
 
 ![ID8 Logo](./images/ID8.png)
 
-The first line of the Arturia Keyboad LCD should display "ID8" and the second one the preset name.
+The first line of the Arturia Keyboard LCD should display "ID8" and the second one the preset name.
 
 | Arturia Keyboard surface | Reason Command | Comment |
 | -------------------------- | -------------- | ----------------------- |
@@ -47,7 +47,7 @@ The first line of the Arturia Keyboad LCD should display "ID8" and the second on
 
 ![SubTractor Logo](./images/SubTractor.png)
 
-The first line of the Arturia Keyboad LCD should display "SubTractor" and the second one the preset name.
+The first line of the Arturia Keyboard LCD should display "SubTractor" and the second one the preset name.
 
 | Arturia Keyboard surface | Reason Command | Comment |
 | -------------------------- | -------------- | ----------------------- |
@@ -74,7 +74,7 @@ The first line of the Arturia Keyboad LCD should display "SubTractor" and the se
 
 ![Thor Logo](./images/Thor.png)
 
-The first line of the Arturia Keyboad LCD should display "Thor" and the second one the preset name.
+The first line of the Arturia Keyboard LCD should display "Thor" and the second one the preset name.
 
 | Arturia Keyboard surface | Reason Command | Comment |
 | -------------------------- | -------------- | ----------------------- |
@@ -101,7 +101,7 @@ The first line of the Arturia Keyboad LCD should display "Thor" and the second o
 
 ![Malstrom Logo](./images/Malstrom.png)
 
-The first line of the Arturia Keyboad LCD should display "Malstrom" and "(Osc-A)" or "(Osc-B)" depending which variation is active. The second line display the preset name.
+The first line of the Arturia Keyboard LCD should display "Malstrom" and "(Osc-A)" or "(Osc-B)" depending which variation is active. The second line display the preset name.
 
 | Arturia Keyboard surface | Reason Command | Comment |
 | -------------------------- | -------------- | ----------------------- |
@@ -127,14 +127,14 @@ The first line of the Arturia Keyboad LCD should display "Malstrom" and "(Osc-A)
 | Encoder 7 | Oscillator A Motion |  |
 | Encoder 8 | Oscillator B Motion |  |
 | Part1 / Next| Keyboard Shortcut Variations | To select Osc-B variation |
-| Part2 / Prev| Keyboard Shortcut Variations | To select Osc-A varation |
+| Part2 / Prev| Keyboard Shortcut Variations | To select Osc-A variation |
 | Jog-wheel | Select Previous/Next Preset | when "Preset" is selected |
 
 ## Mapping with the NN19 Digital Sampler
 
 ![NN-19 Logo](./images/NN-19.png)
 
-The first line of the Arturia Keyboad LCD should display "NN19" and the second one the preset name.
+The first line of the Arturia Keyboard LCD should display "NN19" and the second one the preset name.
 
 | Arturia Keyboard surface | Reason Command | Comment |
 | -------------------------- | -------------- | ----------------------- |
@@ -161,7 +161,7 @@ The first line of the Arturia Keyboad LCD should display "NN19" and the second o
 
 ![NN-XT Logo](./images/NN-XT.png)
 
-The first line of the Arturia Keyboad LCD should display "NN-XT" and the second one the preset name.
+The first line of the Arturia Keyboard LCD should display "NN-XT" and the second one the preset name.
 
 | Arturia Keyboard surface | Reason Command | Comment |
 | -------------------------- | -------------- | ----------------------- |
@@ -179,7 +179,7 @@ The first line of the Arturia Keyboad LCD should display "NN-XT" and the second 
 
 ![Dr. Octo REX Logo](./images/Dr_Octo_Rex.png)
 
-The first line of the Arturia Keyboad LCD should display "Dr. Octo REX" and the second one the preset name.
+The first line of the Arturia Keyboard LCD should display "Dr. Octo REX" and the second one the preset name.
 
 | Arturia Keyboard surface | Reason Command | Comment |
 | -------------------------- | -------------- | ----------------------- |
@@ -207,7 +207,7 @@ The first line of the Arturia Keyboad LCD should display "Dr. Octo REX" and the 
 
 ![Redrum Logo](./images/Redrum.png)
 
-The first line of the Arturia Keyboad LCD should display "Redrum" and "Ch1-8" or "Ch9-10" depending which variation is active. The second line display the preset name.
+The first line of the Arturia Keyboard LCD should display "Redrum" and "Ch1-8" or "Ch9-10" depending which variation is active. The second line display the preset name.
 
 | Arturia Keyboard surface | Reason Command | Comment |
 | -------------------------- | -------------- | ----------------------- |
@@ -217,14 +217,14 @@ The first line of the Arturia Keyboad LCD should display "Redrum" and "Ch1-8" or
 | Fader <1-2> | Drum <9-10> Level | When "Ch9-10" vartiona is active |
 | Encoder <1-2> | Drum <9-10> Pan | When "Ch9-10" variation is active |
 | Part1 / Next| Keyboard Shortcut Variations | To select Channels 9 to 10 variation |
-| Part2 / Prev| Keyboard Shortcut Variations | To select Channels 1 to 8 varation |
+| Part2 / Prev| Keyboard Shortcut Variations | To select Channels 1 to 8 variation |
 | Jog-wheel | Select Previous/Next Preset | when "Preset" is selected |
 
 ## Mapping with the Kong Drum Designer
 
 ![Kong Logo](./images/Kong.png)
 
-The first line of the Arturia Keyboad LCD should display "Kong" and "Ch1-8" or "Ch9-16" depending which variation is active. The second line display the preset name.
+The first line of the Arturia Keyboard LCD should display "Kong" and "Ch1-8" or "Ch9-16" depending which variation is active. The second line display the preset name.
 
 | Arturia Keyboard surface | Reason Command | Comment |
 | -------------------------- | -------------- | ----------------------- |
@@ -234,14 +234,14 @@ The first line of the Arturia Keyboad LCD should display "Kong" and "Ch1-8" or "
 | Fader <1-8> | Drum <9-16> Level | When "Ch9-16" variation is active |
 | Encoder <1-8> | Drum <9-16> Pan | When "Ch9-16" variation is active |
 | Part1 / Next| Keyboard Shortcut Variations | To select Channels 9 to 16 variation |
-| Part2 / Prev| Keyboard Shortcut Variations | To select Channels 1 to 8 varation |
+| Part2 / Prev| Keyboard Shortcut Variations | To select Channels 1 to 8 variation |
 | Jog-wheel | Select Previous/Next Preset | when "Preset" is selected |
 
 ## Mapping with the Europa Shapeshifting Synthesizer
 
 ![Europ Logo](./images/Europa.png)
 
-The first line of the Arturia Keyboad LCD should display "Europa" and "Osc<1-3>" depending which variation is active. The second line display the preset name.
+The first line of the Arturia Keyboard LCD should display "Europa" and "Osc<1-3>" depending which variation is active. The second line display the preset name.
 
 | Arturia Keyboard surface | Reason Command | Comment |
 | -------------------------- | -------------- | ----------------------- |
@@ -265,7 +265,7 @@ The first line of the Arturia Keyboad LCD should display "Europa" and "Osc<1-3>"
 
 ![Grain Logo](./images/Grain.png)
 
-The first line of the Arturia Keyboad LCD should display "Grain". The second line display the preset name.
+The first line of the Arturia Keyboard LCD should display "Grain". The second line display the preset name.
 
 | Arturia Keyboard surface | Reason Command | Comment |
 | -------------------------- | -------------- | ----------------------- |
@@ -291,7 +291,7 @@ The first line of the Arturia Keyboad LCD should display "Grain". The second lin
 
 ![Monotone Logo](./images/Monotone.png)
 
-The first line of the Arturia Keyboad LCD should display "Grain". The second line display the preset name.
+The first line of the Arturia Keyboard LCD should display "Grain". The second line display the preset name.
 
 | Arturia Keyboard surface | Reason Command | Comment |
 | -------------------------- | -------------- | ----------------------- |
@@ -315,7 +315,7 @@ The first line of the Arturia Keyboad LCD should display "Grain". The second lin
 
 ![Radical Piano Logo](./images/RadicalPiano.png)
 
-The first line of the Arturia Keyboad LCD should display "Radical Piano". The second line display the preset name.
+The first line of the Arturia Keyboard LCD should display "Radical Piano". The second line display the preset name.
 
 | Arturia Keyboard surface | Reason Command | Comment |
 | -------------------------- | -------------- | ----------------------- |
@@ -333,7 +333,7 @@ The first line of the Arturia Keyboad LCD should display "Radical Piano". The se
 
 ![Klang Logo](./images/Klang.png)
 
-The first line of the Arturia Keyboad LCD should display "Klang". The second line display the preset name.
+The first line of the Arturia Keyboard LCD should display "Klang". The second line display the preset name.
 
 | Arturia Keyboard surface | Reason Command | Comment |
 | -------------------------- | -------------- | ----------------------- |
@@ -361,7 +361,7 @@ The first line of the Arturia Keyboad LCD should display "Klang". The second lin
 
 ![Pangea Logo](./images/Pangea.png)
 
-The first line of the Arturia Keyboad LCD should display "Pangea". The second line display the preset name.
+The first line of the Arturia Keyboard LCD should display "Pangea". The second line display the preset name.
 
 | Arturia Keyboard surface | Reason Command | Comment |
 | -------------------------- | -------------- | ----------------------- |
@@ -389,7 +389,7 @@ The first line of the Arturia Keyboad LCD should display "Pangea". The second li
 
 ![Humana Logo](./images/Humana.png)
 
-The first line of the Arturia Keyboad LCD should display "Humana". The second line display the preset name.
+The first line of the Arturia Keyboard LCD should display "Humana". The second line display the preset name.
 
 | Arturia Keyboard surface | Reason Command | Comment |
 | -------------------------- | -------------- | ----------------------- |
@@ -417,7 +417,7 @@ The first line of the Arturia Keyboad LCD should display "Humana". The second li
 
 ![Rytmik Logo](./images/Rytmik.png)
 
-The first line of the Arturia Keyboad LCD should display "Rytmik" follow by "Level" or "FX" depending which variation is active. The second line display the preset name.
+The first line of the Arturia Keyboard LCD should display "Rytmik" follow by "Level" or "FX" depending which variation is active. The second line display the preset name.
 
 | Arturia Keyboard surface | Reason Command | Comment |
 | -------------------------- | -------------- | ----------------------- |
@@ -429,14 +429,14 @@ The first line of the Arturia Keyboad LCD should display "Rytmik" follow by "Lev
 | Encoder 2 | Master Reverb | when variation "Level" is active |
 | Encoder 3 | Master Filter | when variation "Level" is active |
 | Part1 / Next| Keyboard Shortcut Variations | To select FX variation |
-| Part2 / Prev| Keyboard Shortcut Variations | To select Level varation |
+| Part2 / Prev| Keyboard Shortcut Variations | To select Level variation |
 | Jog-wheel | Select Previous/Next Preset | when "Preset" is selected |
 
-## Mapping with the A-List Accoustic Guitarist
+## Mapping with the A-List Acoustic Guitarist
 
 ![Accoustic Guitarist](./images/AccousticGuitarist.jpg)
 
-The first line of the Arturia Keyboad LCD should display "Accoustic Guitar". The second line display the preset name.
+The first line of the Arturia Keyboard LCD should display "Accoustic Guitar". The second line display the preset name.
 
 | Arturia Keyboard surface | Reason Command | Comment |
 | -------------------------- | -------------- | ----------------------- |
@@ -454,7 +454,7 @@ The first line of the Arturia Keyboad LCD should display "Accoustic Guitar". The
 
 ![Parsec](./images/Parsec.png)
 
-The first line of the Arturia Keyboad LCD should display "Parsec". The second line display the preset name.
+The first line of the Arturia Keyboard LCD should display "Parsec". The second line display the preset name.
 
 | Arturia Keyboard surface | Reason Command | Comment |
 | -------------------------- | -------------- | ----------------------- |
@@ -482,7 +482,7 @@ The first line of the Arturia Keyboad LCD should display "Parsec". The second li
 
 ![AutoTheory](./images/AutoTheory.jpg)
 
-The first line of the Arturia Keyboad LCD should display "AutoTheory". The second line display the preset name.
+The first line of the Arturia Keyboard LCD should display "AutoTheory". The second line display the preset name.
 
 | Arturia Keyboard surface | Reason Command | Comment |
 | -------------------------- | -------------- | ----------------------- |
@@ -497,7 +497,7 @@ The first line of the Arturia Keyboad LCD should display "AutoTheory". The secon
 
 ![Mercury](./images/Mercury.jpg)
 
-The first line of the Arturia Keyboad LCD should display "Mercury". The second line display the preset name.
+The first line of the Arturia Keyboard LCD should display "Mercury". The second line display the preset name.
 
 | Arturia Keyboard surface | Reason Command | Comment |
 | -------------------------- | -------------- | ----------------------- |
@@ -515,7 +515,7 @@ The first line of the Arturia Keyboad LCD should display "Mercury". The second l
 
 ![Nautilus](./images/Nautilus.jpg)
 
-The first line of the Arturia Keyboad LCD should display "Nautilus". The second line display the preset name.
+The first line of the Arturia Keyboard LCD should display "Nautilus". The second line display the preset name.
 
 | Arturia Keyboard surface | Reason Command | Comment |
 | -------------------------- | -------------- | ----------------------- |
@@ -540,7 +540,7 @@ The first line of the Arturia Keyboad LCD should display "Nautilus". The second 
 
 ![Antidote](./images/Antidote.jpg)
 
-The first line of the Arturia Keyboad LCD should display "Antidote" and "(Osc1)" or "(Osc2)" depending which variation is active. The second line display the preset name.
+The first line of the Arturia Keyboard LCD should display "Antidote" and "(Osc1)" or "(Osc2)" depending which variation is active. The second line display the preset name.
 
 | Arturia Keyboard surface | Reason Command | Comment |
 | -------------------------- | -------------- | ----------------------- |
@@ -567,6 +567,6 @@ The first line of the Arturia Keyboad LCD should display "Antidote" and "(Osc1)"
 | Fader 3 | Sub 1 Volume |  |
 | Fader 4 | Sub 2 Volume |  |
 | Fader 5 | Drift |  |
-| Part1 / Next | Keyboard Shortcut Variations | To select Osc 2 varation |
-| Part2 / Prev | Keyboard Shortcut Variations | To select Osc 1 varation |
+| Part1 / Next | Keyboard Shortcut Variations | To select Osc 2 variation |
+| Part2 / Prev | Keyboard Shortcut Variations | To select Osc 1 variation |
 | Jog-wheel | Select Previous/Next Preset | when "Preset" is selected |
