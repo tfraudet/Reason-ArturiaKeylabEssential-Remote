@@ -1149,7 +1149,7 @@ Map	pan-7		Attack
 Map	master-volume		Volume
 
 Map	preset-jog-wheel		Select Patch Delta
-Map	lcd-1		"Accoustic Guitar"
+Map	lcd-1		"Acoustic Guitar"
 Map	lcd-2		Patch Name
 
 Scope	Propellerhead Software	se.propellerheads.Parsec
@@ -1457,4 +1457,57 @@ Map	pan-8		Perc Mirror Velocity
 
 Map	preset-jog-wheel		Select Patch Delta
 Map	lcd-1		"Beat Map"
+Map	lcd-2		Patch Name
+
+Scope	Propellerhead Software	se.propellerheads.ElectricGuitaristPopC
+//	Control Surface Item	Key	Remotable Item	Scale	Mode
+
+Map	pan-1		Guitar
+Map	pan-2		Amp
+Map	pan-3		Crunch
+
+Map	pan-4		Style
+Map	pan-5		Swing
+Map	pan-6		Feel
+
+Map	master-volume		Volume
+
+Map	preset-jog-wheel		Select Patch Delta
+Map	lcd-1		"ElG Pop Chords"
+Map	lcd-2		Patch Name
+
+Scope	Propellerhead Software	se.propellerheads.FingerpickingNylon
+//	Control Surface Item	Key	Remotable Item	Scale	Mode
+
+Map	pan-1		Mics
+Map	pan-2		Character
+Map	pan-3		Position
+
+Map	pan-4		Style
+Map	pan-5		Swing
+Map	pan-6		Timing
+Map	pan-7		Feel
+Map	pan-8		Variance
+
+Map	master-volume		Volume
+
+Map	preset-jog-wheel		Select Patch Delta
+Map	lcd-1		"Fingerpicking Nylon"
+Map	lcd-2		Patch Name
+
+Scope	Propellerhead Software	se.propellerheads.ElectricGuitaristPC
+//	Control Surface Item	Key	Remotable Item	Scale	Mode
+
+Map	pan-1		Guitar
+Map	pan-2		Amp
+Map	pan-3		Drive
+
+Map	pan-4		Style
+Map	pan-5		Swing
+Map	pan-6		Feel
+
+Map	master-volume		Volume
+
+Map	preset-jog-wheel		Select Patch Delta
+Map	lcd-1		"ElG Power Chords"
 Map	lcd-2		Patch Name

@@ -20,12 +20,15 @@ description: Mapping between Reason Studio instruments and Arturia Keylab Essent
 * [Pangea World Instruments](#mapping-with-the-pangea-world-instruments)
 * [Humana Vocal Ensemble](#mapping-with-the-humana-vocal-ensemble)
 * [Rytmik Drum Machine](#mapping-with-the-rytmik-drum-machine)
-* [A-List Accoustic Guitarist](#mapping-with-the-a-list-accoustic-guitarist)
+* [A-List Acoustic Guitarist](#mapping-with-the-a-list-acoustic-guitarist)
 * [Parsec Spectral Synthesizer](#mapping-with-the-parsec-spectral-synthesizer)
 * [AutoTheory](#mapping-with-the-autotheory)
 * [Mercury 4 Voice Polyphonic Arpeggiator](#mapping-with-the-mercury-4-voice-polyphonic-arpeggiator)
 * [Nautilus Bass Synthesizer](#mapping-with-the-nautilus-bass-synthesizer)
 * [Synapse Antidote](#mapping-with-the-synapse-antidote)
+* [A-List Electric Guitarist - Pop Chords](#mapping-with-the-a-list-electric-guitarist---pop-chords)
+* [A-List Acoustic Guitarist - Fingerpicking Nylon](#mapping-with-the-a-list-acoustic-guitarist---fingerpicking-nylon)
+* [A-List Electric Guitarist - Power Chords](#mapping-with-the-a-list-electric-guitarist---power-chords)
 
 ## Mapping with the ID8 instrument device
 
@@ -434,9 +437,9 @@ The first line of the Arturia Keyboard LCD should display "Rytmik" follow by "Le
 
 ## Mapping with the A-List Acoustic Guitarist
 
-![Accoustic Guitarist](./images/AccousticGuitarist.jpg)
+![Acoustic Guitarist](./images/AccousticGuitarist.jpg)
 
-The first line of the Arturia Keyboard LCD should display "Accoustic Guitar". The second line display the preset name.
+The first line of the Arturia Keyboard LCD should display "Acoustic Guitar". The second line display the preset name.
 
 | Arturia Keyboard surface | Reason Command | Comment |
 | -------------------------- | -------------- | ----------------------- |
@@ -569,4 +572,57 @@ The first line of the Arturia Keyboard LCD should display "Antidote" and "(Osc1)
 | Fader 5 | Drift |  |
 | Part1 / Next | Keyboard Shortcut Variations | To select Osc 2 variation |
 | Part2 / Prev | Keyboard Shortcut Variations | To select Osc 1 variation |
+| Jog-wheel | Select Previous/Next Preset | when "Preset" is selected |
+
+## Mapping with the A-List Electric Guitarist - Pop Chords
+
+![Electric Guitarist Pop Chords](./images/ElgPopChords.jpg)
+
+The first line of the Arturia Keyboard LCD should display "ElG Pop Chords". The second line display the preset name.
+
+| Arturia Keyboard surface | Reason Command | Comment |
+| -------------------------- | -------------- | ----------------------- |
+| Encoder 1 | Guitar |  |
+| Encoder 2 | Amp |  |
+| Encoder 3 | Crunch |  |
+| Encoder 4 | Style |  |
+| Encoder 5 | Swing |  |
+| Encoder 6 | Feel | |
+| Master fader | Volume |  |
+| Jog-wheel | Select Previous/Next Preset | when "Preset" is selected |
+
+## Mapping with the A-List Acoustic Guitarist - Fingerpicking Nylon
+
+![Fingerpicking Nylon](./images/FingerpickingNylon.png)
+
+The first line of the Arturia Keyboard LCD should display "Fingerpicking Ny". The second line display the preset name.
+
+| Arturia Keyboard surface | Reason Command | Comment |
+| -------------------------- | -------------- | ----------------------- |
+| Encoder 1 | Mics |  |
+| Encoder 2 | Character |  |
+| Encoder 3 | Position |  |
+| Encoder 4 | Style |  |
+| Encoder 5 | Swing |  |
+| Encoder 6 | Timing | |
+| Encoder 7 | Feel | |
+| Encoder 8 | Variance | |
+| Master fader | Volume |  |
+| Jog-wheel | Select Previous/Next Preset | when "Preset" is selected |
+
+## Mapping with the A-List Electric Guitarist - Power Chords
+
+![Electric Guitarist Power Chords](./images/ElgPowerChords.jpg)
+
+The first line of the Arturia Keyboard LCD should display "ElG Power Chords". The second line display the preset name.
+
+| Arturia Keyboard surface | Reason Command | Comment |
+| -------------------------- | -------------- | ----------------------- |
+| Encoder 1 | Guitar |  |
+| Encoder 2 | Amp |  |
+| Encoder 3 | Drive |  |
+| Encoder 4 | Style |  |
+| Encoder 5 | Swing |  |
+| Encoder 6 | Feel | |
+| Master fader | Volume |  |
 | Jog-wheel | Select Previous/Next Preset | when "Preset" is selected |

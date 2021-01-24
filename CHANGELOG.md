@@ -7,6 +7,9 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
 ## [Unreleased]
 
 * Minor fixes: mainly correction of spelling mistakes
+* Add mapping for A-List Accoustic Guitarist - Fingerpicking Nylon from Propellerhead Software
+* Add mapping for A-List Electric Guitarist - Pop Chords from Propellerhead Software
+* Add mapping for A-List Electric Guitarist - Power Chords from Propellerhead Software
 
 ## [1.2] - 2020, April 19
 
