@@ -1511,3 +1511,30 @@ Map	master-volume		Volume
 Map	preset-jog-wheel		Select Patch Delta
 Map	lcd-1		"ElG Power Chords"
 Map	lcd-2		Patch Name
+
+Scope	Propellerhead Software	se.propellerheads.Friktion
+//	Control Surface Item	Key	Remotable Item	Scale	Mode
+
+Map	pan-1		Bow Accent
+Map	pan-2		Bow Pressure
+Map	pan-3		Bow Position
+Map	pan-4		Bow Noise
+Map	pan-5		Bow Variation
+Map	pan-6		Pluck Noise
+Map	pan-7		Fingerboard Collisions
+Map	pan-8		Pull Level
+
+Map	fader-1		Articulation Attack
+Map	fader-2		Articulation Decay
+Map	fader-3		Sustain Level
+Map	fader-4		Articulation Release
+Map	fader-5		Velocity to Start Level
+Map	fader-6		Vibrato Rate
+Map	fader-7		Vibrato Amount
+Map	fader-8		Vibrato Delay
+
+Map	master-volume		Master Level
+
+Map	preset-jog-wheel		Select Patch Delta
+Map	lcd-1		"Friktion"
+Map	lcd-2		Patch Name
