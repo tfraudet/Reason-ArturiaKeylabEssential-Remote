@@ -628,7 +628,9 @@ The first line of the Arturia Keyboard LCD should display "ElG Power Chords". Th
 | Master fader | Volume |  |
 | Jog-wheel | Select Previous/Next Preset | when "Preset" is selected |
 
-# Mapping with the Friktion Modeled Strings
+## Mapping with the Friktion Modeled Strings
+
+The first line of the Arturia Keyboard LCD should display "Friktion". The second line display the preset name.
 
 ![Friktion Modeled Strings](./images/Friktion.png)
 
