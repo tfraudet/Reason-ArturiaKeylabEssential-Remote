@@ -29,6 +29,7 @@ description: Mapping between Reason Studio instruments and Arturia Keylab Essent
 * [A-List Electric Guitarist - Pop Chords](#mapping-with-the-a-list-electric-guitarist---pop-chords)
 * [A-List Acoustic Guitarist - Fingerpicking Nylon](#mapping-with-the-a-list-acoustic-guitarist---fingerpicking-nylon)
 * [A-List Electric Guitarist - Power Chords](#mapping-with-the-a-list-electric-guitarist---power-chords)
+* [Friktion Modeled Strings](#mapping-with-the-friktion-modeled-strings)
 
 ## Mapping with the ID8 instrument device
 
@@ -625,4 +626,29 @@ The first line of the Arturia Keyboard LCD should display "ElG Power Chords". Th
 | Encoder 5 | Swing |  |
 | Encoder 6 | Feel | |
 | Master fader | Volume |  |
+| Jog-wheel | Select Previous/Next Preset | when "Preset" is selected |
+
+# Mapping with the Friktion Modeled Strings
+
+![Friktion Modeled Strings](./images/Friktion.png)
+
+| Arturia Keyboard surface | Reason Command | Comment |
+| -------------------------- | -------------- | ----------------------- |
+| Master fader | Master Level |  |
+| Encoder 1 | Bow Accent |  |
+| Encoder 2 | Bow Pressure |  |
+| Encoder 3 | Bow Position |  |
+| Encoder 4 | Bow Noise |  |
+| Encoder 5 | Bow Variation |  |
+| Encoder 6 | Pluck Noise |  |
+| Encoder 7 | Fingerboard Collision |  |
+| Encoder 8 | Pull Level |  |
+| Fader 1 | Articulation Attack |  |
+| Fader 2 | Articulation Decay |  |
+| Fader 3 | Sustain Level | If preset isn't tied to modwheel |
+| Fader 4 | Articulation Release |  |
+| Fader 5 | Velocity to Start Level |  |
+| Fader 6 | Vibrato Rate |  |
+| Fader 7 | Vibrato Amount |  |
+| Fader 8 | Vibrato Delay |  |
 | Jog-wheel | Select Previous/Next Preset | when "Preset" is selected |
