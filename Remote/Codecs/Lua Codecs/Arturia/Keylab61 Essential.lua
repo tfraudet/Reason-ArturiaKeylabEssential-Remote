@@ -1,8 +1,8 @@
 --[[
 	Surface:	Keyboard Arturia Keylab 61 Essential
 	Developer:	Thierry Fraudet
-	Version:	1.2
-	Date:		21/12/2019
+	Version:	1.3
+	Date:		19/10/2021
 
 ]]
 
@@ -39,14 +39,14 @@ function remote_init(manufacturer, model)
 		{name="pad-7", input="button"},
 		{name="pad-8", input="button"},
 
-		{name="fader-1", input="value", min=0, max=127},
-		{name="fader-2", input="value", min=0, max=127},
-		{name="fader-3", input="value", min=0, max=127},
-		{name="fader-4", input="value", min=0, max=127},
-		{name="fader-5", input="value", min=0, max=127},
-		{name="fader-6", input="value", min=0, max=127},
-		{name="fader-7", input="value", min=0, max=127},
-		{name="fader-8", input="value", min=0, max=127},
+		{name="fader-1", input="value", output="value", min=0, max=127},
+		{name="fader-2", input="value", output="value", min=0, max=127},
+		{name="fader-3", input="value", output="value", min=0, max=127},
+		{name="fader-4", input="value", output="value", min=0, max=127},
+		{name="fader-5", input="value", output="value", min=0, max=127},
+		{name="fader-6", input="value", output="value", min=0, max=127},
+		{name="fader-7", input="value", output="value", min=0, max=127},
+		{name="fader-8", input="value", output="value", min=0, max=127},
 
 		{name="pan-1", input="value", output="value", min=0, max=127},
 		{name="pan-2", input="value", output="value", min=0, max=127},
@@ -194,9 +194,17 @@ function remote_init(manufacturer, model)
 		{name="pan-6", pattern="b? 12 xx"},
 		{name="pan-7", pattern="b? 13 xx"},
 		{name="pan-8", pattern="b? 10 xx"},
+
+		{name="fader-1", pattern="b? 49 xx"},
+		{name="fader-2", pattern="b? 4b xx"},
+		{name="fader-3", pattern="b? 4f xx"},
+		{name="fader-4", pattern="b? 48 xx"},
+		{name="fader-5", pattern="b? 50 xx"},
+		{name="fader-6", pattern="b? 51 xx"},
+		{name="fader-7", pattern="b? 52 xx"},
+		{name="fader-8", pattern="b? 53 xx"},
 	}
 	remote.define_auto_outputs(outputs)
-
 end
 
 encoder_patterns = {
