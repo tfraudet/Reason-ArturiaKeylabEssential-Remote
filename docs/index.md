@@ -16,7 +16,7 @@ To install the Remote scripts in your environment, the files in the `Remote` dir
 * On MacOS
 
 ```bash
-Macintosh HD/Library/Application Support/Propellerhead Software/Remote
+/Library/Application Support/Propellerhead Software/Remote
 ```
 
 * On Window 7 and above

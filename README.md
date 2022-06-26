@@ -44,3 +44,7 @@ Have a look to the [documentation](https://tfraudet.github.io/Reason-ArturiaKeyl
   * Workaround on Combinator has been to use `Select Patch Delta` remotable item and jog-wheel as delta control for now.
 * Part1/Part2/Live buttons didn't select group variations on map file
   * workaround has been to use Keyboard Shortcut Variations for now.
+
+## Star History
+
+[![Star History Chart](https://api.star-history.com/svg?repos=tfraudet/Reason-ArturiaKeylabEssential-Remote&type=Date)](https://star-history.com/#tfraudet/Reason-ArturiaKeylabEssential-Remote&Date)

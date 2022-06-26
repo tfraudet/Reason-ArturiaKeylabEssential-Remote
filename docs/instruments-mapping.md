@@ -654,3 +654,14 @@ The first line of the Arturia Keyboard LCD should display "Friktion". The second
 | Fader 7 | Vibrato Amount |  |
 | Fader 8 | Vibrato Delay |  |
 | Jog-wheel | Select Previous/Next Preset | when "Preset" is selected |
+
+## Mapping with the Algoritm FM Synthesizer
+
+The first line of the Arturia Keyboard LCD should display "Algoritm". The second line display the preset name.
+
+![Algoritm](./images/Algoritm.jpg)
+
+| Arturia Keyboard surface | Reason Command | Comment |
+| -------------------------- | -------------- | ----------------------- |
+| Master fader | Master Level |  |
+| Jog-wheel | Select Previous/Next Preset | when "Preset" is selected |

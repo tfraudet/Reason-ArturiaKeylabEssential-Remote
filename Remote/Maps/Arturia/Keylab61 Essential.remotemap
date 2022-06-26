@@ -1538,3 +1538,12 @@ Map	master-volume		Master Level
 Map	preset-jog-wheel		Select Patch Delta
 Map	lcd-1		"Friktion"
 Map	lcd-2		Patch Name
+
+Scope	Propellerhead Software	se.propellerheads.Algoritm
+//	Control Surface Item	Key	Remotable Item	Scale	Mode
+
+Map	master-volume		Master
+
+Map	preset-jog-wheel		Select Patch Delta
+Map	lcd-1		"Algoritm"
+Map	lcd-2		Patch Name
