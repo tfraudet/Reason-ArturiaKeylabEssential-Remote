@@ -6,6 +6,8 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
 
 ## [Unreleased]
 
+## [1.3] - 2022, June 26
+
 * Minor fixes: mainly correction of spelling mistakes
 * Add mapping for A-List Accoustic Guitarist - Fingerpicking Nylon from Propellerhead Software
 * Add mapping for A-List Electric Guitarist - Pop Chords from Propellerhead Software
@@ -62,3 +64,4 @@ Initial release
 [1.0]: https://github.com/tfraudet/Reason-ArturiaKeylabEssential-Remote/releases/tag/1.0
 [1.1]: https://github.com/tfraudet/Reason-ArturiaKeylabEssential-Remote/releases/tag/1.1
 [1.2]: https://github.com/tfraudet/Reason-ArturiaKeylabEssential-Remote/releases/tag/1.2
+[1.3]: https://github.com/tfraudet/Reason-ArturiaKeylabEssential-Remote/releases/tag/1.3
