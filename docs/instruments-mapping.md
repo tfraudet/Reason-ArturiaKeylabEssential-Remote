@@ -668,8 +668,6 @@ The first line of the Arturia Keyboard LCD should display "Algoritm". The second
 | Master fader | Master Level |  |
 | Jog-wheel | Select Previous/Next Preset | when "Preset" is selected |
 
-Mimic Creative Sampler
-
 ## Mapping with the Mimic Creative Sampler
 
 ![MimicLogo](./images/Mimic.png)
