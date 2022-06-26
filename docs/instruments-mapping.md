@@ -30,6 +30,7 @@ description: Mapping between Reason Studio instruments and Arturia Keylab Essent
 * [A-List Acoustic Guitarist - Fingerpicking Nylon](#mapping-with-the-a-list-acoustic-guitarist---fingerpicking-nylon)
 * [A-List Electric Guitarist - Power Chords](#mapping-with-the-a-list-electric-guitarist---power-chords)
 * [Friktion Modeled Strings](#mapping-with-the-friktion-modeled-strings)
+* [Algoritm](#mapping-with-the-algoritm-fm-synthesizer)
 
 ## Mapping with the ID8 instrument device
 
