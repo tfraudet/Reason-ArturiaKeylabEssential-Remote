@@ -1547,3 +1547,149 @@ Map	master-volume		Master
 Map	preset-jog-wheel		Select Patch Delta
 Map	lcd-1		"Algoritm"
 Map	lcd-2		Patch Name
+
+Scope	Propellerhead Software	se.propellerheads.Mimic
+Define Group	Keyboard Shortcut Variations	Slot1	Slot2	Slot3	Slot4	Slot5	Slot6	Slot7	Slot8
+
+//	Control Surface Item	Key	Remotable Item	Scale	Mode
+Map	master-volume		Master Volume
+Map	right-arrow		Player Mode
+
+Map	fader-1		Filter Attack 1			Slot1
+Map	fader-2		Filter Decay 1			Slot1
+Map	fader-3		Filter Sustain 1			Slot1
+Map	fader-4		Filter Release 1			Slot1
+Map	fader-5		Amp Attack 1			Slot1
+Map	fader-6		Amp Decay 1			Slot1
+Map	fader-7		Amp Sustain 1			Slot1
+Map	fader-8		Amp Release 1			Slot1
+
+Map	pan-1		Filter Freq 1			Slot1
+Map	pan-2		Filter Reso 1			Slot1
+Map	pan-3		Filter Drive 1			Slot1
+Map	pan-5		Amp Velocity 1			Slot1
+Map	pan-6		Amp Gain 1			Slot1
+Map	pan-7		Pan 1			Slot1
+
+Map	fader-1		Filter Attack 2			Slot2
+Map	fader-2		Filter Decay 2			Slot2
+Map	fader-3		Filter Sustain 2			Slot2
+Map	fader-4		Filter Release 2			Slot2
+Map	fader-5		Amp Attack 2			Slot2
+Map	fader-6		Amp Decay 2			Slot2
+Map	fader-7		Amp Sustain 2			Slot2
+Map	fader-8		Amp Release 2			Slot2
+
+Map	pan-1		Filter Freq 2			Slot2
+Map	pan-2		Filter Reso 2			Slot2
+Map	pan-3		Filter Drive 2			Slot2
+Map	pan-5		Amp Velocity 2			Slot2
+Map	pan-6		Amp Gain 2			Slot2
+Map	pan-7		Pan 2			Slot2
+
+Map	fader-1		Filter Attack 3			Slot3
+Map	fader-2		Filter Decay 3			Slot3
+Map	fader-3		Filter Sustain 3			Slot3
+Map	fader-4		Filter Release 3			Slot3
+Map	fader-5		Amp Attack 3			Slot3
+Map	fader-6		Amp Decay 3			Slot3
+Map	fader-7		Amp Sustain 3			Slot3
+Map	fader-8		Amp Release 3			Slot3
+
+Map	pan-1		Filter Freq 3			Slot3
+Map	pan-2		Filter Reso 3			Slot3
+Map	pan-3		Filter Drive 3			Slot3
+Map	pan-5		Amp Velocity 3			Slot3
+Map	pan-6		Amp Gain 3			Slot3
+Map	pan-7		Pan 3			Slot3
+
+Map	fader-1		Filter Attack 4			Slot4
+Map	fader-2		Filter Decay 4			Slot4
+Map	fader-3		Filter Sustain 4			Slot4
+Map	fader-4		Filter Release 4			Slot4
+Map	fader-5		Amp Attack 4			Slot4
+Map	fader-6		Amp Decay 4			Slot4
+Map	fader-7		Amp Sustain 4			Slot4
+Map	fader-8		Amp Release 4			Slot4
+
+Map	pan-1		Filter Freq 4			Slot4
+Map	pan-2		Filter Reso 4			Slot4
+Map	pan-3		Filter Drive 4			Slot4
+Map	pan-5		Amp Velocity 4			Slot4
+Map	pan-6		Amp Gain 4			Slot4
+Map	pan-7		Pan 4			Slot4
+
+Map	fader-1		Filter Attack 5			Slot5
+Map	fader-2		Filter Decay 5			Slot5
+Map	fader-3		Filter Sustain 5			Slot5
+Map	fader-4		Filter Release 5			Slot5
+Map	fader-5		Amp Attack 5			Slot5
+Map	fader-6		Amp Decay 5			Slot5
+Map	fader-7		Amp Sustain 5			Slot5
+Map	fader-8		Amp Release 5			Slot5
+
+Map	pan-1		Filter Freq 5			Slot5
+Map	pan-2		Filter Reso 5			Slot5
+Map	pan-3		Filter Drive 5			Slot5
+Map	pan-5		Amp Velocity 5			Slot5
+Map	pan-6		Amp Gain 5			Slot5
+Map	pan-7		Pan 5			Slot5
+
+Map	fader-1		Filter Attack 6			Slot6
+Map	fader-2		Filter Decay 6			Slot6
+Map	fader-3		Filter Sustain 6			Slot6
+Map	fader-4		Filter Release 6			Slot6
+Map	fader-5		Amp Attack 6			Slot6
+Map	fader-6		Amp Decay 6			Slot6
+Map	fader-7		Amp Sustain 6			Slot6
+Map	fader-8		Amp Release 6			Slot6
+
+Map	pan-1		Filter Freq 6			Slot6
+Map	pan-2		Filter Reso 6			Slot6
+Map	pan-3		Filter Drive 6			Slot6
+Map	pan-5		Amp Velocity 6			Slot6
+Map	pan-6		Amp Gain 6			Slot6
+Map	pan-7		Pan 6			Slot6
+
+Map	fader-1		Filter Attack 7			Slot7
+Map	fader-2		Filter Decay 7			Slot7
+Map	fader-3		Filter Sustain 7			Slot7
+Map	fader-4		Filter Release 7			Slot7
+Map	fader-5		Amp Attack 7			Slot7
+Map	fader-6		Amp Decay 7			Slot7
+Map	fader-7		Amp Sustain 7			Slot7
+Map	fader-8		Amp Release 7			Slot7
+
+Map	pan-1		Filter Freq 7			Slot7
+Map	pan-2		Filter Reso 7			Slot7
+Map	pan-3		Filter Drive 7			Slot7
+Map	pan-5		Amp Velocity 7			Slot7
+Map	pan-6		Amp Gain 7			Slot7
+Map	pan-7		Pan 7			Slot7
+
+Map	fader-1		Filter Attack 8			Slot8
+Map	fader-2		Filter Decay 8			Slot8
+Map	fader-3		Filter Sustain 8			Slot8
+Map	fader-4		Filter Release 8			Slot8
+Map	fader-5		Amp Attack 8			Slot8
+Map	fader-6		Amp Decay 8			Slot8
+Map	fader-7		Amp Sustain 8			Slot8
+Map	fader-8		Amp Release 8			Slot8
+
+Map	pan-1		Filter Freq 8			Slot8
+Map	pan-2		Filter Reso 8			Slot8
+Map	pan-3		Filter Drive 8			Slot8
+Map	pan-5		Amp Velocity 8			Slot8
+Map	pan-6		Amp Gain 8			Slot8
+Map	pan-7		Pan 8			Slot8
+
+Map	preset-jog-wheel		Select Patch Delta
+Map	lcd-1		"Mimic (Slot #1)"			Slot1
+Map	lcd-1		"Mimic (Slot #2)"			Slot2
+Map	lcd-1		"Mimic (Slot #3)"			Slot3
+Map	lcd-1		"Mimic (Slot #4)"			Slot4
+Map	lcd-1		"Mimic (Slot #5)"			Slot5
+Map	lcd-1		"Mimic (Slot #6)"			Slot6
+Map	lcd-1		"Mimic (Slot #7)"			Slot7
+Map	lcd-1		"Mimic (Slot #8)"			Slot8
+Map	lcd-2		Patch Name

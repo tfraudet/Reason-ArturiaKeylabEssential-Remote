@@ -30,7 +30,8 @@ description: Mapping between Reason Studio instruments and Arturia Keylab Essent
 * [A-List Acoustic Guitarist - Fingerpicking Nylon](#mapping-with-the-a-list-acoustic-guitarist---fingerpicking-nylon)
 * [A-List Electric Guitarist - Power Chords](#mapping-with-the-a-list-electric-guitarist---power-chords)
 * [Friktion Modeled Strings](#mapping-with-the-friktion-modeled-strings)
-* [Algoritm](#mapping-with-the-algoritm-fm-synthesizer)
+* [Algoritm FM Synthesizer](#mapping-with-the-algoritm-fm-synthesizer)
+* [Mimic Creative Sampler](#mapping-with-the-mimic-creative-sampler)
 
 ## Mapping with the ID8 instrument device
 
@@ -666,3 +667,32 @@ The first line of the Arturia Keyboard LCD should display "Algoritm". The second
 | -------------------------- | -------------- | ----------------------- |
 | Master fader | Master Level |  |
 | Jog-wheel | Select Previous/Next Preset | when "Preset" is selected |
+
+Mimic Creative Sampler
+
+## Mapping with the Mimic Creative Sampler
+
+![MimicLogo](./images/Mimic.png)
+
+The first line of the Arturia Keyboard LCD should display "Mimic (Slot #n)" with n bteween 1 to 8 depending which variation is active. The second line display the preset name.
+
+| Arturia Keyboard surface | Reason Command | Comment |
+| -------------------------- | -------------- | ----------------------- |
+| Master fader | Volume |  |
+| Fader 1 | Filter Attack n | When "Slot #n" variation is active |
+| Fader 2 | Filter Decay n | When "Slot #n" variation is active |
+| Fader 3 | Filter Sustain n | When "Slot #n" variation is active |
+| Fader 4 | Filter Release n | When "Slot #n" variation is active |
+| Fader 5 | Amp Attack n | When "Slot #n" variation is active |
+| Fader 6 | Amp Decay n | When "Slot #n" variation is active |
+| Fader 7 | Amp Sustain n | When "Slot #n" variation is active |
+| Fader 8 | Amp Release n | When "Slot #n" variation is active |
+| Encoder 1 | Filter Freq n | When "Slot #n" variation is active |
+| Encoder 2 | Filter Reso n | When "Slot #n" variation is active |
+| Encoder 3 | Filter Drive n | When "Slot #n" variation is active |
+| Encoder 5 | Amp Velocity n | When "Slot #n" variation is active |
+| Encoder 6 | Amp Gain n | When "Slot #n" variation is active |
+| Encoder 7 | Pan n | When "Slot #n" variation is active |
+| Part1 / Next| Keyboard Shortcut Variations | To select Slot #1 to #8 variation |
+| Part2 / Prev| Keyboard Shortcut Variations | To select Slot #1 to #8 variation |
+| Jog-wheel | Select Previous/Next Preset | when "Preset" is selected 

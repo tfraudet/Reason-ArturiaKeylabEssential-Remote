@@ -12,6 +12,7 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
 * Add mapping for A-List Electric Guitarist - Power Chords from Propellerhead Software
 * Add mapping for Friktion from Propellerhead Software
 * Add mapping for Algoritm FM Synthesizer from Propellerhead Software
+* Add mapping for Mimic Creative Sampler from Propellerhead Software
 * Reason faders value are now send to the controller when you move between instruments Reason devices.
 
 ## [1.2] - 2020, April 19
