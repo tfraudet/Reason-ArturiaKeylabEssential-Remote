@@ -6,6 +6,8 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
 
 ## [Unreleased]
 
+## [1.4] - 2024, July 6
+
 * Add mapping for Polytone Dual-Layer Synthesizer from Propellerhead Software
 * Add mapping for Ripley Space Delay from Propellerhead Software
 * Add mapping for Sidechain Tool from Propellerhead Software
