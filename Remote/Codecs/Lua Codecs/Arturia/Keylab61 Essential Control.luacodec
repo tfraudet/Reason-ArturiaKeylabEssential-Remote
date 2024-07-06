@@ -8,8 +8,8 @@ function remote_supported_control_surfaces()
 			in_ports={{description="In Port"}},
 			out_ports={{description="Out Port", optional=true}},
 			has_keyboard=false, 
-			setup_info_text="DAW Control surface for the Keylab 61 Essential from Arturia (v1.2)",
-			setup_user_action_text="Reason Remote for Arturia KeyLab 61 Essential DAW Command Center, version 1.2 - by Thierry Fraudet - 2020"
+			setup_info_text="DAW Control surface for the Arturia Keylab 61 Essential, version 1.4 - by Thierry Fraudet - 2024",
+			setup_user_action_text="Reason Remote for Arturia KeyLab 61 Essential DAW Command Center, version 1.4 - by Thierry Fraudet - 2024"
 		},
 	}	
 	return surfaces

@@ -1,8 +1,8 @@
 --[[
 	Surface:	Keyboard Arturia Keylab 61 Essential
 	Developer:	Thierry Fraudet
-	Version:	1.3
-	Date:		19/10/2021
+	Version:	1.4
+	Date:		30/06/2024
 
 ]]
 

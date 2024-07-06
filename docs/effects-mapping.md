@@ -34,6 +34,9 @@ description: Mapping between Reason Studio effects and Arturia Keylab Essential
 * [Master Bus Compressor](#mapping-with-the-master-bus-compressor)
 * [Channel Dynamics Compressor & Gate](#mapping-with-the-channel-dynamics-compressor-and-gate)
 * [Channel EQ Equalizer](#mapping-with-the-channel-eq-equalizer)
+* [Ripley Space Delay](#mapping-with-the-ripley-space-delay)
+* [Sidechain Tool](#mapping-with-the-sidechain-tool)
+* [Stereo Tool](#mapping-with-the-stereo-tool)
 
 ## Mapping with the Alligator
 
@@ -622,3 +625,58 @@ The first line of the Arturia Keyboad LCD should display "Channel EQ" and the se
 | Fader 5 | HMF Frequency |  |
 | Fader 6 | HMF Q |  |
 | Master Pan | Gain |  |
+
+## Mapping with the Ripley Space Delay
+
+![Ripley Space Delay](./images/Ripley.png)
+
+The first line of the Arturia Keyboad LCD should display "Ripley" and the second the name of the patch.
+
+| Arturia Keyboard surface | Reason Command | Comment |
+| -------------------------- | -------------- | ----------------------- |
+| Fader 1 | Time Multiplier |  |
+| Fader 2 | Filter Type |  |
+| Encoder 1 | Synced Time |  |
+| Encoder 2 | Wobbler Amount |  |
+| Encoder 3 | Space Amount |  |
+| Encoder 4 | Noise Amount |  |
+| Encoder 5 | Dist Dry-Wet |  |
+| Encoder 6 | Digital Dry-Wet |  |
+| Encoder 7 | Dry-Wet |  |
+| Encoder 8 | Ducker Amount |  |
+| Jog Wheel | Patch selection | when "Preset" is selected |
+
+## Mapping with the Sidechain Tool
+
+![Sidechain Tool](./images/SidechainTool.png)
+
+The first line of the Arturia Keyboad LCD should display "Sidechain Tool" and the second the name of the patch.
+
+| Arturia Keyboard surface | Reason Command | Comment |
+| -------------------------- | -------------- | ----------------------- |
+| Fader 1 | Rate |  |
+| Fader 2 | Attack Time |  |
+| Fader 3 | Hold Time |  |
+| Fader 4 | Release Time |  |
+| Fader 5 | Slide |  |
+| Fader 6 | Ducking Amount |  |
+| Encoder 1 | Sidechain Gain |  |
+| Encoder 2 | Sidechain Threshold |  |
+| Encoder 3 | Sidechain Attack |  |
+| Encoder 4 | Sidechain Release |  |
+| Encoder 5 | Ratio |  |
+| Master Pan | Effect Mode |  |
+| Master Volume | Master Volume |  |
+| Jog Wheel | Patch selection | when "Preset" is selected |
+
+## Mapping with the Stereo Tool
+
+![Stereo Tool](./images/StereoTool.png)
+
+The first line of the Arturia Keyboad LCD should display "Stereo Tool".
+
+| Arturia Keyboard surface | Reason Command | Comment |
+| -------------------------- | -------------- | ----------------------- |
+| Fader 1 | Widening |  |
+| Fader 2 | Low Bypass |  |
+| Fader 3 | Frequency |  |

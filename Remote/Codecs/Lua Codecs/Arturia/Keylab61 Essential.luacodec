@@ -8,7 +8,7 @@ function remote_supported_control_surfaces()
 			in_ports={{description="In Port"}},
 			out_ports={{description="Out Port", optional=true}},
 			has_keyboard=true, 
-			setup_info_text="Remote scripts for the Arturia Keylab 61 Essential, version 1.3 - by Thierry Fraudet - 2020",
+			setup_info_text="Remote scripts for the Arturia Keylab 61 Essential, version 1.4 - by Thierry Fraudet - 2024",
 			setup_user_action_text=""
 		},
 	}	

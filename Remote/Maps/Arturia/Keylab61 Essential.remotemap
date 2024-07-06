@@ -2,7 +2,7 @@ Propellerhead Remote Mapping File
 File Format Version	1.0.0
 Control Surface Manufacturer	Arturia
 Control Surface Model	Keylab61 Essential
-Map Version	1.2.0
+Map Version	1.4.0
 
 //This is a remote map template for the Arturia KEYLAB61 Essential Keyboard and Reason 10
 
@@ -1693,3 +1693,117 @@ Map	lcd-1		"Mimic (Slot #6)"			Slot6
 Map	lcd-1		"Mimic (Slot #7)"			Slot7
 Map	lcd-1		"Mimic (Slot #8)"			Slot8
 Map	lcd-2		Patch Name
+
+Scope	Propellerhead Software	se.propellerheads.Polytone
+Define Group	Keyboard Shortcut Variations	Layer A	Layer B
+//Define Group	Channels	Layer A	Layer B
+
+//	Control Surface Item	Key	Remotable Item	Scale	Mode
+Map	master-volume		Master Volume
+Map	master-pan		Layer Balance
+
+Map	preset-jog-wheel		Select Patch Delta
+Map	lcd-1		"Polytone Layer A"			Layer A
+Map	lcd-1		"Polytone Layer B"			Layer B
+Map	lcd-2		Patch Name
+
+Map	fader-1		Osc 1 Wave A			Layer A
+Map	fader-2		Osc 1 Pitch A			Layer A
+Map	fader-3		Osc 1 Shape A			Layer A
+Map	fader-4		Osc 2 Wave A			Layer A
+Map	fader-5		Osc 2 Pitch A			Layer A
+Map	fader-6		Osc 2 Shape A			Layer A
+Map	fader-7		Osc Mix A			Layer A
+Map	fader-8		Osc Level A			Layer A
+
+Map	pan-1		Filter Reso A			Layer A
+Map	pan-2		Filter Freq A			Layer A
+Map	pan-3		Filter Type A			Layer A
+Map	pan-4		Filter Env Amt A			Layer A
+
+Map	fader-1		Osc 1 Wave B			Layer B
+Map	fader-2		Osc 1 Pitch B			Layer B
+Map	fader-3		Osc 1 Shape B			Layer B
+Map	fader-4		Osc 2 Wave B			Layer B
+Map	fader-5		Osc 2 Pitch B			Layer B
+Map	fader-6		Osc 2 Shape B			Layer B
+Map	fader-7		Osc Mix B			Layer B
+Map	fader-8		Osc Level B			Layer B
+
+Map	pan-1		Filter Reso B			Layer B
+Map	pan-2		Filter Freq B			Layer B
+Map	pan-3		Filter Type B			Layer B
+Map	pan-4		Filter Env Amt B			Layer B
+
+Scope	Propellerhead Software	se.propellerheads.Ripley
+
+//	Control Surface Item	Key	Remotable Item	Scale	Mode
+Map	fader-1		Time Multiplier
+Map	fader-2		Filter Type
+
+Map	pan-1		Synced Time
+Map	pan-2		Wobbler Amount
+Map	pan-3		Space Amount
+Map	pan-4		Noise Amount
+Map	pan-5		Dist Dry-Wet
+Map	pan-6		Digital Dry-Wet
+Map	pan-7		Dry-Wet
+Map	pan-8		Ducker Amount
+
+Map	preset-jog-wheel		Select Patch Delta
+Map	lcd-1		"Ripley"
+Map	lcd-2		Patch Name
+
+Scope	Propellerhead Software	se.propellerheads.SidechainTool
+
+//	Control Surface Item	Key	Remotable Item	Scale	Model
+Map	master-volume		Master Volume
+Map	master-pan		Effect Mode
+
+Map	fader-1		Rate
+Map	fader-2		Attack Time
+Map	fader-3		Hold Time
+Map	fader-4		Release Time
+Map	fader-5		Slide
+Map	fader-6		Ducking Amount
+
+Map	pan-1		Sidechain Gain
+Map	pan-2		Sidechain Threshold
+Map	pan-3		Sidechain Attack
+Map	pan-4		Sidechain Release
+Map	pan-5		Ratio
+
+Map	preset-jog-wheel		Select Patch Delta
+Map	lcd-1		"Sidechain Tool"
+Map	lcd-2		Patch Name
+
+Scope	Propellerhead Software	se.propellerheads.StereoTool
+
+//	Control Surface Item	Key	Remotable Item	Scale	Model
+Map	fader-1		Widening
+Map	fader-2		Low Bypass
+Map	fader-3		Frequency
+
+Map	preset-jog-wheel		Select Patch Delta
+Map	lcd-1		"Stereo Tool"
+Map	lcd-2		""
+
+Scope	Propellerhead Software	se.propellerheads.GainTool
+
+//	Control Surface Item	Key	Remotable Item	Scale	Model
+Map	fader-1		Input Mode
+Map	fader-2		Gain
+Map	fader-3		X-Fade
+Map	fader-4		Output Mode
+Map	fader-5		Width
+Map	fader-6		Pan Left
+Map	fader-7		Pan Right
+Map	fader-8		Route
+
+Map	pan-2		Main Mix Gain
+Map	pan-3		Aux Mix Gain
+Map	pan-5		Pan
+
+Map	preset-jog-wheel		Select Patch Delta
+Map	lcd-1		"Gain Tool"
+Map	lcd-2		""

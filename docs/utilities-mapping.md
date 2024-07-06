@@ -11,6 +11,7 @@ description: Mapping between Reason Studio utilities and Arturia Keylab Essentia
 * [Matrix Pattern Sequencer](#mapping-with-the-matrix-pattern-sequencer)
 * [Morphin XF Crossfader](#mapping-with-the-morphin-xf-crossfader)
 * [RPSpec Spectogram](#mapping-with-the-rpspec-spectogram)
+* [Gain Tool](#mapping-with-the-gain-tool)
 
 ## Mapping with the Combinator
 
@@ -129,3 +130,23 @@ The first line of the Arturia Keyboard LCD should display "Rob papen" and the se
 | Encoder 2 | Boost |  |
 | Encoder 3 | Hold |  |
 | Encoder 4 | Release |  |
+
+## Mapping with the Gain Tool
+
+![Gain Tool](./images/GainTool.png)
+
+The first line of the Arturia Keyboard LCD should display "Gain Tool".
+
+| Arturia Keyboard surface | Reason Command | Comment |
+| -------------------------- | -------------- | ----------------------- |
+| Encoder 1 | Main Mix Gain |  |
+| Encoder 2 | Aux Mix Gain |  |
+| Encoder 3 | Pan |  |
+| Fader 1 | Input Mode |  |
+| Fader 2 | Gain |  |
+| Fader 3 | X-Fade |  |
+| Fader 4 | Output Mode |  |
+| Fader 5 | Width |  |
+| Fader 6 | Pan Left |  |
+| Fader 7 | Pan Right |  |
+| Fader 8 | Route |  |

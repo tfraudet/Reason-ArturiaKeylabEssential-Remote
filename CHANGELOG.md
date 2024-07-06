@@ -6,6 +6,12 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
 
 ## [Unreleased]
 
+* Add mapping for Polytone Dual-Layer Synthesizer from Propellerhead Software
+* Add mapping for Ripley Space Delay from Propellerhead Software
+* Add mapping for Sidechain Tool from Propellerhead Software
+* Add mapping for Stereo Tool from Propellerhead Software
+* Add mapping for Gain Tool from Propellerhead Software
+
 ## [1.3] - 2022, June 26
 
 * Minor fixes: mainly correction of spelling mistakes

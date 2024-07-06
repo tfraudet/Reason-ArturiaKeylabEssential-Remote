@@ -1,8 +1,8 @@
 --[[
 	Surface:	DAW Command Center of Arturia Keylab 61 Essential
 	Developer:	Thierry Fraudet
-	Version:	1.1
-	Date:		22/12/2019
+	Version:	1.4
+	Date:		30/06/2024
 
 ]]
 

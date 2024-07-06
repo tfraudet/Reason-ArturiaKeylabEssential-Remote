@@ -32,6 +32,7 @@ description: Mapping between Reason Studio instruments and Arturia Keylab Essent
 * [Friktion Modeled Strings](#mapping-with-the-friktion-modeled-strings)
 * [Algoritm FM Synthesizer](#mapping-with-the-algoritm-fm-synthesizer)
 * [Mimic Creative Sampler](#mapping-with-the-mimic-creative-sampler)
+* [Polytone Dual-Layer Synthesizer](#mapping-with-the-polytone-dual-layer-synthesizer)
 
 ## Mapping with the ID8 instrument device
 
@@ -672,7 +673,7 @@ The first line of the Arturia Keyboard LCD should display "Algoritm". The second
 
 ![MimicLogo](./images/Mimic.png)
 
-The first line of the Arturia Keyboard LCD should display "Mimic (Slot #n)" with n bteween 1 to 8 depending which variation is active. The second line display the preset name.
+The first line of the Arturia Keyboard LCD should display "Mimic (Slot #n)" with n between 1 to 8 depending which variation is active. The second line display the preset name.
 
 | Arturia Keyboard surface | Reason Command | Comment |
 | -------------------------- | -------------- | ----------------------- |
@@ -693,4 +694,30 @@ The first line of the Arturia Keyboard LCD should display "Mimic (Slot #n)" with
 | Encoder 7 | Pan n | When "Slot #n" variation is active |
 | Part1 / Next| Keyboard Shortcut Variations | To select Slot #1 to #8 variation |
 | Part2 / Prev| Keyboard Shortcut Variations | To select Slot #1 to #8 variation |
-| Jog-wheel | Select Previous/Next Preset | when "Preset" is selected 
+| Jog-wheel | Select Previous/Next Preset | when "Preset" is selected |
+
+## Mapping with the Polytone Dual-Layer Synthesizer
+
+![Polytone](./images/Polytone.png)
+
+The first line of the Arturia Keyboard LCD should display "Polytone Layer x" with x equals A or B depending which variation is active. The second line display the preset name.
+
+| Arturia Keyboard surface | Reason Command | Comment |
+| -------------------------- | -------------- | ----------------------- |
+| Master fader | Master Volume |  |
+| Master pan | Layer Balance |  |
+| Fader 1 | Osc 1 Wave x | When "Layer x" variation is active |
+| Fader 2 | Osc 1 Pitch x | When "Layer x" variation is active |
+| Fader 3 | Osc 1 Shape x | When "Layer x" variation is active |
+| Fader 4 | Osc 2 Wave x | When "Layer x" variation is active |
+| Fader 5 | Osc 2 Pitch x | When "Layer x" variation is active |
+| Fader 6 | Osc 2 Shape x | When "Layer x" variation is active |
+| Fader 7 | Osc Mix x | When "Layer x" variation is active |
+| Fader 8 | Osc Level x | When "Layer x" variation is active |
+| Encoder 1 | Filter Reso x | When "Layer x" variation is active |
+| Encoder 2 | Filter Freq x | When "Layer x" variation is active |
+| Encoder 3 | Filter Type x | When "Layer x" variation is active |
+| Encoder 4 | Filter Env Amt x | When "Layer x" variation is active |
+| Part1 / Next| Keyboard Shortcut Variations | To select Slot #1 to #8 variation |
+| Part2 / Prev| Keyboard Shortcut Variations | To select Slot #1 to #8 variation |
+| Jog-wheel | Select Previous/Next Preset | when "Preset" is selected |
